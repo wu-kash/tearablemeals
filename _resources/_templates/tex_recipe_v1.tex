@@ -1,0 +1,86 @@
+% https://github.com/SvenHarder/xcookybooky/blob/master/xcookybooky.pdf
+\begin{recipe}
+[% 
+\BLOCK{macro input(key, var)}
+\BLOCK{if var['Units'] and var['Units'] is not none}
+\VAR{key} = {\unit[\VAR{var['Value']}]{\VAR{var['Units']}}},
+\BLOCK{else}
+\VAR{key} = {\VAR{var['Value']}},
+\BLOCK{endif}
+\BLOCK{endmacro}
+
+
+\BLOCK{-for key, val in recipe_info.items()}
+\BLOCK{if key == "portion"}
+\VAR{key} = {\portion{\VAR{val['Value']}}},
+\BLOCK{elif key == "source"}
+\BLOCK{else}
+\BLOCK{for nkey, nval in val.items()}
+\BLOCK{if nval is mapping}
+\VAR{-input(nkey, nval)-}
+\BLOCK{else}
+\BLOCK{if loop.first}
+\VAR{-input(key, val)-}
+\BLOCK{endif}
+\BLOCK{endif}
+\BLOCK{endfor}
+\BLOCK{endif}
+\BLOCK{endfor-}
+
+]
+{\VAR{file_data['Recipe Name']}}
+    
+\ingredients{%
+\BLOCK{-for ingredient_name,ingredient_data in recipe_data['Ingredients'].items()}
+
+\BLOCK{-if ingredient_data['Custom'] is defined}
+
+\VAR{ingredient_data['Custom']}
+
+\BLOCK{-else}
+
+\VAR{ingredient_data['Quantity']} \VAR{ingredient_data['Units']} & \VAR{ingredient_name}   \\
+
+\BLOCK{-endif}
+
+\BLOCK{-endfor}
+}
+
+\BLOCK{if recipe_data['Introduction'] is defined}
+\introduction{%
+    \VAR{recipe_data['Introduction']}
+}
+\BLOCK{endif}
+
+\preparation{%
+\\
+\BLOCK{-for step_desc in recipe_data['Preparation']}
+
+\VAR{step_desc}
+
+\BLOCK{-endfor}
+}
+
+\cooking{%
+\BLOCK{-for step_desc in recipe_data['Cooking']}
+
+\step \VAR{step_desc}
+
+\BLOCK{-endfor}
+}
+
+\BLOCK{if recipe_data['Suggestion'] is defined}
+\suggestion{%
+    \VAR{recipe_data['Suggestion']}
+}
+\BLOCK{endif}
+    
+\BLOCK{if recipe_data['Hint'] is defined}
+\hint{%
+    \VAR{recipe_data['Hint']}
+}
+\BLOCK{endif}
+
+    
+    
+\end{recipe}

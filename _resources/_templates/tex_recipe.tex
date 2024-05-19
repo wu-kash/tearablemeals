@@ -31,11 +31,29 @@
 {\VAR{file_data['Recipe Name']}}
     
 \ingredients{%
+
 \BLOCK{-for ingredient_name,ingredient_data in recipe_data['Ingredients'].items()}
 
-\VAR{ingredient_data['Quantity']} \VAR{ingredient_data['Units']} & \VAR{ingredient_name}   \\
+\BLOCK{-if ingredient_data['Custom'] is defined}
+
+\VAR{ingredient_data['Custom']}
+
+\BLOCK{-else}
+
+\BLOCK{-if ingredient_data['Units'] == ''}
+
+\faSquareO \ \textit{\VAR{ingredient_name}} (\VAR{ingredient_data['Quantity']})  \\
+
+\BLOCK{-else}
+
+\faSquareO \ \textit{\VAR{ingredient_name}} (\VAR{ingredient_data['Quantity']} \VAR{ingredient_data['Units']})  \\
+
+\BLOCK{-endif}
+
+\BLOCK{-endif}
 
 \BLOCK{-endfor}
+
 }
 
 \BLOCK{if recipe_data['Introduction'] is defined}
@@ -45,7 +63,16 @@
 \BLOCK{endif}
 
 \preparation{%
+\\
 \BLOCK{-for step_desc in recipe_data['Preparation']}
+
+\VAR{step_desc}
+
+\BLOCK{-endfor}
+}
+
+\cooking{%
+\BLOCK{-for step_desc in recipe_data['Cooking']}
 
 \step \VAR{step_desc}
 

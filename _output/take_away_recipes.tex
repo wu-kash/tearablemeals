@@ -1,0 +1,150 @@
+\documentclass[%
+a4paper,
+%twoside,
+11pt
+]{article}
+
+
+
+%https://mirrors.mit.edu/CTAN/macros/latex/contrib/xcookybooky/xcookybooky.pdf
+% C:\Users\lukie\AppData\Local\Programs\MiKTeX\tex\latex\xcookybooky
+
+% encoding, font, language
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{lmodern}
+\usepackage{fontawesome}
+\usepackage{nicefrac}
+
+\usepackage[
+    nowarnings,
+]
+{xcookybooky}
+
+
+\usepackage{blindtext}    % only needed for generating test text
+
+\usepackage{fp}
+\newcommand{\roundToFive}[1]{\FPdiv{\x}{#1}{5}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{5}\FPround{\x}{\x}{0}\x}
+\newcommand{\roundToTen}[1]{\FPdiv{\x}{#1}{10}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{10}\FPround{\x}{\x}{0}\x}
+\newcommand{\weightOz}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x} g}
+\newcommand{\weightLb}[1]{\FPmul{\x}{#1}{454}\FPround{\x}{\x}{0}\roundToTen{\x} g}
+\newcommand{\tempF}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0} \roundToFive{\x}\textcelsius{}}
+\newcommand{\tempC}[1]{#1\textcelsius{}}
+\DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
+
+
+
+\usepackage{hyperref}    % must be the last package
+
+
+
+\renewcommand{\step}
+{%
+	\stepcounter{step}%shouldn't be in the argument of lettrine
+	\lettrine
+	[%
+	lines=2,
+	lhang=0,          % space into margin, value between 0 and 1
+	loversize=0.05,   % enlarges the height of the capital
+	slope=0em,
+	findent=1em,      % gap between capital and intended text
+	nindent=0em       % shifts all intended lines, begining with the second line
+	]{\thestep}{}%
+}
+
+\renewcommand{\step}
+{%
+	\stepcounter{step}%shouldn't be in the argument of lettrine
+	\lettrine
+	[%
+	lines=1,
+	lhang=0,          % space into margin, value between 0 and 1
+	loversize=-0.5,   % enlarges the height of the capital
+	slope=0em,
+	findent=0.5em,      % gap between capital and intended text
+	nindent=0em       % shifts all intended lines, begining with the second line
+	]{\thestep}{}%
+}
+
+% \renewcommand{\step}
+% {%
+% 	\\ \\ \faCaretSquareORight \ 
+% }
+
+\setRecipeSizes{
+	recipename=\fontsize{25pt}{30pt},
+	ing=\normalsize,
+	inghead=\normalsize,
+	prep=\normalsize,
+	prephead=\normalsize,
+	cooking=\normalsize,
+	cookinghead=\normalsize,
+	hint=\small,
+	hinthead=\normalsize,
+}
+
+\setRecipeLengths{
+	preparationwidth=0.6\textwidth,
+	cookingwidth=0.6\textwidth,
+	ingredientswidth=0.35\textwidth,
+}
+
+\setRecipeColors{
+	recipename=black,
+	ing=black,
+	inghead=orange,
+	prep=black,
+	prephead=orange,
+	cooking=black,
+	cookinghead=orange,
+	hint=black,
+	hintline=orange,
+	hinthead=orange,
+    numeration=orange,
+}
+
+\setHeadlines{
+	inghead=INGREDIENTS,
+	prephead=PREPARATION,
+	cookinghead=COOKING,
+	hinthead=Hot Tip,
+	continuationhead= ,
+	continuationfoot= ,
+	calory=Calories,
+}
+
+% \usepackage[a4paper]{geometry}
+% \geometry{margin=1.5cm, top=3cm, headsep=0.5cm, footskip=1.25cm, tmargin=1cm}
+
+
+\begin{document}
+
+\include{_components/_black_bean_stuffed_sweet_potatoes}
+\include{_components/_chickpea_shakshuka}
+\include{_components/_lo_mein}
+\include{_components/_spicy_tuna_avocado_wrap}
+\include{_components/_meatloaf_and_veggies}
+\include{_components/_chilli_prawns}
+\include{_components/_potato_curry}
+\include{_components/_spaghetti_bolognese}
+\include{_components/_veggie_stir_fry}
+\include{_components/_beef_broccoli}
+\include{_components/_beef_noodle_stir_fry}
+\include{_components/_chicken_fajitas}
+\include{_components/_chicken_tikka_masala}
+\include{_components/_creamy_mushroom_stroganoff}
+\include{_components/_fettuccine_alfredo}
+\include{_components/_garlic_parmesan_chicken_and_potatoes}
+\include{_components/_grilled_honey_mustard_chicken}
+\include{_components/_korean_beef_zucchini_noodles}
+\include{_components/_roasted_chicken_with_veggies}
+\include{_components/_spaghetti_carbonara}
+\include{_components/_bean_broccoli_salad}
+\include{_components/_lemon_potato_salad}
+\include{_components/_chicken_alfredo_penne}
+\include{_components/_lemon_garlic_shrimp_pasta}
+\include{_components/_veggie_garlic_noodles}
+
+
+\end{document}

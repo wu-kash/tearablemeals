@@ -1,0 +1,2 @@
+- Front page includes recipes prep time, and ingredients with checkboxes
+- Back page is the cooking recipe

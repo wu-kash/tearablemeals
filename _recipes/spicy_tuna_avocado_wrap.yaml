@@ -34,12 +34,14 @@ Ingredients:
     Lettuce:
         Quantity: 2
         Units: cups
-    Matchstick Carrots:
+    Carrots:
         Quantity: 1
         Units: cup
     Tortillas:
         Quantity: 4
-        Units: 
+        Units: ''
 Preparation:
+    - Chop the carrots into matchsticks and the rest of the ingredients.
+Cooking:
     - In a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.
     - To assemble, top each tortilla with a 1/2 cup leafy greens, 1/4 cup matchstick carrots and divide the tuna mixture evenly among the wraps. Tightly roll up the tortilla, slice and enjoy!

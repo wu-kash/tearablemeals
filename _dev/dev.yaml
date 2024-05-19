@@ -9,7 +9,9 @@ Recipe Info:
         Units: min
     source:
         Value: https://pinchofyum.com/lo-mein
-Ingredients: 
+Ingredients:
+    Main:
+        Custom: \multicolumn{2}{l}{\textbf{Main}} \\
     Dark Soy Sauce:
         Quantity: 2
         Units: tbsp

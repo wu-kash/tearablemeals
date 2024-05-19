@@ -13,7 +13,7 @@ a4paper,
 \usepackage[T1]{fontenc}
 \usepackage[latin1]{inputenc}
 \usepackage{lmodern}
-
+\usepackage{fontawesome}
 \usepackage{nicefrac}
 
 \usepackage[
@@ -24,11 +24,19 @@ a4paper,
 
 \usepackage{blindtext}    % only needed for generating test text
 
+\usepackage{fp}
+\newcommand{\roundToFive}[1]{\FPdiv{\x}{#1}{5}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{5}\FPround{\x}{\x}{0}\x}
+\newcommand{\roundToTen}[1]{\FPdiv{\x}{#1}{10}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{10}\FPround{\x}{\x}{0}\x}
+\newcommand{\weightOz}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x} g}
+\newcommand{\weightLb}[1]{\FPmul{\x}{#1}{454}\FPround{\x}{\x}{0}\roundToTen{\x} g}
+\newcommand{\tempF}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0} \roundToFive{\x}\textcelsius{}}
+\newcommand{\tempC}[1]{#1\textcelsius{}}
 \DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
 
 
 
 \usepackage{hyperref}    % must be the last package
+
 
 
 \renewcommand{\step}
@@ -38,12 +46,31 @@ a4paper,
 	[%
 	lines=2,
 	lhang=0,          % space into margin, value between 0 and 1
-	loversize=0.15,   % enlarges the height of the capital
+	loversize=0.05,   % enlarges the height of the capital
 	slope=0em,
 	findent=1em,      % gap between capital and intended text
 	nindent=0em       % shifts all intended lines, begining with the second line
 	]{\thestep}{}%
 }
+
+\renewcommand{\step}
+{%
+	\stepcounter{step}%shouldn't be in the argument of lettrine
+	\lettrine
+	[%
+	lines=1,
+	lhang=0,          % space into margin, value between 0 and 1
+	loversize=-0.5,   % enlarges the height of the capital
+	slope=0em,
+	findent=0.5em,      % gap between capital and intended text
+	nindent=0em       % shifts all intended lines, begining with the second line
+	]{\thestep}{}%
+}
+
+% \renewcommand{\step}
+% {%
+% 	\\ \\ \faCaretSquareORight \ 
+% }
 
 \setRecipeSizes{
 	recipename=\fontsize{25pt}{30pt},
@@ -51,12 +78,15 @@ a4paper,
 	inghead=\normalsize,
 	prep=\normalsize,
 	prephead=\normalsize,
+	cooking=\normalsize,
+	cookinghead=\normalsize,
 	hint=\small,
 	hinthead=\normalsize,
 }
 
 \setRecipeLengths{
 	preparationwidth=0.6\textwidth,
+	cookingwidth=0.6\textwidth,
 	ingredientswidth=0.35\textwidth,
 }
 
@@ -66,6 +96,8 @@ a4paper,
 	inghead=orange,
 	prep=black,
 	prephead=orange,
+	cooking=black,
+	cookinghead=orange,
 	hint=black,
 	hintline=orange,
 	hinthead=orange,
@@ -73,8 +105,9 @@ a4paper,
 }
 
 \setHeadlines{
-	inghead=Ingredients,
-	prephead=Preparation,
+	inghead=INGREDIENTS,
+	prephead=PREPARATION,
+	cookinghead=COOKING,
 	hinthead=Hot Tip,
 	continuationhead= ,
 	continuationfoot= ,
@@ -88,7 +121,7 @@ a4paper,
 \begin{document}
 
 \BLOCK{for key,val in recipes_data.items()}
-\include{\VAR{key}}
+\include{_components/\VAR{key}}
 \BLOCK{endfor}
 
 

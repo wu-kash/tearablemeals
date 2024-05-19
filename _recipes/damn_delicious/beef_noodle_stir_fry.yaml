@@ -1,0 +1,69 @@
+Recipe Info:
+    portion:
+        Value: 6
+    preparationtime:
+        Value: 15
+        Units: min
+    bakingtime:
+        Value: 15
+        Units: min
+    source:
+        Value: https://damndelicious.net/2016/10/18/ground-beef-noodle-stir-fry/
+Ingredients:
+    Main:
+        Custom: \multicolumn{2}{l}{\textbf{Main Dish}} \\
+    Udon Noodles:
+        Quantity: \weightOz{14}
+        Units: ''
+    Olive Oil:
+        Quantity: 1
+        Units: tbsp
+    Ground Beef:
+        Quantity: \weightLb{1}
+        Units: ''
+    Onion:
+        Quantity: 1
+        Units: ''
+    Red Bell Pepper:
+        Quantity: 1
+        Units: ''
+    Green Bell Pepper:
+        Quantity: 1
+        Units: ''
+    Broccoli Florets:
+        Quantity: \weightOz{12}
+        Units: ''
+    Green Onion:
+        Quantity: 1
+        Units: ''
+    Sauce:
+        Custom: \multicolumn{2}{l}{\textbf{Sauce}} \\
+    Soy Sauce:
+        Quantity: 1/4
+        Units: cup
+    Rice Wine Vinegar:
+        Quantity: 2
+        Units: tbsp
+    Sugar:
+        Quantity: 2
+        Units: tbsp
+    Garlic:
+        Quantity: 3
+        Units: cloves
+    Ginger:
+        Quantity: 1
+        Units: tbsp
+    Sesame Oil:
+        Quantity: 1
+        Units: tsp
+    Sriracha:
+        Quantity: 1
+        Units: tsp
+Preparation:
+    - Dice the onion. Thinly slice the bell peppers and green onion. Grate the ginger and mince the garlic.
+Cooking:
+    - In a small bowl, whisk together soy sauce, rice wine vinegar, brown sugar, garlic, ginger, sesame oil and Sriracha. Set aside.
+    - In a large pot of boiling water, cook udon noodles according to package instructions and drain the water.
+    - Heat olive oil in a large skillet over medium high heat. Add ground beef and onion and cook until beef has browned, about 3-5 minutes, making sure to crumble the beef as it cooks and drain excess fat.
+    - Stir in bell peppers and broccoli. Cook, stirring frequently, until tender, about 3-4 minutes. Stir in udon noodles and soy sauce mixture until well combined, about 2-3 minutes.
+    - Garnish with green onion and serve.
