@@ -41,13 +41,13 @@ Ingredients:
         Quantity: 1
         Units: tsp
     Thyme:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Basil:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Rosemary:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
 Preparation:
     - Chop the butternut squash and parsley, halve the potatoes and brussels sprouts. Mince the garlic.

@@ -39,7 +39,7 @@ Ingredients:
     Sauce:
         Custom: \multicolumn{2}{l}{\textbf{Sauce}} \\
     Soy Sauce:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: cup
     Rice Wine Vinegar:
         Quantity: 2

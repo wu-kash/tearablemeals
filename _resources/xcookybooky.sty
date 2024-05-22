@@ -365,7 +365,7 @@
     \def\xcb@preparation
     {%
         \xcb@name@prephead
-        %\\[4pt]
+        \\[4pt]
         \xcb@fontsize@prep\color{\xcb@color@prep}#1
     }
     \setcounter{step}{0}
@@ -376,7 +376,7 @@
 	\def\xcb@cooking
 	{%
 		\xcb@name@cookinghead
-		%\\[4pt]
+		\\[4pt]
 		\xcb@fontsize@cooking\color{\xcb@color@cooking}#1
 	}
 	\setcounter{step}{0}
@@ -782,7 +782,8 @@
 }
 \renewcommand{\headrulewidth}
 {%
-    0.5pt
+    %0.5pt
+    0.8pt
 }
 \fancyhf{}
 \if@twoside

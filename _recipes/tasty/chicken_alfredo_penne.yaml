@@ -18,22 +18,22 @@ Ingredients:
         Quantity: \weightLb{1.5}
         Units: ''
     Dried Oregano:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Dried Basil:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Ground Black Pepper:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Pasta Penne:
         Quantity: \weightOz{16}
         Units: ''
     Parsley:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: cup
     Parmesan Cheese:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: cup
     Sauce:
         Custom: \multicolumn{2}{l}{\textbf{Sauce}} \\
@@ -50,19 +50,19 @@ Ingredients:
         Quantity: 2
         Units: cups
     Salt:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Ground Pepper:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Dried Oregano:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Dried Basil:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Parmesan Cheese:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
 Preparation:
     - Shred the parmesan cheese and chop the parsley. Mince the garlic.

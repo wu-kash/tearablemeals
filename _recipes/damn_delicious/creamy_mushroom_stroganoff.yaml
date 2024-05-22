@@ -29,19 +29,19 @@ Ingredients:
         Quantity: 4
         Units: tsp
     Flour:
-        Quantity: 2 1/2
+        Quantity: 2 \sfrac{1}{2}
         Units: tbsp
     Beef Stock:
         Quantity: 2
         Units: cups
     Dijon Mustard:
-        Quantity: 1 1/2
+        Quantity: 1 \sfrac{1}{2}
         Units: tsp
     Sour Cream:
-        Quantity: 3/4
+        Quantity: \sfrac{3}{4}
         Units: cup
     Parmesan:
-        Quantity: 2/3
+        Quantity: \sfrac{2}{3}
         Units: cup
     Parsley:
         Quantity: 2

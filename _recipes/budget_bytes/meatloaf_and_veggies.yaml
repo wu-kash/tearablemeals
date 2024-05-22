@@ -23,10 +23,10 @@ Ingredients:
         Quantity: 6
         Units: tbsp
     Smoked Paprika:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Garlic Powder:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     Sweet Potato:
         Quantity: 2
@@ -38,7 +38,7 @@ Ingredients:
         Quantity: 4
         Units: tbsp
     Salt:
-        Quantity: 1 1/2
+        Quantity: 1 \sfrac{1}{2}
         Units: tsp
     Pepper:
         Quantity: 1

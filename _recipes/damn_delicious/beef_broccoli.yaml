@@ -18,13 +18,13 @@ Ingredients:
         Quantity: 1
         Units: head
     Chicken Stock:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
     Soy Sauce:
-        Quantity: 2/3
+        Quantity: \sfrac{2}{3}
         Units: cup
     Honey:
-        Quantity: 1/4 
+        Quantity: \sfrac{1}{4} 
         Units: cup
     Rice Wine Vinegar:
         Quantity: 2
@@ -51,11 +51,11 @@ Ingredients:
         Quantity: 1
         Units: tsp
     Red Pepper Flakes:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
 Preparation:
     - Thinly slice the flank steak and cut the broccoli head into florets. Mince the garlic.
 Cooking:
-    - In a medium bowl, whisk together soy sauce, chicken stock, honey, vinegar, brown sugar, garlic, sesame oil, cornstarch, Sriracha, ginger, red pepper flakes and 1/4 cup water; set aside.
+    - In a medium bowl, whisk together soy sauce, chicken stock, honey, vinegar, brown sugar, garlic, sesame oil, cornstarch, Sriracha, ginger, red pepper flakes and \sfrac{1}{4} cup water; set aside.
     - Heat olive oil in a large skillet over medium high heat. Add steak and cook, flipping once, until browned, about 3-4 minutes.
     - Stir in broccoli and soy sauce mixture until tender and slightly thickened, about 3-4 minutes.

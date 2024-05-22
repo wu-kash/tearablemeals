@@ -18,40 +18,40 @@ Ingredients:
         Quantity: 450
         Units: g
     Plain Greek Yoghurt:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
     Lime Juice:
         Quantity: 1
         Units: tsp
     Ground Black Pepper:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Red Onion:
         Quantity: 1
         Units: cup
     Olive Oil:
-        Quantity: 1 1/2
+        Quantity: 1 \sfrac{1}{2}
         Units: tbsp
     Garlic Powder:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     Onion Powder:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     Chilli Powder:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     Cumin:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     Salt:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Cilantro:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
     Avocado:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: ''
 Preparation:
     - Finely dice the red onion, chop the cilantro and avocado.

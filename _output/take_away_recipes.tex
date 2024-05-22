@@ -1,9 +1,9 @@
-\documentclass[%
-a4paper,
-%twoside,
-11pt
-]{article}
-
+% \documentclass[%
+% a4paper,
+% %twoside,
+% 12pt
+% ]{article}
+\documentclass[14pt]{extarticle}
 
 
 %https://mirrors.mit.edu/CTAN/macros/latex/contrib/xcookybooky/xcookybooky.pdf
@@ -22,7 +22,7 @@ a4paper,
 {xcookybooky}
 
 
-\usepackage{blindtext}    % only needed for generating test text
+\usepackage{xfrac}
 
 \usepackage{fp}
 \newcommand{\roundToFive}[1]{\FPdiv{\x}{#1}{5}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{5}\FPround{\x}{\x}{0}\x}
@@ -33,44 +33,18 @@ a4paper,
 \newcommand{\tempC}[1]{#1\textcelsius{}}
 \DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
 
-
-
 \usepackage{hyperref}    % must be the last package
 
-
-
-\renewcommand{\step}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=1pt] (char) {#1};}}
+	
+\renewcommand{\step}[1]
 {%
 	\stepcounter{step}%shouldn't be in the argument of lettrine
-	\lettrine
-	[%
-	lines=2,
-	lhang=0,          % space into margin, value between 0 and 1
-	loversize=0.05,   % enlarges the height of the capital
-	slope=0em,
-	findent=1em,      % gap between capital and intended text
-	nindent=0em       % shifts all intended lines, begining with the second line
-	]{\thestep}{}%
+	\textcolor{orange}{\textbf{\thestep}} #1 \\[6pt]
 }
 
-\renewcommand{\step}
-{%
-	\stepcounter{step}%shouldn't be in the argument of lettrine
-	\lettrine
-	[%
-	lines=1,
-	lhang=0,          % space into margin, value between 0 and 1
-	loversize=-0.5,   % enlarges the height of the capital
-	slope=0em,
-	findent=0.5em,      % gap between capital and intended text
-	nindent=0em       % shifts all intended lines, begining with the second line
-	]{\thestep}{}%
-}
 
-% \renewcommand{\step}
-% {%
-% 	\\ \\ \faCaretSquareORight \ 
-% }
 
 \setRecipeSizes{
 	recipename=\fontsize{25pt}{30pt},
@@ -87,7 +61,7 @@ a4paper,
 \setRecipeLengths{
 	preparationwidth=0.6\textwidth,
 	cookingwidth=0.6\textwidth,
-	ingredientswidth=0.35\textwidth,
+	ingredientswidth=0.4\textwidth,
 }
 
 \setRecipeColors{
@@ -114,8 +88,12 @@ a4paper,
 	calory=Calories,
 }
 
-% \usepackage[a4paper]{geometry}
-% \geometry{margin=1.5cm, top=3cm, headsep=0.5cm, footskip=1.25cm, tmargin=1cm}
+\pagestyle{empty}
+\usepackage[a4paper]{geometry}
+\geometry{margin=1.5cm, top=3cm, headsep=0.5cm, footskip=1.25cm, tmargin=1cm}
+
+\fancyheadoffset[L]{\dimexpr\evensidemargin+0.5in} % Left offset
+\fancyheadoffset[R]{\dimexpr\oddsidemargin+0.5in} % Right offset
 
 
 \begin{document}

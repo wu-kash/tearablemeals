@@ -31,6 +31,7 @@ def gen_recipe_standalone_tex(file_data: dict):
 
     recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
     recipe_data_filtered = {k:v for k,v in recipe_data.items() if v is not None}
+    file_data['AmountIngredients'] = str(len(recipe_data['Ingredients'].keys()))
 
     template = LATEX_TEMPLATE_ENV.get_template('tex_recipe.tex')
     result = template.render(file_data=file_data, recipe_data=recipe_data_filtered, recipe_info=recipe_data_filtered['Recipe Info'])

@@ -11,7 +11,7 @@ Recipe Info:
         Value: https://damndelicious.net/2017/10/08/korean-beef-zucchini-noodles/
 Ingredients:
     Sugar:
-        Quantity: 1/3 
+        Quantity: \sfrac{1}{3} 
         Units: cup
     Soy Sauce:
         Quantity: 1
@@ -41,7 +41,7 @@ Ingredients:
         Quantity: 2
         Units: ''
     Sesame Seeds:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: tsp
     
 Preparation:

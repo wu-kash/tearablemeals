@@ -33,7 +33,7 @@ Ingredients:
     Garlic Parmesan Sauce:
         Custom: \multicolumn{2}{l}{\textbf{Garlic Parmesan Sauce}} \\
     Unsalted Butter:
-        Quantity: 1/4
+        Quantity: \sfrac{1}{4}
         Units: cup
     Garlic:
         Quantity: 4
@@ -48,16 +48,16 @@ Ingredients:
         Quantity: 1
         Units: tsp
     Dried Basil:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: tsp
     Milk:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
     Cream:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
     Parmesan:
-        Quantity: 1/2
+        Quantity: \sfrac{1}{2}
         Units: cup
 Preparation:
     - Mince garlic, grate parmesan.
