@@ -22,9 +22,8 @@
 {xcookybooky}
 
 
-\usepackage{xfrac}
-
-\usepackage{fp}
+\usepackage{xfrac} % Nice fractions
+\usepackage{fp} % Calculate math in latex
 \newcommand{\roundToFive}[1]{\FPdiv{\x}{#1}{5}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{5}\FPround{\x}{\x}{0}\x}
 \newcommand{\roundToTen}[1]{\FPdiv{\x}{#1}{10}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{10}\FPround{\x}{\x}{0}\x}
 \newcommand{\weightOz}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x} g}
@@ -91,11 +90,13 @@
 \usepackage[a4paper]{geometry}
 \geometry{margin=1.5cm, top=3cm, headsep=0.5cm, footskip=0cm, tmargin=1cm, bottom=1.5in}
 
+\pagestyle{fancy}
+\fancyfoot{}
 \fancyheadoffset[L]{\dimexpr\evensidemargin+0.5in} % Left offset
 \fancyheadoffset[R]{\dimexpr\oddsidemargin+0.5in} % Right offset
 
 \fancyfoot[C]{%
-	\includegraphics[width=0.9\textwidth]{../_resources/recipe_doodle_light.jpg} % Adjust width as needed
+	\includegraphics[width=0.7\textwidth]{../_resources/recipe_doodle_light_v2.jpg} % Adjust width as needed
 }
 
 
