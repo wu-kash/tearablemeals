@@ -5,6 +5,7 @@ import subprocess
 import shutil
 from pathlib import Path
 import fnmatch
+import segno
 
 OUTPUT_DIR = os.path.abspath(os.path.join('_output'))
 RECIPES_DIR = os.path.abspath(os.path.join('_recipes'))
@@ -12,6 +13,7 @@ RECIPES_DIR = os.path.abspath(os.path.join('_recipes'))
 # RECIPES_DIR = os.path.abspath(os.path.join('_dev'))
 
 COMPONENTS_DIR = os.path.join(OUTPUT_DIR, '_components')
+QR_DIR = os.path.join(OUTPUT_DIR, '_qr')
 MAIN_TEX_FILE = os.path.join(OUTPUT_DIR, 'take_away_recipes.tex')
 
 LATEX_TEMPLATE_ENV = jinja2.Environment(
@@ -32,6 +34,14 @@ def gen_recipe_standalone_tex(file_data: dict):
     recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
     recipe_data_filtered = {k:v for k,v in recipe_data.items() if v is not None}
     file_data['AmountIngredients'] = str(len(recipe_data['Ingredients'].keys()))
+
+    url = recipe_data['Recipe Info']['source']['Value']
+
+    qr_file = os.path.join(QR_DIR, f'{file_data["File Name"]}.png')
+    qrcode = segno.make_qr(url)
+    qrcode.save(qr_file)
+
+    file_data['QR File'] = qr_file
 
     template = LATEX_TEMPLATE_ENV.get_template('tex_recipe.tex')
     result = template.render(file_data=file_data, recipe_data=recipe_data_filtered, recipe_info=recipe_data_filtered['Recipe Info'])
@@ -57,6 +67,7 @@ def process_recipe_files(data_dir_path: str):
         shutil.rmtree(OUTPUT_DIR)
     os.mkdir(OUTPUT_DIR)
     os.mkdir(COMPONENTS_DIR)
+    os.mkdir(QR_DIR)
 
     yaml_files = find_yaml_files(data_dir_path)
 
