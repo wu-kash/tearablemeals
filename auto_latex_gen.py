@@ -29,6 +29,39 @@ LATEX_TEMPLATE_ENV = jinja2.Environment(
         loader=jinja2.FileSystemLoader(os.path.join('_resources', '_templates'))
     )
 
+def get_recipe_stats(recipes_file_data: dict):
+
+    num_recipes = 0
+    num_servings = 0
+    num_tested = 0
+    not_tested = []
+
+    recipe_servings = []
+
+
+    for file_name, file_data in recipes_file_data.items():
+
+        recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
+
+        if recipe_data['Tested']:
+            num_tested += 1
+        else:
+            not_tested.append(file_data['Recipe Name'])
+        num_recipes += 1
+
+        recipe_servings.append(recipe_data['Recipe Info']['portion']['Value'])
+        num_servings += recipe_data['Recipe Info']['portion']['Value']
+
+
+    print('\nRecipe Stats:')
+    print(f'Number of Recipes:        {num_recipes}')
+    print(f'Number of Tested Recipes: {num_tested} ({(num_tested/num_recipes)*100:.2f}%)')
+    print(f'Total Servings:           {num_servings} (Avg: {sum(recipe_servings) / len(recipe_servings):.2f})')
+
+    # print('\nFollowing recipes have not been tested:')
+    # for idx, recipe in enumerate(not_tested):
+    #     print(f' {idx}] {recipe}')
+
 def gen_recipe_standalone_tex(file_data: dict):
 
     recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
@@ -99,7 +132,6 @@ def process_recipe_files(data_dir_path: str):
     with open(MAIN_TEX_FILE, 'w') as file:
         file.write(result)
 
-
     proc = subprocess.Popen(['pdflatex', MAIN_TEX_FILE], cwd=OUTPUT_DIR)
     proc.communicate()
 
@@ -109,7 +141,8 @@ def process_recipe_files(data_dir_path: str):
         if item.endswith(".aux"):
             os.remove(os.path.join(OUTPUT_DIR, item))
 
+    get_recipe_stats(recipes_data)
+
 if __name__ == "__main__":
     
-
     process_recipe_files(RECIPES_DIR)
