@@ -28,7 +28,7 @@
 \newcommand{\roundToTen}[1]{\FPdiv{\x}{#1}{10}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{10}\FPround{\x}{\x}{0}\x}
 \newcommand{\weightOz}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x} g}
 \newcommand{\weightLb}[1]{\FPmul{\x}{#1}{454}\FPround{\x}{\x}{0}\roundToTen{\x} g}
-\newcommand{\tempF}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0} \roundToFive{\x}\textcelsius{}}
+\newcommand{\tempF}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0}\roundToFive{\x}\textcelsius{}}
 \newcommand{\tempC}[1]{#1\textcelsius{}}
 \DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
 
@@ -111,6 +111,7 @@
 \include{_components/_potato_curry}
 \include{_components/_spaghetti_bolognese}
 \include{_components/_veggie_stir_fry}
+\include{_components/_baked_ravioli}
 \include{_components/_beef_broccoli}
 \include{_components/_beef_noodle_stir_fry}
 \include{_components/_chicken_fajitas}

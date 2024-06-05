@@ -1,3 +1,4 @@
+Tested: True
 Recipe Info:
     portion:
         Value: 4
@@ -22,7 +23,7 @@ Ingredients:
     Garlic:
         Quantity: 4
         Units: cloves
-    Repper Pepper Flakes:
+    Red Pepper Flakes:
         Quantity: 1
         Units: tsp
     Shrimp:
@@ -52,9 +53,8 @@ Ingredients:
 Preparation:
     - Mince the garlic, grate the parmesan cheese, and chop the parsley.
 Cooking:
-    - In a large pot, boil water and add pasta. Cook until al dente.
-    - Drain and set pasta aside.
-    - In the same pan, heat olive oil and 2 tbsp of butter. Add garlic and crushed red pepper, cook until fragrant.
+    - In a large pot, boil water and add pasta. Cook until al dente. Drain and set the pasta aside.
+    - In a pan, heat olive oil and 2 tbsp of butter. Add garlic and crushed red pepper, cook until fragrant.
     - Toss in shrimp, add salt and pepper, to taste, and stir until shrimp start to turn pink, but are not fully cooked.
     - Add oregano and spinach, cook until wilted.
     - Return cooked pasta to the pot, add remaining butter, parmesan, and parsley. Stir until well mixed and the butter is melted.

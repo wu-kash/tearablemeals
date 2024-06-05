@@ -1,3 +1,4 @@
+Tested: False
 Recipe Info:
     portion:
         Value: 4
@@ -9,8 +10,7 @@ Recipe Info:
         Units: min
     source:
         Value: https://damndelicious.net/2014/08/13/easy-beef-broccoli/
-# Introduction: 
-Ingredients: 
+Ingredients:
     Flank Steak:
         Quantity: \weightLb{1}
         Units: ''
@@ -24,7 +24,7 @@ Ingredients:
         Quantity: \sfrac{2}{3}
         Units: cup
     Honey:
-        Quantity: \sfrac{1}{4} 
+        Quantity: \sfrac{1}{4}
         Units: cup
     Rice Wine Vinegar:
         Quantity: 2
