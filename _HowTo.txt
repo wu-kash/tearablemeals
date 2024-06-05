@@ -1,0 +1,6 @@
+Tea Spoon - tsp
+Table Spoon - tbsp
+Weight Oz to Gram - \weightOz{VAL}
+Weight Lb to Gram - \weightLb{VAL}
+Temperature F to C - \tempF{VAL}
+Temperature C - \tempC{VAL}
