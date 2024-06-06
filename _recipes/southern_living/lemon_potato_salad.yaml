@@ -12,8 +12,8 @@ Recipe Info:
         Value: https://www.southernliving.com/recipes/lemon-fennel-potato-salad
 Ingredients:
     Potatoes:
-        Quantity: \weightOz{24}
-        Units: ''
+        Quantity: \weightOzTog{24}
+        Units: g
     Onion:
         Quantity: \sfrac{1}{2}
         Units: cup

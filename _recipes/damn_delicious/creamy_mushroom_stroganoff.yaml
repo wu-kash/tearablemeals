@@ -12,14 +12,14 @@ Recipe Info:
         Value: https://damndelicious.net/2019/02/06/creamy-mushroom-stroganoff/
 Ingredients:
     Pasta Shells:
-        Quantity: \weightOz{8}
-        Units: ''
+        Quantity: \weightOzTog{8}
+        Units: g
     Unsalted Butter:
         Quantity: 3
         Units: tbsp
     Mushrooms:
-        Quantity: \weightLb{1.5}
-        Units: ''
+        Quantity: \weightLbTog{1.5}
+        Units: g
     Onion:
         Quantity: 2
         Units: ''

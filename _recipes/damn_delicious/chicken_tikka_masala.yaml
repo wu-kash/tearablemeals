@@ -15,8 +15,8 @@ Ingredients:
         Quantity: 1
         Units: cup
     Chicken Thighs:
-        Quantity: \weightLb{1.5}
-        Units: ''
+        Quantity: \weightLbTog{1.5}
+        Units: g
     Oil:
         Quantity: 1 \sfrac{1}{2}
         Units: tbsp

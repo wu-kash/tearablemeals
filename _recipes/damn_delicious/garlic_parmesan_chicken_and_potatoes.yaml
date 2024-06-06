@@ -12,7 +12,7 @@ Recipe Info:
         Value: https://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/
 Ingredients:
     Main:
-        Custom: \multicolumn{2}{l}{\textbf{Main Dish}} \\
+        Heading: True
     Chicken Thighs:
         Quantity: 6
         Units: ''
@@ -32,7 +32,7 @@ Ingredients:
         Quantity: 2
         Units: tbsp
     Garlic Parmesan Sauce:
-        Custom: \multicolumn{2}{l}{\textbf{Garlic Parmesan Sauce}} \\
+        Heading: True
     Unsalted Butter:
         Quantity: \sfrac{1}{4}
         Units: cup
@@ -65,7 +65,7 @@ Preparation:
     - Chop the baby spinach and parsley leaves.
     - Halve the potatoes.
 Cooking:
-    - Preheat oven to \tempF{400}. Lightly coat a baking dish with oil or nonstick spray.
+    - Preheat oven to \tempFToC{400}. Lightly coat a baking dish with oil or nonstick spray.
     - Season chicken with the Italian herbs, salt and pepper.
     - Melt 2 tablespoons butter in a large skillet over medium high heat. Add the chicken thighs and sear until both sides are golden brown. Set aside.
     - Melt the remaining 1 tablespoon of butter in the skillet. Stir in spinach and cook, stirring occassionally until it begins to wilt.

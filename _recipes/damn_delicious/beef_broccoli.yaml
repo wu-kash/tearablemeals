@@ -12,8 +12,8 @@ Recipe Info:
         Value: https://damndelicious.net/2014/08/13/easy-beef-broccoli/
 Ingredients:
     Flank Steak:
-        Quantity: \weightLb{1}
-        Units: ''
+        Quantity: \weightLbTog{1}
+        Units: g
     Broccoli Floret:
         Quantity: 1
         Units: head

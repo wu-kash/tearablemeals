@@ -24,8 +24,8 @@ Ingredients:
         Quantity: 1
         Units: tsp
     Chicken Breasts:
-        Quantity: \weightLb{1.5}
-        Units: ''
+        Quantity: \weightLbTog{1.5}
+        Units: g
     Red Bell Pepper:
         Quantity: 1
         Units: ''

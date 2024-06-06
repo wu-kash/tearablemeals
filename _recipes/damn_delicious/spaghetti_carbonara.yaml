@@ -12,8 +12,8 @@ Recipe Info:
         Value: https://damndelicious.net/2014/03/29/spaghetti-carbonara/
 Ingredients:
     Spaghetti:
-        Quantity: \weightOz{8}
-        Units: ''
+        Quantity: \weightOzTog{8}
+        Units: g
     Eggs:
         Quantity: 2
         Units: large

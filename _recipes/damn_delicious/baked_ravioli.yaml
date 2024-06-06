@@ -12,8 +12,8 @@ Recipe Info:
         Value: https://damndelicious.net/2014/01/07/baked-ravioli/
 Ingredients:
     Ravioli:
-        Quantity: \weightOz{16}
-        Units: ''
+        Quantity: \weightOzTog{16}
+        Units: g
     Marinara Sauce:
         Quantity: 2
         Units: cups
@@ -38,7 +38,7 @@ Ingredients:
 Preparation:
     - Grate the Parmesan cheese and shred the mozzarella.
 Cooking:
-    - Preheat oven to \tempF{350}. Lightly oil a baking dish or coat with nonstick spray.
+    - Preheat oven to \tempFToC{350}. Lightly oil a baking dish or coat with nonstick spray.
     - In a large pot of boiling water, cook ravioli just until tender, about 2-3 minutes.
     - Combine marinara sauce and cream cheese in a medium saucepan over medium heat. Cook, stirring constantly, until cream cheese has melted, about 2-3 minutes. Stir in thyme and parsley.
     - Spread ravioli into the prepared baking dish. Top with marinara mixture and sprinkle with mozzarella. Place into oven and bake until cheese has melted, about 20 minutes.

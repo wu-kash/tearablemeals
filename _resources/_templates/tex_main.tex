@@ -26,9 +26,9 @@
 \usepackage{fp} % Calculate math in latex
 \newcommand{\roundToFive}[1]{\FPdiv{\x}{#1}{5}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{5}\FPround{\x}{\x}{0}\x}
 \newcommand{\roundToTen}[1]{\FPdiv{\x}{#1}{10}\FPround{\x}{\x}{0}\FPmul{\x}{\x}{10}\FPround{\x}{\x}{0}\x}
-\newcommand{\weightOz}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x} g}
-\newcommand{\weightLb}[1]{\FPmul{\x}{#1}{454}\FPround{\x}{\x}{0}\roundToTen{\x} g}
-\newcommand{\tempF}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0}\roundToFive{\x}\textcelsius{}}
+\newcommand{\weightOzTog}[1]{\FPmul{\x}{#1}{28}\FPround{\x}{\x}{0}\roundToTen{\x}}
+\newcommand{\weightLbTog}[1]{\FPmul{\x}{#1}{454}\FPround{\x}{\x}{0}\roundToTen{\x}}
+\newcommand{\tempFToC}[1]{\FPsub{\x}{#1}{32}\FPmul{\x}{\x}{.5555555}\FPround{\x}{\x}{0}\roundToFive{\x}\textcelsius{}}
 \newcommand{\tempC}[1]{#1\textcelsius{}}
 \DeclareRobustCommand{\textcelcius}{\ensuremath{^{\circ}\mathrm{C}}}
 

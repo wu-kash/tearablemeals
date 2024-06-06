@@ -15,8 +15,8 @@ Ingredients:
         Quantity: 2
         Units: tbsp
     Chicken Breasts:
-        Quantity: \weightLb{1.5}
-        Units: ''
+        Quantity: \weightLbTog{1.5}
+        Units: g
     Dried Oregano:
         Quantity: \sfrac{1}{2}
         Units: tsp
@@ -27,8 +27,8 @@ Ingredients:
         Quantity: \sfrac{1}{2}
         Units: tsp
     Pasta Penne:
-        Quantity: \weightOz{16}
-        Units: ''
+        Quantity: \weightOzTog{16}
+        Units: g
     Parsley:
         Quantity: \sfrac{1}{4}
         Units: cup
@@ -36,7 +36,7 @@ Ingredients:
         Quantity: \sfrac{1}{4}
         Units: cup
     Sauce:
-        Custom: \multicolumn{2}{l}{\textbf{Sauce}} \\
+        Heading: True
     Unsalted Butter:
         Quantity: 2
         Units: tbsp

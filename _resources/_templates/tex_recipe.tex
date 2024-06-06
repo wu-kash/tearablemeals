@@ -33,15 +33,19 @@
 
 \BLOCK{-for ingredient_name,ingredient_data in recipe_data['Ingredients'].items()}
 
-\BLOCK{-if ingredient_data['Custom'] is defined}
+\BLOCK{-if ingredient_data['Heading'] is defined}
 
-\VAR{ingredient_data['Custom']}
+\multicolumn{2}{l}{\textbf{\VAR{ingredient_name}}} \\
 
 \BLOCK{-else}
 
-\BLOCK{-if ingredient_data['Units'] == ''}
+\BLOCK{-if ingredient_data['Value'] == ''}
 
-\faSquareO \ \textit{\VAR{ingredient_name}} \small{(\VAR{ingredient_data['Quantity']})}  \\
+\faSquareO \ \textit{\VAR{ingredient_name}} \textcolor{ERROR} \\
+
+\BLOCK{-elif ingredient_data['Units'] == ''}
+
+\faSquareO \ \textit{\VAR{ingredient_name}} \small{(\VAR{ingredient_data['Quantity']})} \\
 
 \BLOCK{-else}
 

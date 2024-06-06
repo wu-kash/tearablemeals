@@ -33,11 +33,11 @@ Ingredients:
         Quantity: 1
         Units: tsp
     Ground Beef:
-        Quantity: \weightLb{1}
-        Units: ''
+        Quantity: \weightLbTog{1}
+        Units: g
     Zucchini:
-        Quantity: \weightLb{1.5}
-        Units: ''
+        Quantity: \weightLbTog{1.5}
+        Units: g
     Green Onion:
         Quantity: 2
         Units: ''

@@ -12,10 +12,10 @@ Recipe Info:
         Value: https://minimalistbaker.com/1-pot-chickpea-shakshuka/
 Ingredients:
     Chickpeas:
-        Quantity: \weightOz{23}
-        Units: ''
+        Quantity: \weightOzTog{23}
+        Units: g
     Green Olives:
-        Quantity: 4
+        Quantity: 4-5
         Units: ''
     Olive Oil:
         Quantity: 1
@@ -30,8 +30,8 @@ Ingredients:
         Quantity: 3
         Units: cloves
     Crushed Tomato:
-        Quantity: \weightOz{28}
-        Units: ''
+        Quantity: \weightOzTog{28}
+        Units: g
     Tomato Paste:
         Quantity: 2
         Units: tbsp
@@ -60,10 +60,10 @@ Ingredients:
         Quantity: 1
         Units: pinch
 Preparation:
-    - Dice the onion, chop the red bell pepper and mince the garlic.
+    - Dice the onion, chop the red bell pepper and mince the garlic. Halve the olives.
 Cooking:
     - Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add olive oil, onion, bell pepper and garlic. Saut\'e for 4-5 minutes, stirring frequently until soft.
-    - Add tomato puree or diced tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander.
+    - Add crushed tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander.
     - Bring to a simmer over medium heat and cook for 2-3 minutes, stirring frequently.
     - Add chickpeas and olives, reduce heat to medium-low and simmer for 15-20 minutes. Taste and adjust seasonings as needed.
     - Serve as is or with bread, pasta, or rice. Garnish with fresh lemon juice, additional olives, and cilantro or parsley for extra flavor.

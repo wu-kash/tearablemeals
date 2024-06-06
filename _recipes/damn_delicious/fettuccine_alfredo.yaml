@@ -12,8 +12,8 @@ Recipe Info:
         Value: https://damndelicious.net/2017/09/24/sun-dried-tomato-fettuccine-alfredo/
 Ingredients:
     Fettucine Pasta:
-        Quantity: \weightOz{8}
-        Units: ''
+        Quantity: \weightOzTog{8}
+        Units: g
     Unsalted Butter:
         Quantity: 4
         Units: tbsp
@@ -42,8 +42,8 @@ Ingredients:
         Quantity: \sfrac{1}{2}
         Units: cup
     Cream Cheese:
-        Quantity: \weightOz{3}
-        Units: ''
+        Quantity: \weightOzTog{3}
+        Units: g
     Parmesan:
         Quantity: \sfrac{1}{2}
         Units: cup
