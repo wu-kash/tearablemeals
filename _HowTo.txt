@@ -2,7 +2,7 @@ Tea Spoon - tsp
 Table Spoon - tbsp
 Weight Oz to Gram - \weightOzTog{VAL}
 Weight Lb to Gram - \weightLbTog{VAL}
-Temperature F to C - \tempF{VAL}
+Temperature F to C - \tempFToC{VAL}
 Temperature C - \tempC{VAL}
 
 To make ingredient heading

@@ -1,4 +1,4 @@
-Tested: False
+Tested: True
 Recipe Info:
     portion:
         Value: 6
@@ -11,8 +11,8 @@ Recipe Info:
     source:
         Value: https://minimalistbaker.com/1-pot-chickpea-shakshuka/
 Ingredients:
-    Chickpeas:
-        Quantity: \weightOzTog{23}
+    Canned Chickpeas:
+        Quantity: 500
         Units: g
     Green Olives:
         Quantity: 4-5
