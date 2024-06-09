@@ -69,7 +69,7 @@
 \RequirePackage{picture}                     % for modfifying the position of the bg pictures
 \RequirePackage{tabulary}                    % line breaks in tabular
 \RequirePackage{framed}                      % frame for the introduction
-
+\RequirePackage{multirow}
 \setlength{\parindent}{0cm}
 \setlength{\parskip}{2ex plus 0.5ex}
 
@@ -243,6 +243,7 @@
 \define@key{headlines}{portion}[\fontsize{14.5pt}{10pt}\usymH{1F37D}{0.35cm}]{\def\xcb@name@portion{#1}}
 \define@key{headlines}{portionvalue}[Serves]{\def\xcb@name@portionvalue{#1}}
 \define@key{headlines}{calory}[Calorific value]{\def\xcb@name@calory{#1}}
+\define@key{headlines}{qr}[QR]{\def\xcb@name@qr{#1}}
 \define@key{headlines}{source}[\PaperPortrait]{\def\xcb@name@source{#1}}
 \savekeys{headlines}
 {
@@ -258,6 +259,7 @@
     portion,
     portionvalue,
     calory,
+    qr,
     source
 }
 \newcommand*{\setHeadlines}[1]
@@ -278,6 +280,7 @@
     portion,
     portionvalue,
     calory,
+    qr,
     source
 }
 
@@ -292,7 +295,8 @@
         continuationhead = Continuation,
         continuationfoot = Continuation on next page,
         portionvalue = Serves,
-        calory = Calorific value
+        calory = Calorific value,
+        qr = QR,
     }
 }{}
 
@@ -492,41 +496,42 @@
 %% INTERNAL COMMANDS
 \newcommand{\xcb@cmd@recipeoverview}
 {
-    \begin{tabular}{rl}
+    \begin{tabular}{r|rl}
         \ifthenelse{\equal{\xcb@preparationtime}{}}
         {% not set => not shown
         }
         {
-            \xcb@name@preparationtime & \xcb@preparationtime \\
+            
+            \ifthenelse{\equal{\xcb@qr}{}}
+            {% not set => not shown
+            }
+            {	
+            	\multirow{3}{*}{\raisebox{-0.5\height}{\includegraphics[height=1.8cm]{\xcb@qr}}}
+            } & \xcb@name@preparationtime & \xcb@preparationtime 
         }
         \ifthenelse{\equal{\xcb@bakingtime}{}}
         {% not set => not shown
         }
         {
-            \xcb@name@bakingtime & \xcb@bakingtime\ifthenelse{\equal{\xcb@bakingtemperature}{}}
-            {
-                \\
-            }
-            {,\hspace{1em} \xcb@name@bakingtemperature \hspace{1ex} \xcb@bakingtemperature\\
-            }
+           \\ & \xcb@name@bakingtime & \xcb@bakingtime 
         }
         \ifthenelse{\equal{\xcb@portion}{}}
         {% not set => not shown
         }
         {
-            \xcb@name@portion & \xcb@portion\\
+           \\  & \xcb@name@portion & \xcb@portion
         }
         \ifthenelse{\equal{\xcb@calory}{}}
         {% not set => not shown
         }
         {
-            \xcb@name@calory & \xcb@calory\\
+           \\ & \xcb@name@calory & \xcb@calory
         }
         \ifthenelse{\equal{\xcb@source}{}}
         {% not set => not shown
         }
         {
-            \xcb@name@source & \xcb@source
+           \\ & \xcb@name@source & \xcb@source 
         }
     \end{tabular}
 }
@@ -574,6 +579,7 @@
 \define@key{recipe}{portion}[]{\def\xcb@portion{#1}}
 \define@key{recipe}{calory}[]{\def\xcb@calory{#1}}
 \define@key{recipe}{source}[]{\def\xcb@source{#1}}
+\define@key{recipe}{qr}[]{\def\xcb@qr{#1}}
 
 \newcommand*{\xcb@separationgraph}[2][1.5]
 {% Graphical separator
@@ -664,7 +670,7 @@
 
 \newenvironment{recipe}[2][]
 {% initialisation
-    \setkeys{recipe}{preparationtime, bakingtime, bakingtemperature, portion, calory, source}
+    \setkeys{recipe}{preparationtime, bakingtime, bakingtemperature, portion, calory, source, qr}
     \setkeys{picture}{small, big, smallpicturewidth=\xcb@smallpicturewidth, bigpicturewidth=\xcb@bigpicturewidth} % load the default values
     \def\xcb@hook@pregraph{}
     \def\xcb@hook@pretitle{}

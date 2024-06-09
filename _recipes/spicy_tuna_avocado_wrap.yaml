@@ -5,6 +5,9 @@ Recipe Info:
     preparationtime:
         Value: 10
         Units: min
+    bakingtime:
+        Value: 0
+        Units: min
     source:
         Value: https://www.eatyourselfskinny.com/spicy-tuna-avocado-wrap/
 Ingredients:

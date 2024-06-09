@@ -12,9 +12,10 @@ RECIPES_DIR = os.path.abspath(os.path.join('_recipes'))
 
 # RECIPES_DIR = os.path.abspath(os.path.join('_dev'))
 
-COMPONENTS_DIR = os.path.join(OUTPUT_DIR, '_components')
-QR_DIR = os.path.join(OUTPUT_DIR, '_qr')
+COMPONENTS_DIR = os.path.join(OUTPUT_DIR, 'recipes')
+QR_DIR = os.path.join(OUTPUT_DIR, 'qr')
 MAIN_TEX_FILE = os.path.join(OUTPUT_DIR, 'take_away_recipes.tex')
+LOG_FILE = os.path.join(OUTPUT_DIR, 'recipes.log')
 
 LATEX_TEMPLATE_ENV = jinja2.Environment(
         block_start_string = '\BLOCK{',
@@ -52,15 +53,14 @@ def get_recipe_stats(recipes_file_data: dict):
         recipe_servings.append(recipe_data['Recipe Info']['portion']['Value'])
         num_servings += recipe_data['Recipe Info']['portion']['Value']
 
-
-    print('\nRecipe Stats:')
-    print(f'Number of Recipes:        {num_recipes}')
-    print(f'Number of Tested Recipes: {num_tested} ({(num_tested/num_recipes)*100:.2f}%)')
-    print(f'Total Servings:           {num_servings} (Avg: {sum(recipe_servings) / len(recipe_servings):.2f})')
-
-    # print('\nFollowing recipes have not been tested:')
-    # for idx, recipe in enumerate(not_tested):
-    #     print(f' {idx}] {recipe}')
+    print('\n')
+    append_str_to_file('Recipe Stats:')
+    append_str_to_file(f'Number of Recipes:        {num_recipes}')
+    append_str_to_file(f'Number of Tested Recipes: {num_tested} ({(num_tested/num_recipes)*100:.2f}%)')
+    append_str_to_file(f'Total Servings:           {num_servings} (Avg: {sum(recipe_servings) / len(recipe_servings):.2f})')
+    append_str_to_file('\nFollowing recipes have not been tested:')
+    for idx, recipe in enumerate(not_tested):
+        append_str_to_file(f' {idx}]'.rjust(4, ' ') + f' {recipe}')
 
 def gen_recipe_standalone_tex(file_data: dict):
 
@@ -70,11 +70,17 @@ def gen_recipe_standalone_tex(file_data: dict):
 
     url = recipe_data['Recipe Info']['source']['Value']
 
-    qr_file = os.path.join(QR_DIR, f'{file_data["File Name"]}.png')
-    qrcode = segno.make_qr(url)
-    qrcode.save(qr_file)
+    qr_file_name = f'{file_data["File Name"]}'.replace('_', ' ')
+    qr_file_name = qr_file_name.title()
+    qr_file_name = qr_file_name.replace(' ', '') + '.eps'
+    
+    
+    qr_file_path = os.path.join(QR_DIR, qr_file_name)
+    qrcode = segno.make(url, micro=False,)
+    qrcode.save(qr_file_path, scale=10, border=0, light=None)
 
-    file_data['QR File'] = qr_file
+    file_data['QR File'] = qr_file_path
+    recipe_data['Recipe Info']['qr'] = {'Value': f'qr/{qr_file_name}'}
 
     template = LATEX_TEMPLATE_ENV.get_template('tex_recipe.tex')
     result = template.render(file_data=file_data, recipe_data=recipe_data_filtered, recipe_info=recipe_data_filtered['Recipe Info'])
@@ -142,6 +148,12 @@ def process_recipe_files(data_dir_path: str):
             os.remove(os.path.join(OUTPUT_DIR, item))
 
     get_recipe_stats(recipes_data)
+
+def append_str_to_file(str):
+
+    with open(LOG_FILE, 'a') as file:
+        print(str)
+        file.write(str + '\n')
 
 if __name__ == "__main__":
     

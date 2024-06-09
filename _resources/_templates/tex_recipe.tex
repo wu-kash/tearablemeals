@@ -28,7 +28,7 @@
 \BLOCK{endfor-}
 
 ]
-{\includegraphics[width=1cm]{_qr/\VAR{file_data['File Name']}.png} \VAR{file_data['Recipe Name']}}
+{\VAR{file_data['Recipe Name']}}
 \ingredients[\VAR{file_data['AmountIngredients']}]{%
 
 \BLOCK{-for ingredient_name,ingredient_data in recipe_data['Ingredients'].items()}
@@ -56,7 +56,6 @@
 \BLOCK{-endif}
 
 \BLOCK{-endfor}
-
 }
 
 
