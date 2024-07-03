@@ -1,0 +1,21 @@
+.div-recipe-info {
+    display: flex;
+    align-items: center;
+}
+
+.recipe-info-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.div-recipe-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 20px; /* Space between the image and the text */
+}
+
+.div-recipe-info-text-row {
+    /* Optional: Style each text row as needed */
+}
