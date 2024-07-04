@@ -7,7 +7,7 @@ from pathlib import Path
 import fnmatch
 import segno
 
-OUTPUT_DIR = os.path.abspath(os.path.join('_output'))
+OUTPUT_DIR = os.path.abspath(os.path.join('_output_tex'))
 RECIPES_DIR = os.path.abspath(os.path.join('_recipes'))
 
 # RECIPES_DIR = os.path.abspath(os.path.join('_dev'))
@@ -78,6 +78,7 @@ def gen_recipe_standalone_tex(file_data: dict):
     qr_file_path = os.path.join(QR_DIR, qr_file_name)
     qrcode = segno.make(url, micro=False,)
     qrcode.save(qr_file_path, scale=10, border=0, light=None)
+    qrcode.save(qr_file_path.replace('.eps', '.svg'), scale=10, border=0, light=None)
 
     file_data['QR File'] = qr_file_path
     recipe_data['Recipe Info']['qr'] = {'Value': f'qr/{qr_file_name}'}

@@ -1,51 +1,57 @@
+Tested: False
 Recipe Info:
     portion:
         Value: 4
     preparationtime:
-        Value: 15
+        Value: 10
         Units: min
     bakingtime:
-        Value: 5
+        Value: 35
         Units: min
     source:
-        Value: https://pinchofyum.com/lo-mein
+        Value: https://www.budgetbytes.com/sheet-pan-bbq-meatloaf-dinner/
 Ingredients:
-    Main:
-        Heading: True
-    Dark Soy Sauce:
+    Ground Beef:
+        Quantity: 500
+        Units: g
+    Eggs:
         Quantity: 2
-        Units: tbsp
-    Light Soy Sauce:
-        Quantity: 1
-        Units: tbsp
-    Oyster Sauce:
-        Quantity: 3
-        Units: tbsp
-    Sesame Oil:
-        Quantity: 1
-        Units: tsp
-    Sugar:
-        Quantity: 1
-        Units: tsp
-    Garlic Clove:
-        Quantity: 1
         Units: ''
-    Ramen Noodles:
-        Quantity: 175
-        Units: g
-    Sesame Oil:
-        Quantity: 1
+    Bread Crumbs:
+        Quantity: 4
         Units: tbsp
-    Green Onion:
-        Quantity: 3
+    BBQ Sauce:
+        Quantity: 6
+        Units: tbsp
+    Smoked Paprika:
+        Quantity: \sfrac{1}{2}
+        Units: tsp
+    Garlic Powder:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Sweet Potato:
+        Quantity: 2
         Units: ''
-    Veggie Mix:
-        Quantity: 200
-        Units: g
-    Mirrin:
+    Broccoli Floret:
+        Quantity: 1
+        Units: head
+    Olive Oil:
+        Quantity: 4
+        Units: tbsp
+    Salt:
         Quantity: 1 \sfrac{1}{2}
-        Units: tbsp
+        Units: tsp
+    Pepper:
+        Quantity: 1
+        Units: tsp
 Preparation:
-    - Shake all the sauce ingredients together in a jar.
-    - Cook the noodles according to package directions. Drain and set aside.
-    - Heat the sesame oil in a large wok or skillet. Add the green onions (white parts) and vegetables to the hot pan. Stir fry until fork-tender, about 5 minutes. Add the mirin to loosen the browned bits up off the bottom of the pan. Add the cooked noodles and about half of the sauce, toss around in the hot pan to combine. Add more sauce if needed (want a medium brown color, not too light, not too dark). Serve topped with remaining green onions!
+    - Peel the sweet potato and cut it into 1 cm cubes.
+Cooking:
+    - Preheat the oven to \tempFToC{400}.
+    - Place the sweet potatoes and broccoli florets on a large baking sheet.
+    - Drizzle the olive oil over the sweet potatoes and broccoli florets. Sprinkle the seasoning salt over the sweet potatoes and then season the broccoli florets with a pinch of salt and pepper. 
+    - Toss the vegetables until they are coated in oil and spices, keeping the sweet potatoes on one side of the baking sheet and the broccoli on the other.
+    - Transfer the baking sheet to the preheated oven and roast the vegetables for 15 minutes.
+    - While the vegetables are roasting, prepare the meatloaves. In a bowl combine the ground beef, egg, bread crumbs, 1 tbsp of the BBQ sauce, the smoked paprika, garlic powder, and salt. Work the ingredients together with your hands until they are well combined. Divide the meatloaf mixture in two and shape each half into a flattened oval.
+    - After the vegetables have roasted for 15 minutes, remove the baking sheet and stir each of the vegetables. Push the vegetables to the side. Place the meatloaves in the center and then spread 1 tbsp of BBQ sauce over each loaf.
+    - Return the baking sheet to the oven and roast for an additional 20 minutes. Remove the baking sheet from the oven and serve.
