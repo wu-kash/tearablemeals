@@ -18,8 +18,8 @@ Ingredients:
         Quantity: 4
         Units: ''
     Green Beans:
-        Quantity: \weightOzTog{16}
-        Units: g
+        Quantity: 16
+        Units: Oz
     Carrots:
         Quantity: 2
         Units: ''
@@ -33,13 +33,13 @@ Ingredients:
         Quantity: 2
         Units: ''
     Sesame Seeds:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
 Preparation:
     - Thinly slice the green onion, peel and cut the carrots into slices.
 Cooking:
     - In a large saucepan of 2 cups water, cook rice according to package instructions and set aside.
-    - Preheat oven to \tempFToC{400}. Lightly oil a baking sheet or coat with nonstick spray.
+    - Preheat oven to tempFToC{400}. Lightly oil a baking sheet or coat with nonstick spray.
     - Place salmon, green beans and carrots in a single layer onto the prepared baking sheet.
     - Spoon teriyaki sauce over the salmon.
     - Drizzle green beans and carrots with olive oil, season with salt and pepper to taste.

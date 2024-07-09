@@ -15,6 +15,7 @@ RESOURCE_DIR = os.path.abspath(os.path.join('_resources'))
 COMPONENTS_DIR = os.path.join(OUTPUT_DIR, 'recipes')
 HTML_RESOURCE_DIR = os.path.join(RESOURCE_DIR, os.path.join('_html'))
 TEMPLATE_RESOURCE_DIR = os.path.join(RESOURCE_DIR, os.path.join('_templates'))
+MAIN_HTML_FILE = os.path.join(OUTPUT_DIR, 'main.html')
 QR_DIR = os.path.join(OUTPUT_DIR, 'qr')
 LOG_FILE = os.path.join(OUTPUT_DIR, 'recipes.log')
 
@@ -40,7 +41,6 @@ def get_recipe_stats(recipes_file_data: dict):
 
     recipe_servings = []
 
-
     for file_name, file_data in recipes_file_data.items():
 
         recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
@@ -63,7 +63,7 @@ def get_recipe_stats(recipes_file_data: dict):
     for idx, recipe in enumerate(not_tested):
         append_str_to_file(f' {idx}]'.rjust(4, ' ') + f' {recipe}')
 
-def gen_recipe_standalone_tex(file_data: dict):
+def gen_recipe_standalone(file_data: dict):
 
     recipe_data = yaml.safe_load(Path(file_data['Input File']).read_text())
     recipe_data_filtered = {k:v for k,v in recipe_data.items() if v is not None}
@@ -83,7 +83,7 @@ def gen_recipe_standalone_tex(file_data: dict):
     file_data['QR File'] = qr_file_path
     recipe_data['Recipe Info']['qr'] = {'Value': f'qr/{qr_file_name}'}
 
-    template = HTML_TEMPLATE_ENV.get_template('recipe.html')
+    template = HTML_TEMPLATE_ENV.get_template('template_recipe.html')
     result = template.render(file_data=file_data, recipe_data=recipe_data_filtered, recipe_info=recipe_data_filtered['Recipe Info'])
 
     output_file = os.path.join(COMPONENTS_DIR, f'{file_data["File Name"]}.html')
@@ -138,7 +138,13 @@ def process_recipe_files(data_dir_path: str):
 
         recipes_data[file_data['File Name']] = file_data
 
-        gen_recipe_standalone_tex(file_data)
+        gen_recipe_standalone(file_data)
+
+    template = HTML_TEMPLATE_ENV.get_template('template_main.html')
+    result = template.render(recipes_data=recipes_data)
+
+    with open(MAIN_HTML_FILE, 'w') as file:
+        file.write(result)
 
     get_recipe_stats(recipes_data)
 

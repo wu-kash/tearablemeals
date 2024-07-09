@@ -1,0 +1,69 @@
+Tested: True
+Recipe Info:
+    portion:
+        Value: 6
+    preparationtime:
+        Value: 5
+        Units: min
+    bakingtime:
+        Value: 25
+        Units: min
+    source:
+        Value: https://minimalistbaker.com/1-pot-chickpea-shakshuka/
+Ingredients:
+    Canned Chickpeas:
+        Quantity: 500
+        Units: g
+    Green Olives:
+        Quantity: 4-5
+        Units: ''
+    Olive Oil:
+        Quantity: 1
+        Units: tbsp
+    Onion:
+        Quantity: \sfrac{1}{2}
+        Units: cup
+    Red Bell Pepper:
+        Quantity: \sfrac{1}{2}
+        Units: cup
+    Garlic:
+        Quantity: 3
+        Units: cloves
+    Crushed Tomato:
+        Quantity: \weightOzTog{28}
+        Units: g
+    Tomato Paste:
+        Quantity: 2
+        Units: tbsp
+    Sugar:
+        Quantity: 2
+        Units: tsp
+    Smoked Paprika:
+        Quantity: 2
+        Units: tsp
+    Cumin:
+        Quantity: 1
+        Units: tsp
+    Chill Powder:
+        Quantity: 2
+        Units: tsp
+    Ground Cinnamon:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Cayenne Pepper:
+        Quantity: 1
+        Units: pinch
+    Cardamom:
+        Quantity: 1
+        Units: pinch
+    Coriander:
+        Quantity: 1
+        Units: pinch
+Preparation:
+    - Dice the onion, chop the red bell pepper and mince the garlic. Halve the olives.
+Cooking:
+    - Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add olive oil, onion, bell pepper and garlic. Saut\'e for 4-5 minutes, stirring frequently until soft.
+    - Add crushed tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander.
+    - Bring to a simmer over medium heat and cook for 2-3 minutes, stirring frequently.
+    - Add chickpeas and olives, reduce heat to medium-low and simmer for 15-20 minutes. Taste and adjust seasonings as needed.
+    - Serve as is or with bread, pasta, or rice. Garnish with fresh lemon juice, additional olives, and cilantro or parsley for extra flavor.

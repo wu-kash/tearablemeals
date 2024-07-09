@@ -11,17 +11,15 @@ Recipe Info:
     source:
         Value: https://damndelicious.net/2016/10/18/ground-beef-noodle-stir-fry/
 Ingredients:
-    Main:
-        Heading: True
     Udon Noodles:
-        Quantity: \weightOzTog{14}
-        Units: g
+        Quantity: 14
+        Units: Oz
     Olive Oil:
         Quantity: 1
         Units: tbsp
     Ground Beef:
-        Quantity: \weightLbTog{1}
-        Units: g
+        Quantity: 1
+        Units: Lb
     Onion:
         Quantity: 1
         Units: ''
@@ -32,15 +30,15 @@ Ingredients:
         Quantity: 1
         Units: ''
     Broccoli Florets:
-        Quantity: \weightOzTog{12}
-        Units: g
+        Quantity: 12
+        Units: Oz
     Green Onion:
         Quantity: 1
         Units: ''
     Sauce:
         Heading: True
     Soy Sauce:
-        Quantity: \sfrac{1}{4}
+        Quantity: sfrac{1}{4}
         Units: cup
     Rice Wine Vinegar:
         Quantity: 2

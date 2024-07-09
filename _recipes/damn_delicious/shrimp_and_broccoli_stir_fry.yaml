@@ -46,11 +46,11 @@ Ingredients:
         Quantity: 1
         Units: tbsp
     Shrimp:
-        Quantity: \weightLbTog{1.5}
-        Units: g
+        Quantity: 1.5
+        Units: Lb
     Broccoli Florets:
-        Quantity: \weightOzTog{24}
-        Units: g
+        Quantity: 24
+        Units: Oz
     Green Onion:
         Quantity: 1
         Units: ''

@@ -12,11 +12,11 @@ Recipe Info:
         Value: https://damndelicious.net/2021/03/26/sun-dried-tomato-chicken-and-gnocchi/
 Ingredients:
     Gnocchi:
-        Quantity: \weightOzTog{16}
-        Units: g
+        Quantity: 16
+        Units: Oz
     Chicken Thighs:
-        Quantity: \weightLbTog{1.5}
-        Units: g
+        Quantity: 1.5
+        Units: Lb
     Unsalted Butter:
         Quantity: 3
         Units: tbsp
@@ -24,7 +24,7 @@ Ingredients:
         Quantity: 1
         Units: ''
     Sun Dried Tomatoes:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: cup
     Tomato Paste:
         Quantity: 1
@@ -39,26 +39,26 @@ Ingredients:
         Quantity: 3
         Units: tbsp
     Chicken Broth:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: cups
     Dry White Wine:
-        Quantity: \sfrac{1}{4}
+        Quantity: sfrac{1}{4}
         Units: cup
     Half and Half:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: cup
     Kale:
         Quantity: 1
         Units: bunch
     Parmesan:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: cup
 Preparation:
     - Dice the onion, chop the thyme leaves, mince the garlic and grate the Parmesan.
 Cooking:
-    - Preheat oven to \tempFToC{400}.
+    - Preheat oven to tempFToC{400}.
     - In a large pot of boiling salted water, cook gnocchi according to package instructions.
-    - Season chicken with \sfrac{3}{4} tsp salt and \sfrac{1}{2} tsp pepper.
+    - Season chicken with sfrac{3}{4} tsp salt and sfrac{1}{2} tsp pepper.
     - Melt 2 tbsp butter in a large skillet over medium heat. Add chicken to the skillet in a single layer and cook until golden brown and cooked through, set aside.
     - Melt remaining 1 tbsp butter. Add shallot, and cook, stirring frequently, until tender.
     - Stir in sun dried tomatoes, tomato paste, garlic and thyme, until fragrant, about 1 minute.

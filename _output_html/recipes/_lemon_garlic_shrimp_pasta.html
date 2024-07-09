@@ -8,67 +8,75 @@
 	<script src="script.js"></script> 
 </head>
 <body>
-	<div class="heading-recipe">
-		<h1 class="h1-title">Lemon Garlic Shrimp Pasta</h1>
-	</div>
-	<div class="div-recipe-info recipe-info-height">
-        <img src="../qr/LemonGarlicShrimpPasta.png" alt="QR Code" class="img-recipe-info-qr recipe-info-height">
-        <div class="div-recipe-info-text recipe-info-height">
-            <div class="div-recipe-info-text-row"> 
-				<img src="../img/symbol_preparation.png" alt="logo" class="img-recipe-info-text-symbol">
-				<span>1 Hour</span>
-			</div>
-            <div class="div-recipe-info-text-row">
-				<img src="../img/symbol_cooking.png" alt="logo" class="img-recipe-info-text-symbol">
-				<span>1 Hour</span>
-			</div>
-            <div class="div-recipe-info-text-row">
-				<img src="../img/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
-				<span>4 Servings</span>
-			</div>
+    <div class="div-document">
+        <div class="div-heading-recipe">
+            <h1 class="h1-title">Lemon Garlic Shrimp Pasta</h1>
         </div>
-    </div>
-    <div class="container">
-        <div class="div-heading-container">
-			<div>
-				<h2 class="h2-title title-ingredients">Ingredients</h2>
-			</div>
-            <h2 class="h2-title title-preparation">Preparation</h2>
+        <div class="div-recipe-info recipe-info-height">
+            <img src="../qr/LemonGarlicShrimpPasta.png" alt="QR Code" class="img-recipe-info-qr recipe-info-height">
+            <div class="div-recipe-info-text recipe-info-height">
+                <div class="div-recipe-info-text-row"> 
+                    <img src="../img/symbol_preparation.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span>15 min</span>
+                </div>
+                <div class="div-recipe-info-text-row">
+                    <img src="../img/symbol_cooking.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span>15 min</span>
+                </div>
+                <div class="div-recipe-info-text-row">
+                    <img src="../img/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span>4 Servings</span>
+                </div>
+            </div>
         </div>
-        <div class="div-ingredients">
-			<ul class="text-ingredient-list" id="ingredientList">
-                <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
-            </ul>
-			<script>
-                addIngredientToList('Ravioli', '500', 'g');
-                addIngredientToList('Marinara Sauce', '2', 'cups');
-                addIngredientToList('Cream Cheese', '1/3', 'cup');
-                addIngredientToList('Dried Thyme', '500', 'g');
-                addIngredientToList('Dried Parsley', '500', 'g');
-                addIngredientToList('Parmesan Cheese', '500', 'g');
-                addIngredientToList('Basil Leaves', '500', 'g');
-                addIngredientToList('Sugar');
-            </script>
+        <div class="container">
+            <div class="div-heading-container">
+                <div>
+                    <h2 class="h2-title title-ingredients">Ingredients</h2>
+                </div>
+                <h2 class="h2-title title-preparation">Preparation</h2>
+            </div>
+            <div class="div-ingredients">
+                <ul class="text-ingredient-list" id="ingredientList">
+                    <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
+                </ul>
+                <script>
+                    addIngredientToList('Linguine', '250', 'g')
+                    addIngredientToList('Olive Oil', '2', 'tbsp')
+                    addIngredientToList('Unsalted Butter', '8', 'tbsp')
+                    addIngredientToList('Garlic', '4', 'cloves')
+                    addIngredientToList('Red Pepper Flakes', '1', 'tsp')
+                    addIngredientToList('Shrimp', '500', 'g')
+                    addIngredientToList('Dried Oregano', '1', 'tsp')
+                    addIngredientToList('Baby Spinach', '4', 'cups')
+                    addIngredientToList('Parmesan Cheese', 'sfrac{1}{4}', 'cup')
+                    addIngredientToList('Parsley', '2', 'tbsp')
+                    addIngredientToList('Lemon Juice', '1', 'tbsp')
+                    addIngredientToList('Pepper', '1', 'tsp')
+                    addIngredientToList('Salt', '1', 'tsp')
+                </script>
+            </div>
+            <div class="section-preparation">
+                <ul class="text-preparation-list">
+                    <li class="preparation-step" id="step-text">Mince the garlic, grate the parmesan cheese, and chop the parsley.</li>
+                </ul>
+            </div>
+            <div class="section-recipe">
+                    <h2 class="h2-title title-cooking" style>Cooking</h2>
+                <ol class="text-cooking-list">
+                    <li class="cooking-step" id="step-text">In a large pot, boil water and add pasta. Cook until al dente. Drain and set the pasta aside.</li>
+                    <li class="cooking-step" id="step-text">In a pan, heat olive oil and 2 tbsp of butter. Add garlic and crushed red pepper, cook until fragrant.</li>
+                    <li class="cooking-step" id="step-text">Toss in shrimp, add salt and pepper, to taste, and stir until shrimp start to turn pink, but are not fully cooked.</li>
+                    <li class="cooking-step" id="step-text">Add oregano and spinach, cook until wilted.</li>
+                    <li class="cooking-step" id="step-text">Return cooked pasta to the pot, add remaining butter, parmesan, and parsley. Stir until well mixed and the butter is melted.</li>
+                    <li class="cooking-step" id="step-text">When the shrimp are cooked, add lemon juice, mix once more, then serve while hot.</li>
+                </ol>
+            </div>
         </div>
-        <div class="section-preparation">
-            <ul class="text-preparation-list">
-                <li class="preparation">Grate the Parmesan cheese and shred the mozzarella.</li>
-            </ul>
-		</div>
-        <div class="section-recipe">
-				<h2 class="h2-title title-cooking" style>Cooking</h2>
-            <ol class="text-cooking-list">
-				<li>Preheat oven. Lightly oil a baking dish or coat with nonstick spray.</li>
-				<li>In a large pot of boiling water, cook ravioli just until tender, about 2-3 minutes.</li>
-				<li>Combine marinara sauce and cream cheese in a medium saucepan over medium heat. Cook, stirring constantly, until cream cheese has melted, about 2-3 minutes. Stir in thyme and parsley.</li>
-				<li>Spread ravioli into the prepared baking dish. Top with marinara mixture and sprinkle with mozzarella. Place into oven and bake until cheese has melted, about 20 minutes.</li>
-				<li>Serve immediately, garnished with Parmesan and basil</li>
-			</ol>
-        </div>
-    </div>
 
-	<div class="div-logo">
-		<img src="../img/logo.jpg" alt="logo" class="img-logo">
-	</div>
+        <div class="div-logo">
+            <img src="../img/logo.jpg" alt="logo" class="img-logo">
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,44 @@
+Tested: False
+Recipe Info:
+    portion:
+        Value: 4
+    preparationtime:
+        Value: 10
+        Units: min
+    bakingtime:
+        Value: 10
+        Units: min
+    source:
+        Value: Cooking For Blokes (p. 224)
+Ingredients:
+    Spring Onion:
+        Quantity: 1
+        Units: bunch
+    Sweet Pepper:
+        Quantity: 1
+        Units: ''
+    Mange Tout:
+        Quantity: 100
+        Units: g
+    Bean Sprouts:
+        Quantity: 250
+        Units: g
+    Garlic:
+        Quantity: 1
+        Units: clove
+    Olive Oil:
+        Quantity: 2
+        Units: tbsp
+    Soy Sauce:
+        Quantity: 2
+        Units: tbsp
+    Noodles:
+        Quantity: 270
+        Units: g
+Preparation:
+    - Prepare the vegetables by cleaning and chopping the vegetables into smaller pieces.
+Cooking:
+    - Put the oil into a pan on moderate heat and crush the garlic into the pan. Stir it around.
+    - Add the spring onion, sweet pepper and mange tout. Fry and stir for about 30 seconds.
+    - Add the bean sprouts and soy sauce. Stir fry for about 2 minutes.
+    - Serve with cooked noodles.

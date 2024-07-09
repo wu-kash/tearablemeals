@@ -15,13 +15,13 @@ Ingredients:
         Quantity: 1
         Units: cup
     Chicken Thighs:
-        Quantity: \weightLbTog{1.5}
-        Units: g
+        Quantity: 1.5
+        Units: Lb
     Oil:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: tbsp
     Sweet Onion:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: ''
     Tomato Paste:
         Quantity: 3
@@ -33,13 +33,13 @@ Ingredients:
         Quantity: 1
         Units: tbsp
     Garam Masala:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: tsp
     Chill Powder:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: tsp
     Ground Tumeric:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: tsp
     Tomato Sauce:
         Quantity: 1
@@ -48,7 +48,7 @@ Ingredients:
         Quantity: 1
         Units: cup
     Heavy Cream:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: cup
     Cilantro Leaves:
         Quantity: 2
@@ -57,7 +57,7 @@ Preparation:
     - Cut the chicken thighs into 2 cm chunks. Mince the garlic, grate the ginger and chop up the cilantro leaves.
 Cooking:
     - In a large saucepan of 2 cups water, cook rice according to package instructions and set aside.
-    - Season chicken with 1 teaspoon salt and \sfrac{1}{2} teaspoon pepper.
+    - Season chicken with 1 teaspoon salt and sfrac{1}{2} teaspoon pepper.
     - Heat oil in a large stockpot over medium heat. Add chicken and onion to the stockpot and cook until golden, about 4-5 minutes.
     - Stir in tomato paste, garlic, ginger, garam masala, chili powder and turmeric until fragrant, about 1 minute.
     - Stir in tomato sauce and chicken stock and season with salt and pepper. Bring to a boil, reduce heat and simmer until reduced and slightly thickened, about 10 minutes.

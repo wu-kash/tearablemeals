@@ -15,8 +15,8 @@ Ingredients:
         Quantity: 6
         Units: slices
     Mixed Baby Potatoes:
-        Quantity: \weightLbTog{3}
-        Units: g
+        Quantity: 3
+        Units: Lb
     Olive Oil:
         Quantity: 3
         Units: tbsp

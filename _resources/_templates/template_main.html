@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligned Headings Example</title>
+	<link rel="stylesheet" href="recipes/styles.css">
+	<script src="script.js"></script> 
+</head>
+<body>
+	<ul class="ul-recipe-index">
+	\BLOCK{for key,val in recipes_data.items()}
+	<li><a href="recipes/\VAR{key}.html">\VAR{val['Recipe Name']}</a></li>
+	\BLOCK{endfor}
+	</ul>
+</body>
+</html>

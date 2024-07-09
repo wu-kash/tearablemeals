@@ -1,0 +1,40 @@
+Tested: False
+Recipe Info:
+    portion:
+        Value: 4
+    preparationtime:
+        Value: 5
+        Units: min
+    bakingtime:
+        Value: 15
+        Units: min
+    source:
+        Value: https://damndelicious.net/2014/03/29/spaghetti-carbonara/
+Ingredients:
+    Spaghetti:
+        Quantity: \weightOzTog{8}
+        Units: g
+    Eggs:
+        Quantity: 2
+        Units: large
+    Parmessan:
+        Quantity: \sfrac{1}{2}
+        Units: cup
+    Bacon:
+        Quantity: 4
+        Units: slices
+    Garlic:
+        Quantity: 4
+        Units: cloves
+    Parsley:
+        Quantity: 2
+        Units: tbsp
+Preparation:
+    - Grate the Parmessan cheese, dice the bacon, chop the parsley and mince the garlic.
+Cooking:
+    - In a large pot of boiling salted water, cook pasta according to package instructions, reserve \sfrac{1}{2} cup water and drain well.
+    - In a small bowl, whisk together eggs and Parmesan and set aside.
+    - Heat a large cast iron skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes and reserve excess fat.
+    - Stir in garlic until fragrant, about 1 minute. Reduce heat to low.
+    - Working quickly, stir in pasta and egg mixture, and gently toss to combine, season with salt and pepper, to taste. Add reserved pasta water, one tablespoon at a time, until desired consistency is reached.
+    - Garnish with parsley.

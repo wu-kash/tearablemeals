@@ -24,10 +24,10 @@ Ingredients:
         Quantity: 6
         Units: tbsp
     Smoked Paprika:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Garlic Powder:
-        Quantity: \sfrac{1}{4}
+        Quantity: sfrac{1}{4}
         Units: tsp
     Sweet Potato:
         Quantity: 2
@@ -39,7 +39,7 @@ Ingredients:
         Quantity: 4
         Units: tbsp
     Salt:
-        Quantity: 1 \sfrac{1}{2}
+        Quantity: 1 sfrac{1}{2}
         Units: tsp
     Pepper:
         Quantity: 1
@@ -47,7 +47,7 @@ Ingredients:
 Preparation:
     - Peel the sweet potato and cut it into 1 cm cubes.
 Cooking:
-    - Preheat the oven to \tempFToC{400}.
+    - Preheat the oven to tempFToC{400}.
     - Place the sweet potatoes and broccoli florets on a large baking sheet.
     - Drizzle the olive oil over the sweet potatoes and broccoli florets. Sprinkle the seasoning salt over the sweet potatoes and then season the broccoli florets with a pinch of salt and pepper. 
     - Toss the vegetables until they are coated in oil and spices, keeping the sweet potatoes on one side of the baking sheet and the broccoli on the other.

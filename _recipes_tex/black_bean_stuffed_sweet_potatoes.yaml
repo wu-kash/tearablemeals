@@ -1,0 +1,65 @@
+Tested: False
+Recipe Info:
+    portion:
+        Value: 4
+    preparationtime:
+        Value: 15
+        Units: min
+    bakingtime:
+        Value: 60
+        Units: min
+    source:
+        Value: https://foodwithfeeling.com/black-bean-stuffed-sweet-potatoes/
+Ingredients:
+    Sweet Potato:
+        Quantity: 4
+        Units: ''
+    Black Beans:
+        Quantity: 450
+        Units: g
+    Plain Greek Yoghurt:
+        Quantity: \sfrac{1}{2}
+        Units: cup
+    Lime Juice:
+        Quantity: 1
+        Units: tsp
+    Ground Black Pepper:
+        Quantity: \sfrac{1}{2}
+        Units: tsp
+    Red Onion:
+        Quantity: 1
+        Units: cup
+    Olive Oil:
+        Quantity: 1 \sfrac{1}{2}
+        Units: tbsp
+    Garlic Powder:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Onion Powder:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Chilli Powder:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Cumin:
+        Quantity: \sfrac{1}{4}
+        Units: tsp
+    Salt:
+        Quantity: \sfrac{1}{2}
+        Units: tsp
+    Cilantro:
+        Quantity: \sfrac{1}{2}
+        Units: cup
+    Avocado:
+        Quantity: \sfrac{1}{2}
+        Units: ''
+Preparation:
+    - Finely dice the red onion, chop the cilantro and avocado.
+Cooking:
+    - Pre-heat oven to \tempC{180}.
+    - Place the sweet potatoes on a lightly greased baking tray and bake for about 60 minutes or until a fork can easily be inserted into the flesh of the potatoes.
+    - Prepare the cream sauce by whisking together the cashew cream sauce, lime juice, and black pepper. Set aside.
+    - When the sweet potatoes have about 10 minutes left, heat the oil in a skillet over medium heat and then add in onion. Saut\'e for 5 minutes until the onions begins to become translucent. Add in the spices stir and cook for an additional 3 minutes.
+    - Add the black beans to the skillet and toss to combine. Continue to cook, stirring frequently, until the black beans are fully heated through. About 5 minutes. Take off of heat and set aside.
+    - Once the sweet potatoes are done baking, let cool slightly. Once cool, cut the sweet potatoes open and shred the flesh from the skin so that the inside is mashed and easy to scoop out.
+    - Evenly spread the black bean mixture, avocado, cilantro, and cashew crema sauce on top of the 4 sweet potatoes.

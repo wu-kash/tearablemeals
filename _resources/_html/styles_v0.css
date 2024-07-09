@@ -1,0 +1,177 @@
+html *{
+    font-family: 'Courier New', Courier, monospace
+}
+
+* { 
+    margin: 0; 
+    padding: 0; 
+} 
+
+:root {
+    --qr-height: 2cm;
+    --width-ingredients: fit-content;
+}
+
+.ul-recipe-index {
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.h1-title {
+    border-style: solid;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-width: 0.1em;
+    width: fit-content;
+    padding: 0.1em;
+}
+
+.h2-title {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: orange;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-width: 0.1em;
+    width: fit-content;
+}
+
+.div-recipe-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.img-recipe-info-qr {
+    height: var(--qr-height);
+    padding: 0.2em;
+    border-width: 2px;
+    border-style: solid;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.div-recipe-info-text {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    margin-left: 20px; /* Space between the image and the text */
+    align-items: center;
+    height:  var(--qr-height);
+}
+
+.div-recipe-info-text-row {
+    margin: 0.1em;
+    display: contents;
+}
+
+.img-recipe-info-text-symbol {
+    margin-right: 10px;
+    align-self: center;
+    height: 1em; 
+    background: transparent;
+    justify-self: right;
+}
+
+/* Start of Recipe */
+.div-heading-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.div-ingredients {
+    float: left;
+    width: var(--width-ingredients);
+    padding-right: 20px;
+}
+
+.title-ingredients {
+    padding: 2px;
+}
+
+.title-preparation {
+    padding: 2px;
+}
+
+.title-cooking {
+    padding: 2px;
+}
+
+ul.text-ingredient-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5em;
+}
+
+li.text-ingredient-item {
+    
+}
+
+li.text-ingredient-item:before {
+    content: "";
+    font-size: 60%;
+    font-weight: bold;
+    background-color: white;
+    border-color: orange;
+    border-width: 2px;
+    border-radius: 0.5em;
+    border-style: solid;
+    vertical-align: middle;
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+}
+
+li.text-ingredient-heading {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+ul.text-preparation-list {
+    list-style-type: none;
+}
+
+li.preparation-step {
+
+}
+
+.text-cooking-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.text-cooking-list li {
+    counter-increment: step-counter;
+    margin-bottom: 10px;
+}
+
+.text-cooking-list li::before {
+    content: counter(step-counter);
+    font-size: 80%;
+    margin-right: 2mm;
+    color: orange;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.div-logo {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-logo {
+    position: absolute;
+    width: 100%; /* Fixed width */
+    max-width: 500px;
+}

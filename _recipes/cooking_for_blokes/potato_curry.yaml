@@ -33,7 +33,7 @@ Ingredients:
         Quantity: 1
         Units: ''
     Chilli Powder:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Brown Mustard Seeds:
         Quantity: 2

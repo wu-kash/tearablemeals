@@ -15,25 +15,25 @@ Ingredients:
         Quantity: 2
         Units: tbsp
     Chicken Breasts:
-        Quantity: \weightLbTog{1.5}
-        Units: g
+        Quantity: 1.5
+        Units: Lb
     Dried Oregano:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Dried Basil:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Ground Black Pepper:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Pasta Penne:
-        Quantity: \weightOzTog{16}
-        Units: g
+        Quantity: 16
+        Units: Oz
     Parsley:
-        Quantity: \sfrac{1}{4}
+        Quantity: sfrac{1}{4}
         Units: cup
     Parmesan Cheese:
-        Quantity: \sfrac{1}{4}
+        Quantity: sfrac{1}{4}
         Units: cup
     Sauce:
         Heading: True
@@ -50,19 +50,19 @@ Ingredients:
         Quantity: 2
         Units: cups
     Salt:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Ground Pepper:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Dried Oregano:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Dried Basil:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: tsp
     Parmesan Cheese:
-        Quantity: \sfrac{1}{2}
+        Quantity: sfrac{1}{2}
         Units: cup
 Preparation:
     - Shred the parmesan cheese and chop the parsley. Mince the garlic.
