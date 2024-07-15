@@ -24,12 +24,14 @@ html *{
     margin-bottom: 0.5em;
 }
 
+
 .h1-title {
     border-style: solid;
     border-left: 0cm;
     border-right: 0cm;
     border-width: 0.1em;
     width: fit-content;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .h2-title {
@@ -41,6 +43,7 @@ html *{
     border-right: 0cm;
     border-width: 0.1em;
     width: fit-content;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .div-recipe-info {
@@ -172,6 +175,34 @@ li.preparation-step {
     padding-right: 4px;
     padding-bottom: 3px;
 }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    padding: 0.2em;
+    color: grey;
+}
+
+.nav-prev {
+    border-left: 0;
+}
+.nav-menu {
+
+}
+.nav-next {
+    border-right: 0;
+}
+
 
 .div-logo {
     position: relative;

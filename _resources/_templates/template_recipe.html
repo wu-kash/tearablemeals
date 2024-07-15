@@ -76,9 +76,29 @@
             </div>
         </div>
 
+        <div class="div-nav">
+            <nav>
+\BLOCK{ if file_data['Navigation']['Previous'] is not none}
+                <span>
+                    <a class="nav-prev" href="\VAR{file_data['Navigation']['Previous']['File Name']}.html">Previous: \VAR{file_data['Navigation']['Previous']['Recipe Name']}</a>
+                </span>
+\BLOCK{ endif}
+                <span>
+                    <a class="nav-menu" href="../main.html">Menu</a>
+                </span>
+\BLOCK{ if file_data['Navigation']['Next'] is not none}
+                <span>
+                    <a class="nav-next" href="\VAR{file_data['Navigation']['Next']['File Name']}.html">Next: \VAR{file_data['Navigation']['Next']['Recipe Name']}</a>
+                </span>
+\BLOCK{ endif}
+             
+            </nav>
+        </div>
+
         <div class="div-logo">
             <img src="../img/logo.jpg" alt="logo" class="img-logo">
         </div>
     </div>
+
 </body>
 </html>

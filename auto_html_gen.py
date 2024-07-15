@@ -122,8 +122,6 @@ def process_recipe_files(data_dir_path: str):
     recipes_data = {}
 
     for file in yaml_files:
-        # Check if the current file is a regular file
-    
         file_name = os.path.basename(file)
         file_name, file_extension = os.path.splitext(file_name)
         
@@ -135,8 +133,36 @@ def process_recipe_files(data_dir_path: str):
         file_data['File Name'] = f'_{file_name}'
         file_data['Output File'] = os.path.join(COMPONENTS_DIR, f'{file_data["File Name"]}.tex')
         file_data['Recipe Name'] = file_name.replace('_', ' ').title()
+        file_data['Navigation'] = {
+            'Next': {}, 
+            'Previous': {},
+            }
 
         recipes_data[file_data['File Name']] = file_data
+
+    recipe_items = list(recipes_data.keys())
+
+    for idx, (recipe, file_data) in enumerate(recipes_data.items()):
+
+        file_data['Navigation'] = {
+            'Next': None, 
+            'Previous': None,
+            }
+        
+        prev_recipe_idx = None
+        if idx != 0:
+            prev_recipe_idx = idx-1
+            file_data['Navigation']['Previous'] = {
+                'File Name': recipes_data[recipe_items[prev_recipe_idx]]['File Name'], 
+                'Recipe Name': recipes_data[recipe_items[prev_recipe_idx]]['Recipe Name'],
+                }
+        if idx != len(recipe_items)-1:
+            next_recipe_idx = idx+1
+            file_data['Navigation']['Next'] = {
+                'File Name': recipes_data[recipe_items[next_recipe_idx]]['File Name'], 
+                'Recipe Name': recipes_data[recipe_items[next_recipe_idx]]['Recipe Name'],
+                }
+
 
         gen_recipe_standalone(file_data)
 

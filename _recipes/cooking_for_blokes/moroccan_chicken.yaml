@@ -1,0 +1,51 @@
+Tested: True
+Recipe Info:
+    portion:
+        Value: 4
+    preparationtime:
+        Value: 5
+        Units: min
+    bakingtime:
+        Value: 40
+        Units: min
+    source:
+        Value: Cooking for Blokes (p. 251)
+Ingredients:
+    Chicken Thighs / Drumsticks:
+        Quantity: 8
+        Units: ''
+    Canned Tomatoes:
+        Quantity: 800
+        Units: g
+    Canned Chick Peas:
+        Quantity: 800
+        Units: g
+    Onions:
+        Quantity: 2
+        Units: ''
+    Garlic:
+        Quantity: 2
+        Units: cloves
+    Oil:
+        Quantity: 2
+        Units: tbsp
+    Turmeric:
+        Quantity: 1
+        Units: tsp
+    Chilli Powder:
+        Quantity: sfrac{1}{2}
+        Units: tsp
+    Cilantro:
+        Quantity: sfrac{1}{2}
+        Units: cup
+    Lemon:
+        Quantity: 1
+        Units: ''
+Preparation:
+    - Cut the onion into slices. Peel and crush the garlic. Separate the chick peas from the liquid.
+Cooking:
+    - Put the oil into a frying pan over moderate heat. Add the garlic, onion and cook for about 5 minutes, stir occasionally.
+    - Add the turmeric and chilli powder, cook for about 3 minutes.
+    - Add the chicken pieces. Stir around until they are covered in the mixture and golden, about 10 minutes.
+    - Pour the can of tomatoes and the chick peas into the pan. Stir and cook on moderate heat for about 30 minutes.
+    - Serve and garnish with the cilantro. Squeeze the lemon over the dish.
