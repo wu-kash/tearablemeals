@@ -1,50 +1,22 @@
-html *{
-    font-family: 'Georgia';
-}
+@import url('styles.css');
 
-* { 
-    margin: 0; 
-    padding: 0; 
-} 
-
-:root {
-    --qr-height: 2cm;
-    --width-ingredients: fit-content;
-}
-
-.ul-recipe-index {
-    list-style: none;
-}
-
-.div-document {
-    margin: 1em;
-}
 
 .div-heading-recipe {
     margin-bottom: 0.5em;
 }
 
-
-.h1-title {
-    border-style: solid;
-    border-left: 0cm;
-    border-right: 0cm;
-    border-width: 0.1em;
-    width: fit-content;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+.title-ingredients {
+    padding: 2px;
 }
 
-.h2-title {
-    text-transform: uppercase;
-    color: orange;
-    letter-spacing: 1px;
-    border-style: solid;
-    border-left: 0cm;
-    border-right: 0cm;
-    border-width: 0.1em;
-    width: fit-content;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+.title-preparation {
+    padding: 2px;
 }
+
+.title-cooking {
+    padding: 2px;
+}
+
 
 .div-recipe-info {
     display: flex;
@@ -98,17 +70,6 @@ html *{
     margin-bottom: 1em;
 }
 
-.title-ingredients {
-    padding: 2px;
-}
-
-.title-preparation {
-    padding: 2px;
-}
-
-.title-cooking {
-    padding: 2px;
-}
 
 ul.text-ingredient-list {
     list-style: none;
@@ -176,44 +137,36 @@ li.preparation-step {
     padding-bottom: 3px;
 }
 
-nav {
-    width: 100%;
+.nav-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    width: 100%;
 }
 
-nav a {
+.nav-button {
     text-decoration: none;
     font-weight: bold;
     border-style: solid;
     border-width: 2px;
+    color: rgb(209, 208, 208);
     padding: 0.2em;
-    color: grey;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
 }
 
-.nav-prev {
+.fixed-left {
     border-left: 0;
+    width: 30%; /* Fixed width for left and right buttons */
 }
-.nav-menu {
-
-}
-.nav-next {
+.fixed-right {
     border-right: 0;
+    width: 30%; /* Fixed width for left and right buttons */
 }
 
-
-.div-logo {
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.flexible {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    flex-grow: 1; /* Expands to fill the remaining space */
 }
 
-.img-logo {
-    position: absolute;
-    width: 100%; /* Fixed width */
-    max-width: 500px;
-}

@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aligned Headings Example</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="script.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Recipe: Shrimp And Broccoli Stir Fry</title>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<link rel="stylesheet" href="../../_resources/_html/styles/recipe-styles.css">
+	<script src="../../_resources/_html/scripts/recipe.js"></script> 
 </head>
 <body>
     <div class="div-document">
@@ -41,6 +42,12 @@
                     <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
                 </ul>
                 <script>
+                    addIngredientToList('Rice', '1', 'cup')
+                    addIngredientToList('Olive Oil', '1', 'tbsp')
+                    addIngredientToList('Shrimp', '1.5', 'Lb')
+                    addIngredientToList('Broccoli Florets', '24', 'Oz')
+                    addIngredientToList('Green Onion', '1', '')
+                    addIngredientToList('Sesame Seeds', '1', 'tsp')
                     addIngredientHeadingToList('Sauce')
                     addIngredientToList('Soy Sauce', '3', 'tbsp')
                     addIngredientToList('Oyster Sauce', '2', 'tbsp')
@@ -51,12 +58,6 @@
                     addIngredientToList('Sesame Oil', '1', 'tsp')
                     addIngredientToList('Cornstarch', '1', 'tsp')
                     addIngredientToList('Sriracha', '1', 'tsp')
-                    addIngredientHeadingToList('Stir Fry')
-                    addIngredientToList('Olive Oil', '1', 'tbsp')
-                    addIngredientToList('Shrimp', '1.5', 'Lb')
-                    addIngredientToList('Broccoli Florets', '24', 'Oz')
-                    addIngredientToList('Green Onion', '1', '')
-                    addIngredientToList('Sesame Seeds', '1', 'tsp')
                 </script>
             </div>
             <div class="section-preparation">
@@ -71,22 +72,15 @@
                     <li class="cooking-step" id="step-text">Heat olive oil in a skillet over medium high heat. Add shrimp, and cook, stirring occasionally, until pink.</li>
                     <li class="cooking-step" id="step-text">Add broccoli, and cook, stirring frequently, until tender.</li>
                     <li class="cooking-step" id="step-text">Stir in soy sauce mixture until well combined and slightly thickened.</li>
-                    <li class="cooking-step" id="step-text">Serve immediately, garnished with green onion and sesame seeds.</li>
+                    <li class="cooking-step" id="step-text">Serve immediately with rice or noodles, garnished with green onion and sesame seeds.</li>
                 </ol>
             </div>
         </div>
 
-        <div class="div-nav">
-            <nav>
-                <span>
-                    <a class="nav-prev" href="_roasted_chicken_with_veggies.html">Previous: Roasted Chicken With Veggies</a>
-                </span>
-                <span>
-                    <a class="nav-menu" href="../main.html">Menu</a>
-                </span>
-                <span>
-                    <a class="nav-next" href="_spaghetti_carbonara.html">Next: Spaghetti Carbonara</a>
-                </span>
+        <div class="nav-container noprint">
+                    <a class="nav-button fixed-left" href="_roasted_chicken_with_veggies.html">Previous: Roasted Chicken With Veggies</a>
+                    <a class="nav-button flexible" href="../main.html">Menu</a>
+                    <a class="nav-button fixed-right" href="_spaghetti_carbonara.html">Next: Spaghetti Carbonara</a>
              
             </nav>
         </div>

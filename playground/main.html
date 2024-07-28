@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Page Titles</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Filter Page Titles</h1>
+    <input type="text" id="filterInput" placeholder="Type to filter...">
+    <ul id="pageList">
+        <li><a href="page1.html" data-title="Page One">Page One</a></li>
+        <li><a href="page2.html" data-title="Page Two">Page Two</a></li>
+        <li><a href="page3.html" data-title="Another Page">Another Page</a></li>
+        <li><a href="page4.html" data-title="Sample Page">Sample Page</a></li>
+    </ul>
+
+    <script>
+        const filterInput = document.getElementById('filterInput');
+        const pageList = document.getElementById('pageList');
+        const pages = pageList.getElementsByTagName('li');
+
+        filterInput.addEventListener('input', function() {
+            const filter = filterInput.value.toLowerCase();
+            for (let i = 0; i < pages.length; i++) {
+                const a = pages[i].getElementsByTagName('a')[0];
+                const title = a.getAttribute('data-title').toLowerCase();
+                if (title.includes(filter)) {
+                    pages[i].classList.remove('hidden');
+                } else {
+                    pages[i].classList.add('hidden');
+                }
+            }
+        });
+    </script>
+</body>
+</html>

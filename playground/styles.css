@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.nav-button {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fixed {
+    width: 150px; /* Fixed width for left and right buttons */
+}
+
+.flexible {
+    flex-grow: 1; /* Expands to fill the remaining space */
+}

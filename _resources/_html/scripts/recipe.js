@@ -1,3 +1,13 @@
+function formatSelector(selector) {
+    const elements = document.querySelectorAll(selector);
+
+    Array.from(elements).forEach(element => {
+        let text = element.innerHTML;
+        text = processText(text);
+        element.innerHTML = text;
+    });
+}
+
 function processText(text) {
 
     const stylingStart = `<span>`;
@@ -27,14 +37,15 @@ function processText(text) {
     return text;
 }
 
+
 function formatIngredient(ingredientName, amount=null, units=null) {
 
     if (amount==null || amount=='') {
-        return `<i>${ingredientName}</i>`;
+        return `${ingredientName}`;
     } else if (units==null || units=='') {
-        return `<i>${ingredientName}</i> <i style="font-size: 90%">(${amount})</i>`;
+        return `${ingredientName} <span style="font-size: 90%">(${amount})</span>`;
     } else {
-        return `<i>${ingredientName}</i> <i style="font-size: 90%">(${amount} ${units})</i>`;
+        return `${ingredientName} <span style="font-size: 90%">(${amount} ${units})</span>`;
     }
 }
 
@@ -94,21 +105,20 @@ function fahrenheitToCelsius(fahrenheit) {
     return roundOffTemperature(((fahrenheit - 32) * 5 / 9));
 }
 
+function resizeElement() {
+    // Fix positioning for Preparation and Cooking headings by
+    // Cooking: Offset Cooking heading by setting left margin to width of ingredients list
+    const ingredientsListWidth = document.querySelector('.div-ingredients').offsetWidth;
+    const ingredientsTitleWidth = document.querySelector('.title-ingredients').offsetWidth;
+    document.querySelector('.title-cooking').style.marginLeft  = ingredientsListWidth + 'px';
+    document.querySelector('.title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
+    
+    // Where does this 40 come from???
+    document.querySelector('.text-preparation-list').style.marginLeft  = (ingredientsListWidth-40) + 'px';
+}
+
 // Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    
-    // Function to resize the element
-    function resizeElement() {
-        // Fix positioning for Preparation and Cooking headings by
-        // Cooking: Offset Cooking heading by setting left margin to width of ingredients list
-        const ingredientsListWidth = document.querySelector('.div-ingredients').offsetWidth;
-        const ingredientsTitleWidth = document.querySelector('.title-ingredients').offsetWidth;
-        document.querySelector('.title-cooking').style.marginLeft  = ingredientsListWidth + 'px';
-        document.querySelector('.title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
-        
-        // Where does this 40 come from???
-        document.querySelector('.text-preparation-list').style.marginLeft  = (ingredientsListWidth-40) + 'px';
-    }
 
     // Initial resize
     resizeElement();
@@ -118,26 +128,15 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 window.onload = function() {
-    // Parse for temperature conversions
-    
 
-    // Function to parse and convert temperature placeholders
-    function convertTemperaturePlaceholders(selector) {
-        const paragraphs = document.querySelectorAll(selector);
-
-        // Look for \tempFToC{Value} tags
-        Array.from(paragraphs).forEach(paragraph => {
-            let text = paragraph.innerHTML;
-
-            text = processText(text);
-
-            paragraph.innerHTML = text;
-        });
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
     }
 
-    // Convert temperature placeholders when the document is ready
-    convertTemperaturePlaceholders('li');
-    convertTemperaturePlaceholders('b');
-
     
+
+    // Convert temperature placeholders when the document is ready
+    formatSelector('li');
+    formatSelector('b');
 };

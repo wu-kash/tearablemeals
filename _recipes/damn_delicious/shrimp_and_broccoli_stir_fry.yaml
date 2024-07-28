@@ -1,4 +1,4 @@
-Tested: False
+Tested: True
 Recipe Info:
     portion:
         Value: 4
@@ -11,6 +11,24 @@ Recipe Info:
     source:
         Value: https://damndelicious.net/2015/01/16/easy-shrimp-broccoli-stir-fry/
 Ingredients:
+    Rice:
+        Quantity: 1
+        Units: cup
+    Olive Oil:
+        Quantity: 1
+        Units: tbsp
+    Shrimp:
+        Quantity: 1.5
+        Units: Lb
+    Broccoli Florets:
+        Quantity: 24
+        Units: Oz
+    Green Onion:
+        Quantity: 1
+        Units: ''
+    Sesame Seeds:
+        Quantity: 1
+        Units: tsp
     Sauce:
         Heading: True
     Soy Sauce:
@@ -40,23 +58,6 @@ Ingredients:
     Sriracha:
         Quantity: 1
         Units: tsp
-    Stir Fry:
-        Heading: True
-    Olive Oil:
-        Quantity: 1
-        Units: tbsp
-    Shrimp:
-        Quantity: 1.5
-        Units: Lb
-    Broccoli Florets:
-        Quantity: 24
-        Units: Oz
-    Green Onion:
-        Quantity: 1
-        Units: ''
-    Sesame Seeds:
-        Quantity: 1
-        Units: tsp
 Preparation:
     - Thinly slice the green onion, grate the ginger and mince the garlic.
 Cooking:
@@ -64,4 +65,4 @@ Cooking:
     - Heat olive oil in a skillet over medium high heat. Add shrimp, and cook, stirring occasionally, until pink.
     - Add broccoli, and cook, stirring frequently, until tender.
     - Stir in soy sauce mixture until well combined and slightly thickened.
-    - Serve immediately, garnished with green onion and sesame seeds.
+    - Serve with rice, garnished with green onion and sesame seeds.

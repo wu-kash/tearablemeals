@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aligned Headings Example</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="script.js"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Recipe: Cilantro Lime Dressing Salad</title>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<link rel="stylesheet" href="../../_resources/_html/styles/recipe-styles.css">
+	<script src="../../_resources/_html/scripts/recipe.js"></script> 
 </head>
 <body>
     <div class="div-document">
@@ -41,7 +42,7 @@
                     <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
                 </ul>
                 <script>
-                    addIngredientHeadingToList('Cilanto Lime Dressing')
+                    addIngredientHeadingToList('Cilantro Lime Dressing')
                     addIngredientToList('Cilantro', '2', 'cups')
                     addIngredientToList('Plain Greek Yoghurt', '1', 'cup')
                     addIngredientToList('Garlic', '4', 'cloves')
@@ -71,17 +72,10 @@
             </div>
         </div>
 
-        <div class="div-nav">
-            <nav>
-                <span>
-                    <a class="nav-prev" href="_chicken_tikka_masala.html">Previous: Chicken Tikka Masala</a>
-                </span>
-                <span>
-                    <a class="nav-menu" href="../main.html">Menu</a>
-                </span>
-                <span>
-                    <a class="nav-next" href="_creamy_mushroom_stroganoff.html">Next: Creamy Mushroom Stroganoff</a>
-                </span>
+        <div class="nav-container noprint">
+                    <a class="nav-button fixed-left" href="_chicken_tikka_masala.html">Previous: Chicken Tikka Masala</a>
+                    <a class="nav-button flexible" href="../main.html">Menu</a>
+                    <a class="nav-button fixed-right" href="_creamy_mushroom_stroganoff.html">Next: Creamy Mushroom Stroganoff</a>
              
             </nav>
         </div>

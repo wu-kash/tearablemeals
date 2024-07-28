@@ -1,0 +1,53 @@
+@import url('styles.css');
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.centered-title {
+    text-transform: uppercase;
+    border-style: solid;
+    border-left: 0cm;
+    border-right: 0cm;
+    border-width: 0.1em;
+}
+
+.div-title {
+    text-align: center;
+    width: fit-content;
+}
+
+.ul-recipe-index {
+    text-align: center;
+    list-style: none;
+}
+
+.ul-recipe-index a {
+    text-decoration: none;
+    color: orange;
+}
+
+.div-recipe-index {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: auto;
+}
+
+.div-filter {
+    margin-top: 1em;
+}
+
+.input-filter {
+    text-align: center;
+    width: 100%;
+}
+
+.hidden {
+    display: none; /* Used part of main.js to show only filtered items. */
+}
+
+.highlight {
+    background-color: blue; /* Used part of main.js to show highlight filter text. */
+}
