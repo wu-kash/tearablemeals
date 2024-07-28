@@ -110,8 +110,7 @@ def process_recipe_files(data_dir_path: str):
     os.mkdir(COMPONENTS_DIR)
     os.mkdir(QR_DIR)
 
-    shutil.copy(os.path.join(HTML_RESOURCE_DIR, 'styles.css'), os.path.join(OUTPUT_DIR, 'recipes'))
-    shutil.copy(os.path.join(HTML_RESOURCE_DIR, 'script.js'), os.path.join(OUTPUT_DIR, 'recipes'))
+    # shutil.copytree(os.path.join(HTML_RESOURCE_DIR), os.path.join(OUTPUT_DIR), dirs_exist_ok=True)
     shutil.copy(os.path.join(RESOURCE_DIR, 'logo.jpg'), os.path.join(OUTPUT_DIR, 'img'))
     shutil.copy(os.path.join(RESOURCE_DIR, 'symbol_cooking.png'), os.path.join(OUTPUT_DIR, 'img'))
     shutil.copy(os.path.join(RESOURCE_DIR, 'symbol_portions.png'), os.path.join(OUTPUT_DIR, 'img'))
