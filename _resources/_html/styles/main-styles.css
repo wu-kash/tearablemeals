@@ -50,5 +50,6 @@ body {
 }
 
 .highlight {
-    background-color: blue; /* Used part of main.js to show highlight filter text. */
+    background-color: orange; /* Used part of main.js to show highlight filter text. */
+    color: black;
 }
