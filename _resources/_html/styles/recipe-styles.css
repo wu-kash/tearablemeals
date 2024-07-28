@@ -157,16 +157,16 @@ li.preparation-step {
 
 .fixed-left {
     border-left: 0;
-    width: 30%; /* Fixed width for left and right buttons */
+    width: 35%; /* Fixed width for left and right buttons */
+    margin-right: 0.5em;
 }
 .fixed-right {
     border-right: 0;
-    width: 30%; /* Fixed width for left and right buttons */
+    width: 35%; /* Fixed width for left and right buttons */
+    margin-left: 0.5em;
 }
 
 .flexible {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
     flex-grow: 1; /* Expands to fill the remaining space */
 }
 
