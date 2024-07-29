@@ -101,6 +101,7 @@ li.text-ingredient-heading {
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: bold;
+    padding-top: 0.25em;
 }
 
 ul.text-preparation-list {
@@ -134,7 +135,6 @@ li.preparation-step {
     border-radius: 10px;
     padding-left: 4px;
     padding-right: 4px;
-    padding-bottom: 3px;
 }
 
 .nav-container {

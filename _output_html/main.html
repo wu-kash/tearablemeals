@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <title>Recipe Index</title>
+    <title>Take Away Recipes</title>
 	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
 	<link rel="stylesheet" href="../_resources/_html/styles/main-styles.css">
-	<script src="../_resources/_html/scripts/main.js"></script> 
 </head>
 <body>
 	<div class="div-document">
-		<div>
-			<h1 class="centered-title">Take Away Recipes</h1>
+		<div class="div-title">
+			<h1 class="h1-title">Take Away Recipes</h1>
 		</div>
 		<div class="div-filter">
 			<input type="text" class="input-filter" id="filterInput" placeholder="Type to filter...">
@@ -56,30 +55,6 @@
             <img src="img/logo.jpg" alt="logo" class="img-logo">
         </div>
 	</div>
-	<script>
-        const filterInput = document.getElementById('filterInput');
-        const pageList = document.getElementById('pageList');
-        const pages = pageList.getElementsByTagName('li');
-
-        filterInput.addEventListener('input', function() {
-            const filter = filterInput.value.toLowerCase();
-            for (let i = 0; i < pages.length; i++) {
-                const a = pages[i].getElementsByTagName('a')[0];
-                const title = a.getAttribute('data-title');
-                const lowerTitle = title.toLowerCase();
-
-                if (lowerTitle.includes(filter)) {
-                    pages[i].classList.remove('hidden');
-
-                    // Highlight the matched text
-                    const regex = new RegExp(`(${filter})`, 'gi');
-                    a.innerHTML = title.replace(regex, '<span class="highlight">$1</span>');
-                } else {
-                    pages[i].classList.add('hidden');
-                    a.innerHTML = title; // Remove any previous highlighting
-                }
-            }
-        });
-    </script>
+	<script src="../_resources/_html/scripts/main.js"></script> 
 </body>
 </html>

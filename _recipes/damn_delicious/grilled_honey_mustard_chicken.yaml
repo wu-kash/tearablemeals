@@ -11,12 +11,15 @@ Recipe Info:
     source:
         Value: https://damndelicious.net/2019/09/09/grilled-honey-mustard-chicken-tenders/
 Ingredients:
-    Dijon Mustard:
-        Quantity: sfrac{1}{4}
-        Units: cup
+    Chicken Tenders:
+        Quantity: 1.5
+        Units: Lb
     Onion:
         Quantity: sfrac{1}{2}
         Units: ''
+    Dijon Mustard:
+        Quantity: sfrac{1}{4}
+        Units: cup
     Honey:
         Quantity: 3
         Units: tbsp
@@ -32,11 +35,8 @@ Ingredients:
     Canola Oil:
         Quantity: 1
         Units: tbsp
-    Chicken Tenders:
-        Quantity: 1.5
-        Units: Lb
 Preparation:
-    - Dice the onion and chop the rosemary
+    - Dice the onion and chop the rosemary.
 Cooking:
     - In a medium bowl, whisk together the Dijon mustard, onion, honey, olive oil, rosemary, lemon juice, 1 tsp salt and sfrac{1}{2} tsp pepper. Set aside sfrac{1}{2} of the mixture in the refrigerator until ready to serve.
     - In a large bowl, combine the chicken and the other sfrac{1}{2} of the Dijon mixture. Marinate for at least 2-8 hours. Drain the chicken from the marinade.

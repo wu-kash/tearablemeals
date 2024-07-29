@@ -11,12 +11,12 @@ Recipe Info:
     source:
         Value: https://foodwithfeeling.com/black-bean-stuffed-sweet-potatoes/
 Ingredients:
-    Sweet Potato:
-        Quantity: 4
-        Units: ''
     Black Beans:
         Quantity: 450
         Units: g
+    Sweet Potato:
+        Quantity: 4
+        Units: ''
     Plain Greek Yoghurt:
         Quantity: sfrac{1}{2}
         Units: cup

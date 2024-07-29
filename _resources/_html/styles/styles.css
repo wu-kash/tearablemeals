@@ -10,11 +10,24 @@ html *{
     body {
         width: 5.8in;
         height: 8.3in;
+        font-size: 0.6em;
     }
-
+    h1 {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 0.9em;
+    }
+ 
     .div-document {
         margin: 0em;
     }
+
+    @page {
+        margin: 1em;
+    }
+
+    
 }
 
 * { 
