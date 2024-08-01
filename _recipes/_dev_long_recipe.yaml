@@ -1,0 +1,80 @@
+Tested: False
+Recipe Info:
+    portion:
+        Value: 6
+    preparationtime:
+        Value: 10
+        Units: min
+    bakingtime:
+        Value: 40
+        Units: min
+    source:
+        Value: https://damndelicious.net/2016/05/08/chicken-potatoes-garlic-parmesan-cream-sauce/
+Ingredients:
+    Chicken Thighs:
+        Quantity: 6
+        Units: ''
+    Italian Herbs:
+        Quantity: 1
+        Units: tbsp
+    Unsalted Butter:
+        Quantity: 3
+        Units: tbsp
+    Baby Spinach:
+        Quantity: 3
+        Units: cups
+    Potatoes:
+        Quantity: 500
+        Units: g
+    Parsley:
+        Quantity: 2
+        Units: tbsp
+    Garlic Parmesan Sauce:
+        Heading: True
+    Unsalted Butter:
+        Quantity: sfrac{1}{4}
+        Units: cup
+    Garlic:
+        Quantity: 4
+        Units: cloves
+    Flour:
+        Quantity: 2
+        Units: tbsp
+    Chicken Broth:
+        Quantity: 1
+        Units: cup
+    Dried Thyme:
+        Quantity: 1
+        Units: tsp
+    Dried Basil:
+        Quantity: sfrac{1}{2}
+        Units: tsp
+    Milk:
+        Quantity: sfrac{1}{2}
+        Units: cup
+    Cream:
+        Quantity: sfrac{1}{2}
+        Units: cup
+    Parmesan:
+        Quantity: sfrac{1}{2}
+        Units: cup
+Preparation:
+    - Mince garlic, grate parmesan.
+    - Chop the baby spinach and parsley leaves.
+    - Halve the potatoes.
+Cooking:
+    - Preheat oven to tempFToC{400}. Lightly coat a baking dish with oil or nonstick spray.
+    - Season chicken with the Italian herbs, salt and pepper.
+    - Melt 2 tablespoons butter in a large skillet over medium high heat. Add the chicken thighs and sear until both sides are golden brown. Set aside.
+    - Melt the remaining 1 tablespoon of butter in the skillet. Stir in spinach and cook, stirring occassionally until it begins to wilt.
+    - For the garlic parmesan sauce, melt the butter in the skillet over medium heat. Add the garlic and cooking for about 2 minutes, stirring frequently.
+    - Whisk in the flour until lightly browned, about 1 minute.
+    - Gradually whisk in chicken broth, thyme and basil. Cook for about 2 minutes. Stir in the milk, cream and the parmesan until the mix has slightly thickened. Add more milk if the mixture is too thick.
+    - Place the chicken in a single layer into the baking dish. Add the potatoes on top, the spinach and the cream sauce.
+    - Roast in the oven until cooked through, about 25-30 minutes.
+    - Gradually whisk in chicken broth, thyme and basil. Cook for about 2 minutes. Stir in the milk, cream and the parmesan until the mix has slightly thickened. Add more milk if the mixture is too thick.
+    - Place the chicken in a single layer into the baking dish. Add the potatoes on top, the spinach and the cream sauce.
+    - Roast in the oven until cooked through, about 25-30 minutes.
+    - Gradually whisk in chicken broth, thyme and basil. Cook for about 2 minutes. Stir in the milk, cream and the parmesan until the mix has slightly thickened. Add more milk if the mixture is too thick.
+    - Place the chicken in a single layer into the baking dish. Add the potatoes on top, the spinach and the cream sauce.
+    - Roast in the oven until cooked through, about 25-30 minutes.

@@ -111,7 +111,9 @@ def process_recipe_files(data_dir_path: str):
     os.mkdir(QR_DIR)
 
     # shutil.copytree(os.path.join(HTML_RESOURCE_DIR), os.path.join(OUTPUT_DIR), dirs_exist_ok=True)
-    shutil.copy(os.path.join(RESOURCE_DIR, 'logo.jpg'), os.path.join(OUTPUT_DIR, 'img'))
+    shutil.copy(os.path.join(RESOURCE_DIR, 'tar_footer_a5.jpg'), os.path.join(OUTPUT_DIR, 'img'))
+    shutil.copy(os.path.join(RESOURCE_DIR, 'tar_logo.png'), os.path.join(OUTPUT_DIR, 'img'))
+    shutil.copy(os.path.join(RESOURCE_DIR, 'tar_recipe.png'), os.path.join(OUTPUT_DIR, 'img'))
     shutil.copy(os.path.join(RESOURCE_DIR, 'symbol_cooking.png'), os.path.join(OUTPUT_DIR, 'img'))
     shutil.copy(os.path.join(RESOURCE_DIR, 'symbol_portions.png'), os.path.join(OUTPUT_DIR, 'img'))
     shutil.copy(os.path.join(RESOURCE_DIR, 'symbol_preparation.png'), os.path.join(OUTPUT_DIR, 'img'))

@@ -8,7 +8,7 @@ html *{
 }
 
 
-.h1-title {
+.h1-titles {
     border-style: solid;
     border-left: 0cm;
     border-right: 0cm;
@@ -17,7 +17,7 @@ html *{
     padding: 0.1em;
 }
 
-.h2-title {
+.recipe-headings {
     margin-bottom: 0;
     text-transform: uppercase;
     color: orange;

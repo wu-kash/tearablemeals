@@ -40,3 +40,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Append the sorted spans back to the container
     spans.forEach(span => container.appendChild(span));
 });
+

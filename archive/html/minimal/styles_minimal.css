@@ -3,13 +3,13 @@
     --width-ingredients: fit-content;
 }
 
-.h1-title {
+.h1-titles {
     background-color: rgb(236, 209, 209);
     border-style: dashed;
     border-width: 1px;
 }
 
-.h2-title {
+.recipe-headings {
     margin: 0;
     background-color: rgb(221, 241, 241);
 }

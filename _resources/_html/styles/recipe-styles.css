@@ -1,22 +1,10 @@
 @import url('styles.css');
 
 
+
 .div-heading-recipe {
     margin-bottom: 0.5em;
 }
-
-.title-ingredients {
-    padding: 2px;
-}
-
-.title-preparation {
-    padding: 2px;
-}
-
-.title-cooking {
-    padding: 2px;
-}
-
 
 .div-recipe-info {
     display: flex;
@@ -41,7 +29,6 @@
     align-items: center;
     height:  var(--qr-height);
     padding: 0.5em;
-
 }
 
 .div-recipe-info-text-row {

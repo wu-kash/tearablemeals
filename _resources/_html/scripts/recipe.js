@@ -106,6 +106,9 @@ function fahrenheitToCelsius(fahrenheit) {
 }
 
 function resizeElement() {
+
+    console.log("resizeElement called");
+
     // Fix positioning for Preparation and Cooking headings by
     // Cooking: Offset Cooking heading by setting left margin to width of ingredients list
     const ingredientsListWidth = document.querySelector('.div-ingredients').offsetWidth;
@@ -117,26 +120,54 @@ function resizeElement() {
     document.querySelector('.text-preparation-list').style.marginLeft  = (ingredientsListWidth-40) + 'px';
 }
 
-// Wait until the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
+function calculateDocumentHeight() {
+    // Calculate total document height in pixels
+    var body = document.body,
+    html = document.documentElement;
 
-    // Initial resize
-    resizeElement();
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                        html.clientHeight, html.scrollHeight, html.offsetHeight );
 
-    // Optional: Resize the element if the window is resized
-    window.addEventListener('resize', resizeElement);
-});
+    // Assuming a standard DPI of 96
+    const dpi = 96;
+
+    // Convert pixels to inches
+    var totalHeightInches = height / dpi;
+    totalHeightInches = totalHeightInches.toFixed(2);
+
+    console.log(`${totalHeightInches} inches`);
+
+    if (totalHeightInches > 9.7) {
+        document.body.style.backgroundColor = 'red';
+    } else {
+        document.body.style.backgroundColor = ''; // Reset to default
+    }
+
+    window.printHeight = {
+        inches: totalHeightInches
+    };
+
+    return totalHeightInches;
+}
+window.onafterprint = function() {
+    calculateDocumentHeight(); // Call the function before printing
+
+};
 
 window.onload = function() {
 
-    if(!window.location.hash) {
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-
-    
-
-    // Convert temperature placeholders when the document is ready
+    // Convert  placeholders when the document is ready
     formatSelector('li');
     formatSelector('b');
+
+    resizeElement();
+
+    /* This somehow fixes the random gap in the Cooking title border when loading the page*/
+    document.querySelector('.title-cooking').style.borderWidth = 'var(--h2-border-width)';
+    document.querySelector('.title-ingredients').style.borderWidth = 'var(--h2-border-width)';
+    document.querySelector('.title-preparation').style.borderWidth = 'var(--h2-border-width)';
+
+    
 };
+
+

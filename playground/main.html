@@ -3,16 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alphabetical Order of Span Elements</title>
+    <title>Print Example with Navigation Removal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .h2-title {
+            border: 2px solid black;
+            padding: 10px;
+            margin-top: 20px; /* Add some margin to demonstrate positioning */
+        }
+        .content {
+            min-height: 1000px; /* Just for demonstration to show content scroll */
+        }
+        .footer-image {
+            display: none; /* Hide it in normal view */
+        }
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        @media print {
+            .nav-buttons {
+                display: none; /* Hide navigation buttons when printing */
+            }
+            .footer-image {
+                display: block;
+                position: fixed;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: auto;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div id="span-container">
-        <span>Banana</span>
-        <span>Apple</span>
-        <span>Cherry</span>
-        <span>Grape</span>
-        <span>Fig</span>
+    <div class="nav-buttons">
+        <button>Home</button>
+        <button>About</button>
+        <button>Contact</button>
     </div>
-    <script src="sortSpans.js"></script>
+    <h2 class="h2-title">This is a title</h2>
+    <div class="content">
+        <p>This is some sample content to demonstrate removing navigation buttons when printing. Scroll down to see more content.</p>
+        <p>More content here...</p>
+        <p>And even more content...</p>
+    </div>
+    <img src="footer-image.jpg" class="footer-image" alt="Footer Image">
+
+    <button onclick="window.print()">Print</button>
 </body>
 </html>

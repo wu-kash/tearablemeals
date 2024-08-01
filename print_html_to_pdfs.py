@@ -4,6 +4,7 @@ import fnmatch
 from selenium import webdriver
 import json
 import base64
+import time
 
 OUTPUT_DIR = os.path.abspath(os.path.join('_output_html'))
 RECIPE_HTML_DIR = os.path.join(OUTPUT_DIR, 'recipes')
@@ -45,16 +46,27 @@ def html_to_pdf(html_files, output_pdf, driver):
         print('Processing: ', html_file)
         intermediate_pdf = f"{html_file.split('.')[0]}.pdf"
 
-        html_addr  = f"file:///{html_file}#loaded"
+        html_addr  = f"file:///{html_file}"
+
         driver.get(html_addr)
-        driver.set_window_size(600, 800)
-        
-        driver.set_window_size(1920, 1080)
+
         pdf = driver.execute_cdp_cmd("Page.printToPDF", {
             "printBackground": True,
             "paperHeight": 8.3,
             "paperWidth": 5.8,
         })
+
+        # Get the print height value from the JavaScript variable
+        height_info = driver.execute_script("return window.printHeight;")
+
+
+        # driver.set_window_size(600, 800)
+
+        if float(height_info['inches']) > 9.6:
+            print('Error!!! PDF Exceeds A5 Height')
+        
+        # driver.set_window_size(1920, 1080)
+        
 
 
         with open(intermediate_pdf, "wb") as f:
