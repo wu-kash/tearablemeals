@@ -1,0 +1,50 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 0
+    Units: min
+Source: https://www.eatyourselfskinny.com/spicy-tuna-avocado-wrap/
+Ingredients:
+    -   Name: Tuna Can
+        Value: 300
+        Units: g
+    -   Name: Avocado
+        Value: 1
+        Units: ''
+    -   Name: Sriracha
+        Value: 1
+        Units: tbsp
+    -   Name: Dijon Mustard
+        Value: 1
+        Units: tbsp
+    -   Name: Celery
+        Value: 2
+        Units: tbsp
+    -   Name: Red Onion
+        Value: 1
+        Units: ''
+    -   Name: Green Onion
+        Value: 2
+        Units: ''
+    -   Name: Cilantro
+        Value: 1
+        Units: tbsp
+    -   Name: Lettuce
+        Value: 2
+        Units: cups
+    -   Name: Carrots
+        Value: 1
+        Units: cup
+    -   Name: Tortillas
+        Value: 4
+        Units: ''
+Preparations:
+    - Chop the carrots into matchsticks and the rest of the ingredients.
+Instructions:
+    - In a medium bowl, mash together tuna and avocado until combined. Add in the rest of the ingredients through the salt and pepper, mixing well.
+    - To assemble, top each tortilla with a sfrac{1}{2} cup leafy greens, sfrac{1}{4} cup matchstick carrots and divide the tuna mixture evenly among the wraps.
+    - Tightly roll up the tortilla, slice and enjoy!

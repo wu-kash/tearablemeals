@@ -1,5 +1,4 @@
 Tested: True
-Title: Potato Curry
 Portions:
     Value: 4
 PreparationTime:
@@ -10,35 +9,35 @@ CookingTime:
     Units: min
 Source: Cooking for Blokes (p. 251)
 Ingredients:
-    Potatoes:
-        Quantity: 400
+    -   Name: Potatoes
+        Value: 400
         Units: g
-    Garlic:
-        Quantity: 1
+    -   Name: Garlic
+        Value: 1
         Units: clove
-    Ginger Root:
-        Quantity: 1
+    -   Name: Ginger Root
+        Value: 1
         Units: cm
-    Onion:
-        Quantity: 1
+    -   Name: Onion
+        Value: 1
         Units: ''
-    Sunflower Oil:
-        Quantity: 3
+    -   Name: Sunflower Oil
+        Value: 3
         Units: tbsp
-    Cumin Seeds:
-        Quantity: 1
+    -   Name: Cumin Seeds
+        Value: 1
         Units: tsp
-    Cardamom Pod:
-        Quantity: 1
+    -   Name: Cardamom Pod
+        Value: 1
         Units: ''
-    Chilli Powder:
-        Quantity: sfrac{1}{2}
+    -   Name: Chilli Powder
+        Value: sfrac{1}{2}
         Units: tsp
-    Brown Mustard Seeds:
-        Quantity: 2
+    -   Name: Brown Mustard Seeds
+        Value: 2
         Units: tbsp
-    Garam Masala:
-        Quantity: 1
+    -   Name: Garam Masala
+        Value: 1
         Units: tsp
 Preparations:
     - Clean the potatoes, cut the onion into slices. Peel and crush the garlic and ginger root.

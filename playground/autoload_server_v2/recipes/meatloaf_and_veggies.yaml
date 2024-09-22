@@ -1,0 +1,55 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 35
+    Units: min
+Source: https://www.budgetbytes.com/sheet-pan-bbq-meatloaf-dinner/
+Ingredients:
+    -   Name: Ground Beef
+        Value: 500
+        Units: g
+    -   Name: Eggs
+        Value: 2
+        Units: ''
+    -   Name: Bread Crumbs
+        Value: 4
+        Units: tbsp
+    -   Name: BBQ Sauce
+        Value: 6
+        Units: tbsp
+    -   Name: Smoked Paprika
+        Value: sfrac{1}{2}
+        Units: tsp
+    -   Name: Garlic Powder
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: Sweet Potato
+        Value: 2
+        Units: ''
+    -   Name: Broccoli Floret
+        Value: 1
+        Units: head
+    -   Name: Olive Oil
+        Value: 4
+        Units: tbsp
+    -   Name: Salt
+        Value: 1 sfrac{1}{2}
+        Units: tsp
+    -   Name: Pepper
+        Value: 1
+        Units: tsp
+Preparations:
+    - Peel the sweet potato and cut it into 1 cm cubes.
+Instructions:
+    - Preheat the oven to tempFToC{400}.
+    - Place the sweet potatoes and broccoli florets on a large baking sheet.
+    - Drizzle the olive oil over the sweet potatoes and broccoli florets. Sprinkle the seasoning salt over the sweet potatoes and then season the broccoli florets with a pinch of salt and pepper. 
+    - Toss the vegetables until they are coated in oil and spices, keeping the sweet potatoes on one side of the baking sheet and the broccoli on the other.
+    - Transfer the baking sheet to the preheated oven and roast the vegetables for 15 minutes.
+    - While the vegetables are roasting, prepare the meatloaves. In a bowl combine the ground beef, egg, bread crumbs, 1 tbsp of the BBQ sauce, the smoked paprika, garlic powder, and salt. Work the ingredients together with your hands until they are well combined. Divide the meatloaf mixture in two and shape each half into a flattened oval.
+    - After the vegetables have roasted for 15 minutes, remove the baking sheet and stir each of the vegetables. Push the vegetables to the side. Place the meatloaves in the center and then spread 1 tbsp of BBQ sauce over each loaf.
+    - Return the baking sheet to the oven and roast for an additional 20 minutes. Remove the baking sheet from the oven and serve.

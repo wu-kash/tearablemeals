@@ -1,0 +1,55 @@
+Tested: True
+Portions:
+    Value: 6
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 30
+    Units: min
+Source: https://www.southernliving.com/recipes/lemony-white-bean-salad-with-broccoli
+Ingredients:
+    -   Name: Salad Dressing
+        Heading: True
+    -   Name: Parsley
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Red Onion
+        Value: 1
+        Units: ''
+    -   Name: Rucola
+        Value: 4
+        Units: cups
+    -   Name: Olive Oil
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Salt
+        Value: sfrac{1}{4}
+        Units: cup
+    -   Name: Salad
+        Heading: True
+    -   Name: Broccoli Florets
+        Value: 450
+        Units: g
+    -   Name: Olive Oil
+        Value: 1 sfrac{1}{2}
+        Units: tbsp
+    -   Name: Salt
+        Value: sfrac{1}{2}
+        Units: tsp
+    -   Name: Pepper
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: White Beans
+        Value: 400
+        Units: g
+    -   Name: Parmessan
+        Value: sfrac{1}{2}
+        Units: cup
+Preparations:
+    - Chop the parsley and mince the garlic. Drain the beans from the cans. Thinly slice the red onion and grate the parmesan cheese.
+Instructions:
+    - Preheat oven to tempFToC{400} with the oven rack 10 cm from the heat. Toss together broccoli, 1 sfrac{1}{2} tbsp olive oil, sfrac{1}{2} tsp salt, and sfrac{1}{4} teaspoon pepper in a large bowl. Spread broccoli in a single layer on a rimmed baking sheet. Roast in oven until just tender, 20 to 25 minutes.
+    - Whisk together lemon zest and juice, parsley, garlic, mustard, vinegar, honey, and remaining sfrac{1}{2} cup oil, sfrac{1}{2} tsp salt, and sfrac{1}{4} tsp pepper in a medium bowl. Set aside.
+    - Increase oven temperature to broil, cook broccoli until slightly charred, 1 to 2 minutes. Cool about 5 minutes.
+    - Combine broccoli, beans, rucola, and red onion in a large bowl. Toss with the dressing and sprinkle with parmesan.

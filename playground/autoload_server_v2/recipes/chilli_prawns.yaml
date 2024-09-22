@@ -1,5 +1,4 @@
 Tested: False
-Source: Cooking For Blokes (p. 242)
 Portions:
     Value: 4
 PreparationTime:
@@ -8,39 +7,40 @@ PreparationTime:
 CookingTime:
     Value: 15
     Units: min
+Source: Cooking For Blokes (p. 242)
 Ingredients:
-    Peeled Prawns:
-        Quantity: 500
+    -   Name: Peeled Prawns
+        Value: 500
         Units: g
-    Coconut Milk:
-        Quantity: 200
+    -   Name: Coconut Milk
+        Value: 200
         Units: ml
-    Garlic:
-        Quantity: 4
+    -   Name: Garlic
+        Value: 4
         Units: cloves
-    Ginger Root:
-        Quantity: 2
+    -   Name: Ginger Root
+        Value: 2
         Units: cm
-    Red Chillies:
-        Quantity: 2
+    -   Name: Red Chillies
+        Value: 2
         Units: ''
-    Fresh Coriander:
-        Quantity: 15
+    -   Name: Fresh Coriander
+        Value: 15
         Units: g
-    Sunflower Oil:
-        Quantity: 2
+    -   Name: Sunflower Oil
+        Value: 2
         Units: tbsp
-    Lemon Juice:
-        Quantity: 1
+    -   Name: Lemon Juice
+        Value: 1
         Units: tbsp
-    Tomato Purée:
-        Quantity: 1
+    -   Name: Tomato Purée
+        Value: 1
         Units: tbsp
-    Garam Masala:
-        Quantity: 1
+    -   Name: Garam Masala
+        Value: 1
         Units: tsp
-    Salt:
-        Quantity: 1
+    -   Name: Salt
+        Value: 1
         Units: tsp
 Preparations:
     - Peel and crush the garlic and the ginger root. Chop the chilli in half, remove the seeds and cut the chilli into pieces. Wash and cut the coriander.

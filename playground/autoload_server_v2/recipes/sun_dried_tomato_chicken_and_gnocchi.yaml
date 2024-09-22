@@ -1,0 +1,65 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 20
+    Units: min
+CookingTime:
+    Value: 40
+    Units: min
+Source: https://damndelicious.net/2021/03/26/sun-dried-tomato-chicken-and-gnocchi/
+Ingredients:
+    -   Name: Gnocchi
+        Value: 16
+        Units: Oz
+    -   Name: Chicken Thighs
+        Value: 1.5
+        Units: Lb
+    -   Name: Unsalted Butter
+        Value: 3
+        Units: tbsp
+    -   Name: Onion
+        Value: 1
+        Units: ''
+    -   Name: Sun Dried Tomatoes
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Tomato Paste
+        Value: 1
+        Units: tbsp
+    -   Name: Garlic
+        Value: 3
+        Units: cloves
+    -   Name: Thyme Leaves
+        Value: 2
+        Units: tsp
+    -   Name: Flour
+        Value: 3
+        Units: tbsp
+    -   Name: Chicken Broth
+        Value: 1 sfrac{1}{2}
+        Units: cups
+    -   Name: Dry White Wine
+        Value: sfrac{1}{4}
+        Units: cup
+    -   Name: Half and Half
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Kale
+        Value: 1
+        Units: bunch
+    -   Name: Parmesan
+        Value: sfrac{1}{2}
+        Units: cup
+Preparations:
+    - Dice the onion, chop the thyme leaves, mince the garlic and grate the Parmesan.
+Instructions:
+    - Preheat oven to tempFToC{400} and in a large pot of boiling salted water, cook gnocchi according to package instructions.
+    - Season chicken with sfrac{3}{4} tsp salt and sfrac{1}{2} tsp pepper.
+    - Melt 2 tbsp butter in a large skillet over medium heat. Add chicken to the skillet in a single layer and cook until golden brown and cooked through, set aside.
+    - Melt the remaining 1 tbsp butter, add the shallot, stirring frequently, until tender.
+    - Stir in sun dried tomatoes, tomato paste, garlic and thyme, for about 1 minute and whisk in flour until lightly browned.
+    - Gradually whisk in chicken broth and wine, whisking constantly, until slightly thickened. Stir in half and half until thickened, season with salt and pepper to taste.
+    - Stir in gnocchi and kale until the kale has wilted. Return chicken to the skillet and sprinkle with Parmesan.
+    - Place into oven and bake until bubbly. Serve immediately.
+

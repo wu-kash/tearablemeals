@@ -23,17 +23,17 @@
         <div class="div-recipe-info recipe-info-height">
             <img src="../qr/BakedRavioli.png" alt="QR Code" class="img-recipe-info-qr recipe-info-height">
             <div class="div-recipe-info-text recipe-info-height">
+                <div class="div-recipe-info-text-row">
+                    <img src="images/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span id="recipe-portions"></span>
+                </div>
                 <div class="div-recipe-info-text-row"> 
                     <img src="images/symbol_preparation.png" alt="logo" class="img-recipe-info-text-symbol">
-                    <span id="recipe-preparation-time">10 min</span>
+                    <span id="recipe-preparation-time"></span>
                 </div>
                 <div class="div-recipe-info-text-row">
                     <img src="images/symbol_cooking.png" alt="logo" class="img-recipe-info-text-symbol">
-                    <span id="recipe-cooking-time">20 min</span>
-                </div>
-                <div class="div-recipe-info-text-row">
-                    <img src="images/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
-                    <span id="recipe-portions">4 Servings</span>
+                    <span id="recipe-cooking-time"></span>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="div-ingredients">
                 <ul class="text-ingredient-list" id="ingredientList">
                     <li class="text-ingredient-item"></li>
-                    <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
+                    <!-- Ingredients added with addIngredientToList('Ingredient', 'Value', 'Units'); -->
                     <!-- Headings added with addIngredientHeadingToList('Heading'); -->
                 </ul>
             </div>

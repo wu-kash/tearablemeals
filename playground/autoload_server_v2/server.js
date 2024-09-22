@@ -45,15 +45,19 @@ app.get('/api/recipes', (req, res) => {
 // API endpoint to get the content of a specific recipe file
 app.get('/api/recipes/:file(*)', (req, res) => {
     const filePath = path.join(recipesDir, req.params.file);
+    console.log(`Read file: ${req.params.file}`);
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
+            console.log('File not found');
             return res.status(404).send('File not found');
         }
         try {
             const yamlData = jsYaml.load(data);
             res.json(yamlData);
+            console.log('Success parsing file');
         } catch (e) {
             res.status(500).send('Error parsing YAML file');
+            console.log(`Error parsing file: ${e}`);
         }
     });
 });

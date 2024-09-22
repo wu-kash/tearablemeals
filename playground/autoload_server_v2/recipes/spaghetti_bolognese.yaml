@@ -1,5 +1,4 @@
 Tested: False
-Title: Spaghetti Bolognese
 Portions:
     Value: 4
 PreparationTime:
@@ -10,44 +9,44 @@ CookingTime:
     Units: min
 Source: Cooking for Blokes (p. 188)
 Ingredients:
-    Onions:
-        Quantity: 3
+    -   Name: Onions
+        Value: 3
         Units: ''
-    Garlic:
-        Quantity: 4
+    -   Name: Garlic
+        Value: 4
         Units: cloves
-    Olive Oil:
-        Quantity: 1
+    -   Name: Olive Oil
+        Value: 1
         Units: tbsp
-    Minced Beef:
-        Quantity: 500
+    -   Name: Minced Beef
+        Value: 500
         Units: g
-    Tomatoes Can:
-        Quantity: 400
+    -   Name: Tomatoes Can
+        Value: 400
         Units: g
-    Tomato Purée:
-        Quantity: 2
+    -   Name: Tomato Purée
+        Value: 2
         Units: tbsp
-    Dried Oregano:
-        Quantity: 2
+    -   Name: Dried Oregano
+        Value: 2
         Units: tsp
-    Bay Leaves:
-        Quantity: 2
+    -   Name: Bay Leaves
+        Value: 2
         Units: ''
-    Sugar:
-        Quantity: 1 sfrac{1}{2}
+    -   Name: Sugar
+        Value: 1 sfrac{1}{2}
         Units: tsp
-    Vegetable Bouillon:
-        Quantity: 1
+    -   Name: Vegetable Bouillon
+        Value: 1
         Units: tbsp
-    Spaghetti:
-        Quantity: 500
+    -   Name: Spaghetti
+        Value: 500
         Units: g
-    Salt:
-        Quantity: 1
+    -   Name:  Salt
+        Value: 1
         Units: tsp
-    Pepper:
-        Quantity: 1
+    -   Name: Pepper
+        Value: 1
         Units: tsp
 Preparations:
     - Peel and chop the onions and garlic.

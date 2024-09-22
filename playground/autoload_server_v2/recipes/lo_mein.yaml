@@ -1,0 +1,52 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 15
+    Units: min
+CookingTime:
+    Value: 5
+    Units: min
+Source: https://pinchofyum.com/lo-mein
+Ingredients:
+    -   Name: Dark Soy Sauce
+        Value: 2
+        Units: tbsp
+    -   Name: Light Soy Sauce
+        Value: 1
+        Units: tbsp
+    -   Name: Oyster Sauce
+        Value: 3
+        Units: tbsp
+    -   Name: Sesame Oil
+        Value: 1
+        Units: tsp
+    -   Name: Sugar
+        Value: 1
+        Units: tsp
+    -   Name: Garlic Clove
+        Value: 1
+        Units: ''
+    -   Name: Ramen Noodles
+        Value: 175
+        Units: g
+    -   Name: Sesame Oil
+        Value: 1
+        Units: tbsp
+    -   Name: Green Onion
+        Value: 3
+        Units: ''
+    -   Name: Mixed Veggies
+        Value: 200
+        Units: g
+    -   Name: Rice Vinegar
+        Value: 1 sfrac{1}{2}
+        Units: tbsp
+Preparations:
+    - Chop the grreen onion and mince the garlic. Julienne cut or chop the mixed vegetables (carrots, mushrooms, broccoli, red peppers, cabbage).
+Instructions:
+    - Shake all the sauce ingredients together in a jar.
+    - Cook the noodles according to package directions. Drain and set aside.
+    - Heat the sesame oil in a large wok or skillet. Add the green onions (white parts) and vegetables to the hot pan. Stir fry until fork-tender, about 5 minutes.
+    - Add the rice vinegar to loosen the browned bits up off the bottom of the pan. Add the cooked noodles and about half of the sauce, toss around in the hot pan to combine. Add more sauce if needed.
+    - Garnish with remaining green onions and serve.

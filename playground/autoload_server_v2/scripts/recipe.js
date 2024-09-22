@@ -195,9 +195,7 @@ function resizeElement() {
 window.onload = function() {
 
 
-    // Convert  placeholders when the document is ready
-    formatSelector('li');
-    formatSelector('b');
+    
 
     /* This somehow fixes the random gap in the Cooking title border when loading the page*/
     document.querySelector('.title-instructions').style.borderWidth = 'var(--h2-border-width)';
@@ -230,19 +228,19 @@ async function loadRecipe(recipeToLoad) {
     const ingredientsList = document.getElementById('ingredientList');
     ingredientsList.innerHTML = ''; // Clear previous content
 
-    for (let ingredient in recipe.Ingredients) {
-        const ingredientName = ingredient;
-        const ingredientQty = recipe.Ingredients[ingredient].Quantity;
-        const ingredientUnits = recipe.Ingredients[ingredient].Units;
+    recipe.Ingredients.forEach(item => {
+        const ingredientName = item.Name;
+        const ingredientQty = item.Value;
+        const ingredientUnits = item.Units;
 
-        if (Object.hasOwn(recipe.Ingredients[ingredient], 'Heading')) {
+        if (item.Heading) {
             console.log(`Heading: ${ingredientName}`);
             addIngredientHeadingToList(ingredientName);
         } else {
             console.log(`Ingredient: ${ingredientName} [${ingredientQty} ${ingredientUnits}]`);
             addIngredientToList(ingredientName, ingredientQty, ingredientUnits);
         }
-    }
+    });
 
     const preparationList = document.getElementById('preparationList');
     preparationList.innerHTML = ''; // Clear previous content
@@ -257,6 +255,10 @@ async function loadRecipe(recipeToLoad) {
         console.log(`Cooking Step: ${step}`);
         addCookingStepToList(step);
     });
+
+    // Convert  placeholders when the document is ready
+    formatSelector('li');
+    formatSelector('b');
 
     resizeElement();
 }

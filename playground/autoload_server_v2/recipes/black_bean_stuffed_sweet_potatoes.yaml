@@ -1,0 +1,60 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 15
+    Units: min
+CookingTime:
+    Value: 60
+    Units: min
+Source: https://foodwithfeeling.com/black-bean-stuffed-sweet-potatoes/
+Ingredients:
+    -   Name: Black Beans
+        Value: 450
+        Units: g
+    -   Name: Sweet Potato
+        Value: 4
+        Units: ''
+    -   Name: Plain Greek Yoghurt
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Lime Juice
+        Value: 1
+        Units: tsp
+    -   Name: Ground Black Pepper
+        Value: sfrac{1}{2}
+        Units: tsp
+    -   Name: Ball Pepper
+        Value: 1
+        Units: ''    
+    -   Name: Red Onion
+        Value: 1
+        Units: ''
+    -   Name: Olive Oil
+        Value: 1 sfrac{1}{2}
+        Units: tbsp
+    -   Name: Garlic Powder
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: Onion Powder
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: Chilli Powder
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: Cumin
+        Value: sfrac{1}{4}
+        Units: tsp
+    -   Name: Salt
+        Value: sfrac{1}{2}
+        Units: tsp
+Preparations:
+    - Finely dice the red onion and the ball pepper.
+Instructions:
+    - Pre-heat oven to tempC{180}.
+    - Place the sweet potatoes on a lightly greased baking tray and bake for about 60 minutes or until a fork can easily be inserted into the flesh of the potatoes.
+    - Prepare the cream sauce by whisking together the yoghurt, lime juice, and black pepper. Set aside.
+    - When the sweet potatoes have about 10 minutes left, heat the oil in a skillet over medium heat and then add in onion. Sauté for 5 minutes until the onions begins to become translucent. Add in the spices stir and cook for an additional 3 minutes.
+    - Add the black beans to the skillet and toss to combine. Continue to cook, stirring frequently, until the black beans are fully heated through. About 5 minutes. Take off of heat and set aside.
+    - Once the sweet potatoes are done baking, let cool slightly. Once cool, cut the sweet potatoes open and shred the flesh from the skin so that the inside is mashed and easy to scoop out.
+    - Evenly spread the black bean mixture and cream sauce on top of the 4 sweet potatoes.

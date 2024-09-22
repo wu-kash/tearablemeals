@@ -1,0 +1,58 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 35
+    Units: min
+Source: https://damndelicious.net/2015/09/13/one-pan-roasted-chicken-with-fall-vegetables/
+Ingredients:
+    -   Name: Butternut Squash
+        Value: 500
+        Units: g
+    -   Name: Red Potatoes
+        Value: 250
+        Units: g
+    -   Name: Carrots
+        Value: 250
+        Units: g
+    -   Name: Brussels Sprouts
+        Value: 250
+        Units: g
+    -   Name: Olive Oil
+        Value: 2
+        Units: tbsp
+    -   Name: Balsamic Vinegar
+        Value: 2
+        Units: tbsp
+    -   Name: Garlic
+        Value: 2
+        Units: cloves
+    -   Name: Parsley
+        Value: 2
+        Units: tbsp
+    -   Name: Chicken Thighs
+        Value: 8
+        Units: ''
+    -   Name: Oregano
+        Value: 1
+        Units: tsp
+    -   Name: Thyme
+        Value: sfrac{1}{2}
+        Units: tsp
+    -   Name: Basil
+        Value: sfrac{1}{2}
+        Units: tsp
+    -   Name: Rosemary
+        Value: sfrac{1}{4}
+        Units: tsp
+Preparations:
+    - Chop the butternut squash and parsley, halve the potatoes and brussels sprouts. Mince the garlic.
+Instructions:
+    - Preheat oven to tempFToC{400}. Lightly coat a baking dish with oil or nonstick spray.
+    - Season chicken with oregano, thyme, basil, rosemary, salt and pepper. Set aside.
+    - Place butternut squash, potatoes, carrots and brussels sprouts in a single layer onto the baking sheet. Stir in olive oil, balsamic vinegar and garlic. Season with salt and pepper and top with chicken in a single layer.
+    - Place into oven and roast until the chicken is completely cooked through after about 25-30 minutes. Then broil for 2-3 minutes, or until caramelized and slightly charred.
+    - Garnish with parsley and serve.

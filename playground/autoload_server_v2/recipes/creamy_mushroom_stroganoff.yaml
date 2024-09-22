@@ -1,0 +1,56 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 20
+    Units: min
+Source: https://damndelicious.net/2019/02/06/creamy-mushroom-stroganoff/
+Ingredients:
+    -   Name: Pasta Shells
+        Value: 8
+        Units: Oz
+    -   Name: Unsalted Butter
+        Value: 3
+        Units: tbsp
+    -   Name: Mushrooms
+        Value: 1.5
+        Units: Lb
+    -   Name: Onion
+        Value: 2
+        Units: ''
+    -   Name: Garlic
+        Value: 3
+        Units: cloves
+    -   Name: Thyme
+        Value: 4
+        Units: tsp
+    -   Name: Flour
+        Value: 2 sfrac{1}{2}
+        Units: tbsp
+    -   Name: Beef Stock
+        Value: 2
+        Units: cups
+    -   Name: Dijon Mustard
+        Value: 1 sfrac{1}{2}
+        Units: tsp
+    -   Name: Sour Cream
+        Value: sfrac{3}{4}
+        Units: cup
+    -   Name: Parmesan
+        Value: sfrac{2}{3}
+        Units: cup
+    -   Name: Parsley
+        Value: 2
+        Units: tbsp
+Preparations:
+    - Thinly slice the mushrooms, dice the onions, chop the thyme, parsley and mince the garlic. Grate the parmesan.
+Instructions:
+    - In a large pot of boiling salted water, cook pasta according to package instructions and drain the water.
+    - Melt butter in a large skillet over medium high heat. Add mushrooms and onions, and cook, stirring occasionally, until mushrooms are tender and browned, about 5-7 minutes. Season with salt and pepper, to taste.
+    - Stir in garlic and thyme until fragrant.
+    - Whisk in flour until lightly browned.
+    - Gradually whisk in beef stock and Dijon. Bring to a boil, reduce heat and simmer, stirring occasionally, until reduced and slightly thickened, about 4-5 minutes.
+    - Stir in pasta and sour cream until heated through. Stir in Parmesan until melted. Stir in parsley, season with salt and pepper, to taste.

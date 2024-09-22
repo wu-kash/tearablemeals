@@ -1,6 +1,4 @@
 Tested: True
-Title: Chickpea Shakshuka
-Source: https://minimalistbaker.com/1-pot-chickpea-shakshuka/
 Portions:
     Value: 6
 PreparationTime:
@@ -9,54 +7,55 @@ PreparationTime:
 CookingTime:
     Value: 25
     Units: min
+Source: https://minimalistbaker.com/1-pot-chickpea-shakshuka/
 Ingredients:
-    Canned Chickpeas:
-        Quantity: 500
+    -   Name: Canned Chickpeas
+        Value: 500
         Units: g
-    Crushed Tomato:
-        Quantity: 28
+    -   Name: Crushed Tomato
+        Value: 28
         Units: Oz
-    Green Olives:
-        Quantity: 4-5
+    -   Name: Green Olives
+        Value: 4-5
         Units: ''
-    Olive Oil:
-        Quantity: 1
+    -   Name: Olive Oil
+        Value: 1
         Units: tbsp
-    Onion:
-        Quantity: sfrac{1}{2}
+    -   Name: Onion
+        Value: sfrac{1}{2}
         Units: cup
-    Red Bell Pepper:
-        Quantity: sfrac{1}{2}
+    -   Name: Red Bell Pepper
+        Value: sfrac{1}{2}
         Units: cup
-    Garlic:
-        Quantity: 3
+    -   Name: Garlic
+        Value: 3
         Units: cloves
-    Tomato Paste:
-        Quantity: 2
+    -   Name: Tomato Paste
+        Value: 2
         Units: tbsp
-    Sugar:
-        Quantity: 2
+    -   Name: Sugar
+        Value: 2
         Units: tsp
-    Smoked Paprika:
-        Quantity: 2
+    -   Name: Smoked Paprika
+        Value: 2
         Units: tsp
-    Cumin:
-        Quantity: 1
+    -   Name: Cumin
+        Value: 1
         Units: tsp
-    Chill Powder:
-        Quantity: 2
+    -   Name: Chill Powder
+        Value: 2
         Units: tsp
-    Ground Cinnamon:
-        Quantity: sfrac{1}{4}
+    -   Name: Ground Cinnamon
+        Value: sfrac{1}{4}
         Units: tsp
-    Cayenne Pepper:
-        Quantity: 1
+    -   Name: Cayenne Pepper
+        Value: 1
         Units: pinch
-    Cardamom:
-        Quantity: 1
+    -   Name: Cardamom
+        Value: 1
         Units: pinch
-    Coriander:
-        Quantity: 1
+    -   Name: Coriander
+        Value: 1
         Units: pinch
 Preparations:
     - Dice the onion, chop the red bell pepper and mince the garlic. Halve the olives.

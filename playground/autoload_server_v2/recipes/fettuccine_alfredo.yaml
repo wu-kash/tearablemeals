@@ -1,0 +1,59 @@
+Tested: False
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 15
+    Units: min
+Source: https://damndelicious.net/2017/09/24/sun-dried-tomato-fettuccine-alfredo/
+Ingredients:
+    -   Name: Fettucine Pasta
+        Value: 8
+        Units: Oz
+    -   Name: Unsalted Butter
+        Value: 4
+        Units: tbsp
+    -   Name: Chicken Breasts
+        Value: 2
+        Units: ''
+    -   Name: Italian Seasoning
+        Value: 1
+        Units: tsp
+    -   Name: Garlic
+        Value: 4
+        Units: cloves
+    -   Name: Flour
+        Value: 1 sfrac{1}{2}
+        Units: tbsp
+    -   Name: Tomato Paste
+        Value: 1
+        Units: tbsp
+    -   Name: Dried Basil
+        Value: 1
+        Units: tsp
+    -   Name: Milk
+        Value: 1 sfrac{1}{2}
+        Units: cup
+    -   Name: Sun Dried Tomatoes
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Cream Cheese
+        Value: 3
+        Units: Oz
+    -   Name: Parmesan
+        Value: sfrac{1}{2}
+        Units: cup
+    -   Name: Parsley
+        Value: 2
+        Units: tbsp
+Preparations:
+    - Mince the garlic. Chop the tomatoes, parsley and grate the parmesan.
+Instructions:
+    - In a large pot of boiling salted water, cook pasta according to package instructions and drain the water.
+    - Melt 1 tbsp butter in a large skillet over medium high heat. Season chicken with Italian seasoning, salt and pepper, to taste. Add chicken to the skillet and cook, flipping once, until cooked through. Let cool before slicing and set aside.
+    - Melt remaining 3 tablespoons butter in the skillet. Add garlic, and cook, stirring frequently, about 1-2 minutes. Whisk in flour, tomato paste and basil until lightly browned.
+    - Gradually whisk in milk and sun-dried tomatoes. Whisk constantly, until slightly thickened, about 5 minutes. Stir in cream cheese and Parmesan until smooth. If the mixture is too thick, add more milk as needed. Season with salt and pepper, to taste.
+    - Stir in pasta and chicken, and gently toss to combine.
+    - Garnish with Parmesan and parsley, and serve.

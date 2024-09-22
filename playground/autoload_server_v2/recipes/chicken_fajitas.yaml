@@ -1,0 +1,60 @@
+Tested: True
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 15
+    Units: min
+CookingTime:
+    Value: 15
+    Units: min
+Source: https://damndelicious.net/2019/07/24/sheet-pan-chicken-fajitas/
+Ingredients:
+    -   Name: Chicken Breasts
+        Value: 1.5
+        Units: Lb
+    -   Name: Chilli Powder
+        Value: 2
+        Units: tsp
+    -   Name: Ground Cumin
+        Value: 2
+        Units: tsp
+    -   Name: Dried Oregano
+        Value: 2
+        Units: tsp
+    -   Name: Smoked Paprika
+        Value: 1
+        Units: tsp
+    -   Name: Red Bell Pepper
+        Value: 1
+        Units: ''
+    -   Name: Yellow Bell Pepper
+        Value: 1
+        Units: ''
+    -   Name: Orange Bell Pepper
+        Value: 1
+        Units: ''
+    -   Name: Red Onion
+        Value: 1
+        Units: ''
+    -   Name: Garlic
+        Value: 3
+        Units: cloves
+    -   Name: Olive Oil
+        Value: 2
+        Units: tbsp
+    -   Name: Cilantro Leaves
+        Value: sfrac{1}{4}
+        Units: cup
+    -   Name: Tortillas
+        Value: 4
+        Units: ''
+    -   Name: Lime
+        Value: 1
+        Units: ''
+Preparations:
+    - Cut the chicken breasts into thin strips. Cut the bell peppers and onion into slices. Mince the garlic and chop the cilantro leaves.
+Instructions:
+    - In a small bowl, combine chili powder, cumin, oregano, paprika, and add salt and pepper, to taste. Toss the chicken strips with the mixture.
+    - Add the olive oil over medium heat into a pan. Add the garlic and chicken strips, and cook until just cooked.
+    - Add the onions and sliced peppers and cook for an additional 2 minutes.
+    - Serve with tortillas and squeeze lime juice over the mix.
