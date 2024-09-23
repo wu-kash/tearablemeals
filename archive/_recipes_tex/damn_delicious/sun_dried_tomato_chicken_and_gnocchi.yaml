@@ -1,61 +1,61 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 20
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 40
         Units: min
-    source:
+    Source:
         Value: https://damndelicious.net/2021/03/26/sun-dried-tomato-chicken-and-gnocchi/
 Ingredients:
     Gnocchi:
-        Quantity: \weightOzTog{16}
+        Value: \weightOzTog{16}
         Units: g
     Chicken Thighs:
-        Quantity: \weightLbTog{1.5}
+        Value: \weightLbTog{1.5}
         Units: g
     Unsalted Butter:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Onion:
-        Quantity: 1
+        Value: 1
         Units: ''
     Sun Dried Tomatoes:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Tomato Paste:
-        Quantity: 1
+        Value: 1
         Units: tbsp
     Garlic:
-        Quantity: 3
+        Value: 3
         Units: cloves
     Thyme Leaves:
-        Quantity: 2
+        Value: 2
         Units: tsp
     Flour:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Chicken Broth:
-        Quantity: 1 \sfrac{1}{2}
+        Value: 1 \sfrac{1}{2}
         Units: cups
     Dry White Wine:
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: cup
     Half and Half:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Kale:
-        Quantity: 1
+        Value: 1
         Units: bunch
     Parmesan:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
-Preparation:
+Preparations:
     - Dice the onion, chop the thyme leaves, mince the garlic and grate the Parmesan.
-Cooking:
+Instructions:
     - Preheat oven to \tempFToC{400}.
     - In a large pot of boiling salted water, cook gnocchi according to package instructions.
     - Season chicken with \sfrac{3}{4} tsp salt and \sfrac{1}{2} tsp pepper.

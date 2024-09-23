@@ -1,40 +1,40 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 5
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 10
         Units: min
-    source:
+    Source:
         Value: https://tasty.co/recipe/veggie-garlic-noodles
 Ingredients:
     Rice Noodles:
-        Quantity: 250
+        Value: 250
         Units: g
     Soy Sauce:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Brown Sugar:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Carrots:
-        Quantity: 2
+        Value: 2
         Units: ''
     Snap Peas:
-        Quantity: 100
+        Value: 100
         Units: g
     Green Onion:
-        Quantity: 4
+        Value: 4
         Units: ''
     Garlic:
-        Quantity: 5
+        Value: 5
         Units: cloves
-Preparation:
+Preparations:
     - Cut the carrots into matchsticks, slice the green onion and mince the garlic.
-Cooking:
+Instructions:
     - Cook the rice noodles according to he instructions.
     - Heat the vegetable oil in a large skillet over medium heat. Add the garlic and 3 green onions and cook for 2-3 minutes, until fragrant and tender. Add the carrots and snap peas, then stir in the brown sugar and soy sauce.
     - Add the noodles and toss for a couple of minutes, until the noodles are well-coated and the vegetables are tender. Season with salt and pepper.

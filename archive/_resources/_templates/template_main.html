@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Take Away Recipes</title>
+	<link rel="icon" href="img/tar_logo.png" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<link rel="stylesheet" href="../_resources/_html/styles/main-styles.css">
+</head>
+<body>
+	<div class="div-document">
+		<div class="div-title">
+			<h1 class="h1-titles">Take Away Recipes</h1>
+		</div>
+		<div class="div-filter noprint">
+			<input type="text" class="input-filter" id="filterInput" placeholder="Type to filter...">
+		</div>
+		<div class="div-recipe-index">
+			<ul id="pageList" class="ul-recipe-index">
+\BLOCK{for key,val in recipes_data.items()}
+				<li><a href="recipes/\VAR{key}.html" data-title="\VAR{val['Recipe Name']}">\VAR{val['Recipe Name']}</a></li>
+\BLOCK{endfor}
+			</ul>
+		</div>
+		<div class="div-logo">
+            <img src="img/tar_footer_a5.png" alt="logo" class="img-logo">
+        </div>
+	</div>
+	<script src="../_resources/_html/scripts/main.js"></script> 
+</body>
+</html>

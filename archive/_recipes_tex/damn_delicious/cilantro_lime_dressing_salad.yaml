@@ -1,59 +1,59 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 15
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 15
         Units: min
-    source:
+    Source:
         Value: https://damndelicious.net/2014/01/10/southwestern-chopped-salad-cilantro-lime-dressing/
 Ingredients:
     Cilanto Lime Dressing:
         Heading: True
     Cilantro:
-        Quantity: 2 
+        Value: 2 
         Units: cups
     Plain Greek Yoghurt:
-        Quantity: 1
+        Value: 1
         Units: cup
     Garlic:
-        Quantity: 4
+        Value: 4
         Units: cloves
     Lime Juice:
-        Quantity: 4
+        Value: 4
         Units: tbsp
     Olive Oil:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Apple Cider Vinegar:
-        Quantity: 4
+        Value: 4
         Units: tbsp
     Salad:
         Heading: True
     Romaine Lettuce:
-        Quantity: 10
+        Value: 10
         Units: cups
     Cherry Tomatoes:
-        Quantity: 1
+        Value: 1
         Units: cup
     Canned Corn Kernels:
-        Quantity: 1
+        Value: 1
         Units: cup
     Canned Black Beans:
-        Quantity: 1
+        Value: 1
         Units: cup
     Cilantro Leaves:
-        Quantity: 4
+        Value: 4
         Units: tbsp
     Avocado:
-        Quantity: 2
+        Value: 2
         Units: ''
-Preparation:
+Preparations:
     - Chop the romaine lettuce, halve the cherry tomatoes. Drain the corn kernels and black beans. Remove stems from cilantro. Dice the avocado.
-Cooking:
+Instructions:
     - To make the the dressing, combine the cilantro, Greek yogurt, garlic and lime juice in a food processor. While running, add olive oil and vinegar in a slow stream until emulsified.
     - To assemble the salad, place romaine lettuce in a large bowl; top with tomatoes, corn, black beans and cilantro. Pour the dressing on top of the salad and gently toss to combine. Stir in avocado.
 

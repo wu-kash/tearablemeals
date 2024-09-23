@@ -1,0 +1,43 @@
+Tested: False
+Title: Veggie Stir Fry
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 10
+    Units: min
+CookingTime:
+    Value: 10
+    Units: min
+Source: Cooking For Blokes (p. 224)
+Ingredients:
+    Spring Onion:
+        Value: 1
+        Units: bunch
+    Sweet Pepper:
+        Value: 1
+        Units: ''
+    Mange Tout:
+        Value: 100
+        Units: g
+    Bean Sprouts:
+        Value: 250
+        Units: g
+    Garlic:
+        Value: 1
+        Units: clove
+    Olive Oil:
+        Value: 2
+        Units: tbsp
+    Soy Sauce:
+        Value: 2
+        Units: tbsp
+    Noodles:
+        Value: 270
+        Units: g
+Preparations:
+    - Prepare the vegetables by cleaning and chopping the vegetables into smaller pieces.
+Instructions:
+    - Put the oil into a pan on moderate heat and crush the garlic into the pan. Stir it around.
+    - Add the spring onion, sweet pepper and mange tout. Fry and stir for about 30 seconds.
+    - Add the bean sprouts and soy sauce. Stir fry for about 2 minutes.
+    - Serve with cooked noodles.

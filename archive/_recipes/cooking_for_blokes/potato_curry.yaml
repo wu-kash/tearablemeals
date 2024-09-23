@@ -1,0 +1,50 @@
+Tested: True
+Title: Potato Curry
+Portions:
+    Value: 4
+PreparationTime:
+    Value: 15
+    Units: min
+CookingTime:
+    Value: 25
+    Units: min
+Source: Cooking for Blokes (p. 251)
+Ingredients:
+    Potatoes:
+        Value: 400
+        Units: g
+    Garlic:
+        Value: 1
+        Units: clove
+    Ginger Root:
+        Value: 1
+        Units: cm
+    Onion:
+        Value: 1
+        Units: ''
+    Sunflower Oil:
+        Value: 3
+        Units: tbsp
+    Cumin Seeds:
+        Value: 1
+        Units: tsp
+    Cardamom Pod:
+        Value: 1
+        Units: ''
+    Chilli Powder:
+        Value: sfrac{1}{2}
+        Units: tsp
+    Brown Mustard Seeds:
+        Value: 2
+        Units: tbsp
+    Garam Masala:
+        Value: 1
+        Units: tsp
+Preparations:
+    - Clean the potatoes, cut the onion into slices. Peel and crush the garlic and ginger root.
+Instructions:
+    - Boil the potatoes in salted water for about 15 minutes until they are just done. Drain and cut in half.
+    - Put the oil into a frying pan over moderate heat. Fry the cumin, cardamom, chilli powder and mustard seeds for about 1 minute.
+    - Add the garlic, ginger and onion and fry for about 3 minutes until the onion is golden. Keep stirring.
+    - Add the potatoes and garam masala, fry for about 5 minutes, stirring.
+    - Can be served with rice.

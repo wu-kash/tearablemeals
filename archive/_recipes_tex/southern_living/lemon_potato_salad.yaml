@@ -1,43 +1,43 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 6
-    preparationtime:
+    PreparationTime:
         Value: 10
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 25
         Units: min
-    source:
+    Source:
         Value: https://www.southernliving.com/recipes/lemon-fennel-potato-salad
 Ingredients:
     Potatoes:
-        Quantity: \weightOzTog{24}
+        Value: \weightOzTog{24}
         Units: g
     Onion:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     White Wine Vinegar:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Lemon Juice:
-        Quantity: 1
+        Value: 1
         Units: tbsp
     Dijon Mustard:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Olive Oil:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Celery:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Fennel Leaves:
-        Quantity: 1
+        Value: 1
         Units: tbsp
-Preparation:
+Preparations:
     - Thinly slice the onion and the celery.
-Cooking:
+Instructions:
     - Stir together onion and vinegar in a small bowl and set aside. Place potatoes and 2 teaspoons of the salt in a large saucepan. Cover with 10 cups water, bring to a boil over medium-high. Reduce heat to medium. Cook until potatoes are fork-tender, 12 to 15 minutes. Drain and transfer to a large bowl.
     - Remove onion from vinegar, and transfer to large bowl with potatoes. Reserve vinegar in small bowl. Add lemon juice, Dijon mustard, pepper, and remaining \sfrac{1}{2} teaspoon salt to vinegar, whisk together until combined. Gradually whisk in oil until combined.
     - Add lemon-vinegar mixture, celery, and fennel to potato mixture. Toss to coat, using back of a spoon to gently smash about one-third of potatoes. Serve immediately, or cover and refrigerate until ready to serve. Garnish with additional fennel leaves before serving.

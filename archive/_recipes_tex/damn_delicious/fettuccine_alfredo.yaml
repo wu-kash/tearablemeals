@@ -1,58 +1,58 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 10
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 15
         Units: min
-    source:
+    Source:
         Value: https://damndelicious.net/2017/09/24/sun-dried-tomato-fettuccine-alfredo/
 Ingredients:
     Fettucine Pasta:
-        Quantity: \weightOzTog{8}
+        Value: \weightOzTog{8}
         Units: g
     Unsalted Butter:
-        Quantity: 4
+        Value: 4
         Units: tbsp
     Chicken Breasts:
-        Quantity: 2
+        Value: 2
         Units: ''
     Italian Seasoning:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Garlic:
-        Quantity: 4
+        Value: 4
         Units: cloves
     Flour:
-        Quantity: 1 \sfrac{1}{2}
+        Value: 1 \sfrac{1}{2}
         Units: tbsp
     Tomato Paste:
-        Quantity: 1
+        Value: 1
         Units: tbsp
     Dried Basil:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Milk:
-        Quantity: 1 \sfrac{1}{2}
+        Value: 1 \sfrac{1}{2}
         Units: cup
     Sun Dried Tomatoes:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Cream Cheese:
-        Quantity: \weightOzTog{3}
+        Value: \weightOzTog{3}
         Units: g
     Parmesan:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Parsley:
-        Quantity: 2
+        Value: 2
         Units: tbsp
-Preparation:
+Preparations:
     - Mince the garlic. Chop the tomatoes, parsley and grate the parmesan.
-Cooking:
+Instructions:
     - In a large pot of boiling salted water, cook pasta according to package instructions and drain the water.
     - Melt 1 tbsp butter in a large skillet over medium high heat. Season chicken with Italian seasoning, salt and pepper, to taste. Add chicken to the skillet and cook, flipping once, until cooked through. Let cool before slicing and set aside.
     - Melt remaining 3 tablespoons butter in the skillet. Add garlic, and cook, stirring frequently, about 1-2 minutes. Whisk in flour, tomato paste and basil until lightly browned.

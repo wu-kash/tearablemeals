@@ -1,58 +1,58 @@
 Tested: True
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 15
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 15
         Units: min
-    source:
+    Source:
         Value: https://tasty.co/recipe/one-pot-lemon-garlic-shrimp-pasta
 Ingredients:
     Linguine:
-        Quantity: 250
+        Value: 250
         Units: g
     Olive Oil:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Unsalted Butter:
-        Quantity: 8
+        Value: 8
         Units: tbsp
     Garlic:
-        Quantity: 4
+        Value: 4
         Units: cloves
     Red Pepper Flakes:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Shrimp:
-        Quantity: 500
+        Value: 500
         Units: g
     Dried Oregano:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Baby Spinach:
-        Quantity: 4
+        Value: 4
         Units: cups
     Parmesan Cheese:
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: cup
     Parsley:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Lemon Juice:
-        Quantity: 1
+        Value: 1
         Units: tbsp
     Pepper:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Salt:
-        Quantity: 1
+        Value: 1
         Units: tsp
-Preparation:
+Preparations:
     - Mince the garlic, grate the parmesan cheese, and chop the parsley.
-Cooking:
+Instructions:
     - In a large pot, boil water and add pasta. Cook until al dente. Drain and set the pasta aside.
     - In a pan, heat olive oil and 2 tbsp of butter. Add garlic and crushed red pepper, cook until fragrant.
     - Toss in shrimp, add salt and pepper, to taste, and stir until shrimp start to turn pink, but are not fully cooked.

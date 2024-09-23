@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Index</title>
+</head>
+<body>
+    <h1>Recipes</h1>
+    <ul id="recipe-list"></ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+    <script>
+        // Function to create list of recipes
+        async function createRecipeList() {
+            try {
+                const response = await fetch('/list-recipes');
+                const yamlFiles = await response.json();
+
+                const recipeList = document.getElementById('recipe-list');
+                yamlFiles.forEach(file => {
+                    const li = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = `recipe.html?file=recipes/${file}`;
+                    link.textContent = file.replace('.yaml', '').replace(/-/g, ' ').toUpperCase();
+                    li.appendChild(link);
+                    recipeList.appendChild(li);
+                });
+            } catch (error) {
+                console.error('Error fetching recipe list:', error);
+            }
+        }
+
+        // Initialize the recipe list
+        createRecipeList();
+    </script>
+</body>
+</html>

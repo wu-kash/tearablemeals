@@ -1,46 +1,46 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 8
-    preparationtime:
+    PreparationTime:
         Value: 15
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 15
         Units: min
-    source:
+    Source:
         Value: https://damndelicious.net/2019/07/17/warm-potato-salad/
 Ingredients:
     Bacon:
-        Quantity: 6
+        Value: 6
         Units: slices
     Mixed Baby Potatoes:
-        Quantity: \weightLbTog{3}
+        Value: \weightLbTog{3}
         Units: g
     Olive Oil:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Dijon Mustard:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Red Wine Vinegar:
-        Quantity: 1
+        Value: 1
         Units: tbsp
     Onion:
-        Quantity: 1
+        Value: 1
         Units: ''
     Fresh Chives:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Fresh Dill:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Boiled Eggs:
-        Quantity: 4
+        Value: 4
         Units: ''
-Preparation:
+Preparations:
     - Chop the chives and dill, mince the onion. Halve the potatoes and eggs, and dice the bacon.
-Cooking:
+Instructions:
     - Heat a skillet over medium high heat. Add bacon and cook until brown and crispy. Drain excess fat, transfer bacon to a paper towel-lined plate.
     - Place potatoes in a medium saucepan and cover with cold salted water by 1 inch. Bring to a boil and simmer until just tender.
     - In a large bowl, whisk together olive oil, Dijon, red wine vinegar, shallot, chives and dill, season with salt and pepper. 

@@ -1,49 +1,49 @@
 Tested: True
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 15
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 25
         Units: min
-    source:
+    Source:
         Value: Cooking for Blokes (p. 251)
 Ingredients:
     Potatoes:
-        Quantity: 400
+        Value: 400
         Units: g
     Garlic:
-        Quantity: 1
+        Value: 1
         Units: clove
     Ginger Root:
-        Quantity: 1
+        Value: 1
         Units: cm
     Onion:
-        Quantity: 1
+        Value: 1
         Units: ''
     Sunflower Oil:
-        Quantity: 3
+        Value: 3
         Units: tbsp
     Cumin Seeds:
-        Quantity: 1
+        Value: 1
         Units: tsp
     Cardamom Pod:
-        Quantity: 1
+        Value: 1
         Units: ''
     Chilli Powder:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: tsp
     Brown Mustard Seeds:
-        Quantity: 2
+        Value: 2
         Units: tbsp
     Garam Masala:
-        Quantity: 1
+        Value: 1
         Units: tsp
-Preparation:
+Preparations:
     - Clean the potatoes, cut the onion into slices. Peel and crush the gartlic and ginger root
-Cooking:
+Instructions:
     - Boil the potatoes in salted water for about 15 minutes until they are just done. Drain and cut in half.
     - Put the oil into a frying pan over moderate heat. Fry the cumin, cardamom, chilli powder and mustard seeds for about 1 minute.
     - Add the garlic, ginger and onion and fry for about 3 minutes until the onion is golden. Keep stirring.

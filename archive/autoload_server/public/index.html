@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/recipe-styles.css">
+	<link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+	<link rel="icon" href="images/tar_logo.png" type="image/x-icon">
+    <title>Take Away Recipes</title>
+</head>
+<body>
+    <div id="main-menu-content" class="div-document" style="display: none">
+		<div class="div-title">
+			<h1 class="h1-titles">Take Away Recipes</h1>
+		</div>
+		<div class="div-filter noprint">
+			<input type="text" class="input-filter" id="filterInput" placeholder="Type to filter...">
+		</div>
+
+		<div class="div-recipe-index">
+			<ul id="recipe-list" class="ul-recipe-index">
+				<!-- <li><a href="recipes/_black_bean_stuffed_sweet_potatoes.html" data-title="Black Bean Stuffed Sweet Potatoes">Black Bean Stuffed Sweet Potatoes</a></li> -->
+            </ul>
+		</div>
+
+        <div class="footer">
+            <img src="images/tar_footer_a5.png" alt="logo" class="img-logo">
+        </div>
+	</div>
+
+    <!-- RECIPE -->
+    <div id="recipe-content" style="display: none">
+        <div class="div-heading-recipe">
+            <h1 class="h1-titles" id="recipe-title"></h1>
+        </div>
+        <div class="div-info-recipe recipe-info-height">
+            <img src="qr/BakedRavioli.png" alt="QR Code" class="img-info-qr-recipe recipe-info-height">
+            <div class="div-info-text-recipe recipe-info-height">
+                <div class="div-info-text-recipe-row">
+                    <img src="images/symbol_preparation.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span id="recipe-preparation-time"></span>
+                </div>
+                <div class="div-info-text-recipe-row">
+                    <img src="images/symbol_cooking.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span id="recipe-cooking-time"></span>
+                </div>
+                <div class="div-info-text-recipe-row">
+                    <img src="images/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
+                    <span id="recipe-portions"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="div-heading-container">
+                <h2 class="recipe-headings title-ingredients">Ingredients</h2>
+            </div>
+            <h2 class="recipe-headings title-preparation">Preparation</h2>
+        </div>
+        
+        <div class="div-ingredients">
+            <ul class="text-ingredient-list" id="ingredientList">
+                <!-- Ingredients added with addIngredientToList('Ingredient', 'Quantity', 'Units'); -->
+                <!-- Headings added with addIngredientHeadingToList('Heading'); -->
+            </ul>
+        </div>
+        <div class="section-preparation">
+            <ul class="text-preparation-list" id="preparationList">
+                <!-- Steps added with addPreparationStepToList('Step Description'); -->
+            </ul>
+        </div>
+        <div class="section-recipe">
+            <h2 class="recipe-headings title-instructions" style>Instructions</h2>
+            <ol class="text-instructions-list" id="cookingList">
+                <!-- Steps added with addCookingStepToList('Step Description'); -->
+            </ol>
+        </div>
+
+        <div class="div-logo">
+            <img src="images/tar_footer_a5.png" alt="logo" class="img-logo">
+        </div>
+
+        <button class="noprint" id="back-button">← Back to Recipes</button>
+    </div>
+
+    <script src="scripts/main.js"></script> 
+    <script src="scripts/recipe.js"></script> 
+</body>
+</html>

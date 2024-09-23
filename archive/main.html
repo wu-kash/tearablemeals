@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Footer Example</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+            padding: 20px; /* Optional: adds padding around content */
+            box-sizing: border-box;
+        }
+
+        .footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 10px;
+            height: 100px; /* Adjust based on your footer image height */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <!-- Your content here -->
+            <p>This is some content above the footer. This is some content above the footer. This is some content above the footer. This is some content above the footer. This is some content above the footer. This is some content above the footer. This is some content above the footer. This is some content above the footer.</p>
+            <!-- Add more content to see the scrolling effect -->
+        </div>
+        <div class="div-logo">
+            <img src="../_resources/recipe_doodle_light_v2.jpg" alt="Footer Image" style="max-width: 100%; height: auto;">
+        </div>
+    </div>
+</body>
+</html>

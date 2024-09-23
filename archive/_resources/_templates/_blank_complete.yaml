@@ -1,0 +1,41 @@
+Tested: False
+Recipe Info:
+    Portions:
+        Value: 
+    PreparationTime:
+        Value: 
+        Units: 
+    CookingTime:
+        Value: 
+        Units: 
+    # bakingtemperature:
+    #     fanoven:
+    #         Value: 
+    #         Units: 
+    #     topbottomheat:
+    #         Value: 
+    #         Units: 
+    #     topheat:
+    #         Value: 
+    #         Units: 
+    #     bottomheat:
+    #         Value: 
+    #         Units: 
+    #     gasstove:
+    #         Value: 
+    Source:
+        Value: 
+    # calory:
+    #     Value: 
+    #     Units: 
+# Introduction: 
+Ingredients:
+    Ingredient 1:
+        Value: 
+        Units: 
+Preparations:
+    - 
+Instructions:
+    - 
+# Suggestion: 
+# Hint: 

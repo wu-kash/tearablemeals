@@ -1,43 +1,43 @@
 Tested: True
 Recipe Info:
-    portion:
+    Portions:
         Value: 4
-    preparationtime:
+    PreparationTime:
         Value: 10
         Units: min
-    bakingtime:
+    CookingTime:
         Value: 20
         Units: min
-    source:
+    Source:
         Value: https://damndelicious.net/2014/01/07/baked-ravioli/
 Ingredients:
     Ravioli:
-        Quantity: \weightOzTog{16}
+        Value: \weightOzTog{16}
         Units: g
     Marinara Sauce:
-        Quantity: 2
+        Value: 2
         Units: cups
     Cream Cheese:
-        Quantity: \sfrac{1}{3}
+        Value: \sfrac{1}{3}
         Units: cups
     Dried Thyme:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: tsp
     Dried Parsley:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: tsp
     Mozzarella:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Parmesan Cheese:
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: cup
     Basil Leaves:
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: cup
-Preparation:
+Preparations:
     - Grate the Parmesan cheese and shred the mozzarella.
-Cooking:
+Instructions:
     - Preheat oven to \tempFToC{350}. Lightly oil a baking dish or coat with nonstick spray.
     - In a large pot of boiling water, cook ravioli just until tender, about 2-3 minutes.
     - Combine marinara sauce and cream cheese in a medium saucepan over medium heat. Cook, stirring constantly, until cream cheese has melted, about 2-3 minutes. Stir in thyme and parsley.

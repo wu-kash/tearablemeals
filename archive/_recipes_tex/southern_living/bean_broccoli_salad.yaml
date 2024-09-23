@@ -1,56 +1,56 @@
 Tested: False
 Recipe Info:
-    portion:
+    Portions:
         Value: 6
-    preparationtime:
+    PreparationTime:
         Value: 30
         Units: min
-    bakingtime:
+    CookingTime:
         Value:
         Units:
-    source:
+    Source:
         Value: https://www.southernliving.com/recipes/lemony-white-bean-salad-with-broccoli
 Ingredients:
     Salad Dressing:
         Heading: True
     Parsley:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Red Onion:
-        Quantity: 1
+        Value: 1
         Units: ''
     Rucola:
-        Quantity: 4
+        Value: 4
         Units: cups
     Olive Oil:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
     Salt :
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: cup
     Salad:
         Heading: True
     Broccoli Florets:
-        Quantity: 450
+        Value: 450
         Units: g
     Olive Oil:
-        Quantity: 1 \sfrac{1}{2}
+        Value: 1 \sfrac{1}{2}
         Units: tbsp
     Salt:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: tsp
     Pepper:
-        Quantity: \sfrac{1}{4}
+        Value: \sfrac{1}{4}
         Units: tsp
     White Beans:
-        Quantity: 400
+        Value: 400
         Units: g
     Parmessan:
-        Quantity: \sfrac{1}{2}
+        Value: \sfrac{1}{2}
         Units: cup
-Preparation:
+Preparations:
     - Chop the parsley and mince the garlic. Drain the beans from the cans. Thinly slice the red onion and grate the parmesan cheese.
-Cooking:
+Instructions:
     - Preheat oven to \tempFToC{400} with the oven rack 10 cm from the heat. Toss together broccoli, 1 \sfrac{1}{2} tbsp of the oil, \sfrac{1}{2} tsp of the salt, and \sfrac{1}{4} teaspoon of the pepper in a large bowl. Spread broccoli in a single layer on a rimmed baking sheet. Roast in oven until just tender, 20 to 25 minutes.
     - Whisk together lemon zest and juice, parsley, garlic, mustard, vinegar, honey, and remaining \sfrac{1}{2} cup oil, \sfrac{1}{2} tsp salt, and \sfrac{1}{4} tsp pepper in a medium bowl. Set aside.
     - Increase oven temperature to broil, cook broccoli until slightly charred, 1 to 2 minutes. Cool about 5 minutes.
