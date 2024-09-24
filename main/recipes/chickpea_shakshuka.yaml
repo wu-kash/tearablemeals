@@ -22,10 +22,10 @@ Ingredients:
         Value: 1
         Units: tbsp
     -   Name: Onion
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Red Bell Pepper
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Garlic
         Value: 3
@@ -46,7 +46,7 @@ Ingredients:
         Value: 2
         Units: tsp
     -   Name: Ground Cinnamon
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: tsp
     -   Name: Cayenne Pepper
         Value: 1
@@ -58,10 +58,10 @@ Ingredients:
         Value: 1
         Units: pinch
 Preparations:
-    - Dice the onion, chop the red bell pepper and mince the garlic. Halve the olives.
+    - Dice the INGREDIENT{onion}, chop the INGREDIENT{red bell pepper} and mince the INGREDIENT{garlic}. Halve the INGREDIENT{olives}.
 Instructions:
-    - Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add olive oil, onion, bell pepper and garlic. Sauté for 4-5 minutes, stirring frequently until soft.
-    - Add crushed tomatoes, tomato paste, coconut sugar, sea salt, paprika, cumin, chili powder, cinnamon, cayenne pepper, cardamom, and coriander.
+    - Heat a large rimmed metal or cast iron skillet over medium heat. Once hot, add INGREDIENT{olive oil}, INGREDIENT{onion}, INGREDIENT{bell pepper} and INGREDIENT{garlic}. Sauté for 4-5 minutes, stirring frequently until soft.
+    - Add INGREDIENT{crushed tomatoes}, INGREDIENT{tomato paste}, INGREDIENT{coconut sugar}, INGREDIENT{salt}, INGREDIENT{paprika}, INGREDIENT{cumin}, INGREDIENT{chili powder}, INGREDIENT{cinnamon}, INGREDIENT{cayenne pepper}, INGREDIENT{cardamom}, and INGREDIENT{coriander}.
     - Bring to a simmer over medium heat and cook for 2-3 minutes, stirring frequently.
-    - Add chickpeas and olives, reduce heat to medium-low and simmer for 15-20 minutes. Taste and adjust seasonings as needed.
-    - Serve as is or with bread, pasta, or rice. Garnish with fresh lemon juice, additional olives, and cilantro or parsley for extra flavor.
+    - Add INGREDIENT{chickpeas} and INGREDIENT{olives}, reduce heat to medium-low and simmer for 15-20 minutes. Taste and adjust seasonings as needed.
+    - Serve as is or with bread, pasta, or rice. Garnish with fresh INGREDIENT{lemon juice}, INGREDIENT{olives}, and INGREDIENT{cilantro} or INGREDIENT{parsley} for extra flavor.

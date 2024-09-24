@@ -25,7 +25,7 @@ Ingredients:
         Value: 4
         Units: cloves
     -   Name: Flour
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tbsp
     -   Name: Tomato Paste
         Value: 1
@@ -34,26 +34,26 @@ Ingredients:
         Value: 1
         Units: tsp
     -   Name: Milk
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: cup
     -   Name: Sun Dried Tomatoes
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Cream Cheese
         Value: 3
         Units: Oz
     -   Name: Parmesan
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Parsley
         Value: 2
         Units: tbsp
 Preparations:
-    - Mince the garlic. Chop the tomatoes, parsley and grate the parmesan.
+    - Mince the INGREDIENT{garlic}. Chop the INGREDIENT{tomatoes}, INGREDIENT{parsley} and grate the INGREDIENT{parmesan}.
 Instructions:
-    - In a large pot of boiling salted water, cook pasta according to package instructions and drain the water.
-    - Melt 1 tbsp butter in a large skillet over medium high heat. Season chicken with Italian seasoning, salt and pepper, to taste. Add chicken to the skillet and cook, flipping once, until cooked through. Let cool before slicing and set aside.
-    - Melt remaining 3 tablespoons butter in the skillet. Add garlic, and cook, stirring frequently, about 1-2 minutes. Whisk in flour, tomato paste and basil until lightly browned.
-    - Gradually whisk in milk and sun-dried tomatoes. Whisk constantly, until slightly thickened, about 5 minutes. Stir in cream cheese and Parmesan until smooth. If the mixture is too thick, add more milk as needed. Season with salt and pepper, to taste.
-    - Stir in pasta and chicken, and gently toss to combine.
-    - Garnish with Parmesan and parsley, and serve.
+    - In a large pot of boiling salted water, cook INGREDIENT{pasta} according to package instructions and drain the water.
+    - Melt 1 tbsp INGREDIENT{butter} in a large skillet over medium high heat. Season INGREDIENT{chicken} with INGREDIENT{italian seasoning}, INGREDIENT{salt} and INGREDIENT{pepper}, to taste. Add INGREDIENT{chicken} to the skillet and cook, flipping once, until cooked through. Let cool before slicing and set aside.
+    - Melt remaining 3 tbsps INGREDIENT{butter} in the skillet. Add INGREDIENT{garlic}, and INGREDIENT{cook}, stirring frequently, about 1-2 minutes. Whisk in INGREDIENT{flour}, INGREDIENT{tomato paste} and INGREDIENT{basil} until lightly browned.
+    - Gradually whisk in INGREDIENT{milk} and INGREDIENT{sun-dried tomatoes}. Whisk constantly, until slightly thickened, about 5 minutes. Stir in INGREDIENT{cream cheese} and INGREDIENT{parmesan} until smooth. If the mixture is too thick, add more INGREDIENT{milk} as needed. Season with INGREDIENT{salt} and INGREDIENT{pepper}, to taste.
+    - Stir in INGREDIENT{pasta} and INGREDIENT{chicken}, and gently toss to combine.
+    - Garnish with INGREDIENT{parmesan} and INGREDIENT{parsley}, and serve.

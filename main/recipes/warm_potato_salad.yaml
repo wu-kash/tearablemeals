@@ -37,10 +37,10 @@ Ingredients:
         Value: 4
         Units: ''
 Preparations:
-    - Chop the chives and dill, mince the onion. Halve the potatoes and eggs, and dice the bacon.
+    - Chop the INGREDIENT{chives} and INGREDIENT{dill}, mince the INGREDIENT{onion}. Halve the INGREDIENT{potatoes} and INGREDIENT{eggs}, and dice the INGREDIENT{bacon}.
 Instructions:
-    - Heat a skillet over medium high heat. Add bacon and cook until brown and crispy. Drain excess fat, transfer bacon to a paper towel-lined plate.
-    - Place potatoes in a medium saucepan and cover with cold salted water by 1 inch. Bring to a boil and simmer until just tender.
-    - In a large bowl, whisk together olive oil, Dijon, red wine vinegar, shallot, chives and dill, season with salt and pepper. 
-    - Stir in potatoes and bacon until well combined.
-    - Serve immediately, topped with eggs.
+    - Heat a skillet over medium high heat. Add INGREDIENT{bacon} and cook until brown and crispy. Drain excess fat, transfer INGREDIENT{bacon} to a paper towel-lined plate.
+    - Place INGREDIENT{potatoes} in a medium saucepan and cover with cold salted INGREDIENT{water} by 1 inch. Bring to a boil and simmer until just tender.
+    - In a large bowl, whisk together INGREDIENT{olive oil}, INGREDIENT{dijon}, INGREDIENT{red wine vinegar}, INGREDIENT{shallot}, INGREDIENT{chives} and INGREDIENT{dill}, season with INGREDIENT{salt} and INGREDIENT{pepper}. 
+    - Stir in INGREDIENT{potatoes} and INGREDIENT{bacon} until well combined.
+    - Serve immediately, topped with INGREDIENT{eggs}.

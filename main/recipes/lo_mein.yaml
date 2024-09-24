@@ -40,13 +40,13 @@ Ingredients:
         Value: 200
         Units: g
     -   Name: Rice Vinegar
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tbsp
 Preparations:
-    - Chop the grreen onion and mince the garlic. Julienne cut or chop the mixed vegetables (carrots, mushrooms, broccoli, red peppers, cabbage).
+    - Chop the INGREDIENT{green onion} and mince the INGREDIENT{garlic}. Julienne cut or chop the INGREDIENT{carrots}, INGREDIENT{mushrooms}, INGREDIENT{broccoli}, INGREDIENT{red peppers} and INGREDIENT{cabbage}.
 Instructions:
     - Shake all the sauce ingredients together in a jar.
-    - Cook the noodles according to package directions. Drain and set aside.
-    - Heat the sesame oil in a large wok or skillet. Add the green onions (white parts) and vegetables to the hot pan. Stir fry until fork-tender, about 5 minutes.
-    - Add the rice vinegar to loosen the browned bits up off the bottom of the pan. Add the cooked noodles and about half of the sauce, toss around in the hot pan to combine. Add more sauce if needed.
-    - Garnish with remaining green onions and serve.
+    - Cook the INGREDIENT{noodles} according to package directions. Drain and set aside.
+    - Heat the INGREDIENT{sesame oil} in a large wok or skillet. Add the INGREDIENT{green onions} and INGREDIENT{vegetables} to the hot pan. Stir fry until fork-tender, about 5 minutes.
+    - Add the INGREDIENT{rice vinegar} to loosen the browned bits up off the bottom of the pan. Add the cooked INGREDIENT{noodles} and about half of the sauce, toss around in the hot pan to combine. Add more sauce if needed.
+    - Garnish with remaining INGREDIENT{green onions} and serve.

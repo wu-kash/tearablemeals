@@ -36,7 +36,7 @@ Ingredients:
     -   Name: Sauce
         Heading: True
     -   Name: Soy Sauce
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Rice Wine Vinegar
         Value: 2
@@ -57,10 +57,10 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Dice the onion. Thinly slice the bell peppers and green onion. Grate the ginger and mince the garlic.
+    - Dice the INGREDIENT{onion}. Thinly slice the INGREDIENT{bell peppers} and INGREDIENT{green onion}. Grate the INGREDIENT{ginger} and mince the INGREDIENT{garlic}.
 Instructions:
-    - In a bowl, whisk together soy sauce, rice wine vinegar, brown sugar, garlic, ginger, sesame oil and Sriracha. Set aside.
-    - In a large pot of boiling water, cook the noodles according to package instructions and drain the water.
-    - Heat olive oil in a large skillet over medium high heat. Add ground beef and onion and cook until beef has browned, about 3-5 minutes, making sure to crumble the beef as it cooks.
-    - Stir in bell peppers and broccoli. Cook, stirring frequently, about 3-4 minutes. Stir in noodles and soy sauce mixture until well combined for about 2-3 minutes.
-    - Garnish with green onion and serve.
+    - In a bowl, whisk together INGREDIENT{soy sauce}, INGREDIENT{rice wine vinegar}, INGREDIENT{brown sugar}, INGREDIENT{garlic}, INGREDIENT{ginger}, INGREDIENT{sesame oil} and INGREDIENT{sriracha}. Set aside.
+    - In a pot of boiling water, cook the INGREDIENT{udon noodles} according to package instructions and drain the water.
+    - Heat INGREDIENT{olive oil} in a skillet over medium high heat. Add INGREDIENT{ground beef} and INGREDIENT{onion} and cook until the INGREDIENT{beef} has browned.
+    - Stir in INGREDIENT{bell peppers} and bringrediento{ccoli. Cook, stirring frequently for about 3-4 minutes. Stir in INGREDIENT{noodles} and INGREDIENT{soy sauce mixture} until well combined for about 2-3 minutes.
+    - Garnish with INGREDIENT{green onion} and serve.

@@ -16,10 +16,10 @@ Ingredients:
         Value: 1.5
         Units: Lb
     -   Name: Oil
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tbsp
     -   Name: Sweet Onion
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: ''
     -   Name: Tomato Paste
         Value: 3
@@ -31,13 +31,13 @@ Ingredients:
         Value: 1
         Units: tbsp
     -   Name: Garam Masala
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Chill Powder
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Ground Tumeric
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Tomato Sauce
         Value: 1
@@ -46,18 +46,18 @@ Ingredients:
         Value: 1
         Units: cup
     -   Name: Heavy Cream
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Cilantro Leaves
         Value: 2
         Units: tbsp
 Preparations:
-    - Cut the chicken thighs into 2 cm chunks. Mince the garlic, grate the ginger and chop up the cilantro leaves.
+    - Cut the INGREDIENT{chicken thighs} into 2 cm chunks. Mince the INGREDIENT{garlic}, grate the INGREDIENT{ginger} and chop up the INGREDIENT{cilantro leaves}.
 Instructions:
-    - In a large saucepan of 2 cups water, cook rice according to package instructions and set aside.
-    - Season chicken with 1 teaspoon salt and sfrac{1}{2} teaspoon pepper.
-    - Heat oil in a large stockpot over medium heat. Add chicken and onion to the stockpot and cook until golden, about 4-5 minutes.
-    - Stir in tomato paste, garlic, ginger, garam masala, chili powder and turmeric until fragrant, about 1 minute.
-    - Stir in tomato sauce and chicken stock and season with salt and pepper. Bring to a boil, reduce heat and simmer until reduced and slightly thickened, about 10 minutes.
-    - Stir in heavy cream until heated through, about 1 minute.
-    - Serve with rice and garnish with cilantro.
+    - In a large saucepan of 2 cups water, cook INGREDIENT{rice} according to the package instructions and set aside.
+    - Season INGREDIENT{chicken} with 1 tsp salt and FRACTION{1}{2} tsp INGREDIENT{pepper}.
+    - Heat INGREDIENT{oil} in a large stockpot over medium heat. Add INGREDIENT{chicken} and INGREDIENT{onion} to the stockpot and cook until golden, about 4-5 minutes.
+    - Stir in INGREDIENT{tomato paste}, INGREDIENT{garlic}, INGREDIENT{ginger}, INGREDIENT{garam masala}, INGREDIENT{chili powder} and INGREDIENT{turmeric} until fragrant, about 1 minute.
+    - Stir in INGREDIENT{tomato sauce} and INGREDIENT{chicken stock} and season with INGREDIENT{salt} and INGREDIENT{pepper}. Bring to a boil, reduce heat and simmer until reduced and slightly thickened, about 10 minutes.
+    - Stir in INGREDIENT{heavy cream} until heated through, about 1 minute.
+    - Serve with INGREDIENT{rice} and garnish with INGREDIENT{cilantro}.

@@ -13,10 +13,10 @@ Ingredients:
         Value: 1.5
         Units: Lb
     -   Name: Onion
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: ''
     -   Name: Dijon Mustard
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Honey
         Value: 3
@@ -34,9 +34,9 @@ Ingredients:
         Value: 1
         Units: tbsp
 Preparations:
-    - Dice the onion and chop the rosemary.
+    - Dice the INGREDIENT{onion} and chop the INGREDIENT{rosemary}.
 Instructions:
-    - In a medium bowl, whisk together the Dijon mustard, onion, honey, olive oil, rosemary, lemon juice, 1 tsp salt and sfrac{1}{2} tsp pepper. Set aside sfrac{1}{2} of the mixture in the refrigerator until ready to serve.
-    - In a large bowl, combine the chicken and the other sfrac{1}{2} of the Dijon mixture. Marinate for at least 2-8 hours. Drain the chicken from the marinade.
-    - Preheat grill to medium heat. Brush the chicken with canola oila and season with salt and pepper. Add chicken to grill, and cook, turning occasionally, until chicken is completely cooked through.
-    - Brush with the reserved Dijon mixture, cooking for an additional 1-2 minutes.
+    - In a medium bowl, whisk together the INGREDIENT{dijon mustard}, INGREDIENT{onion}, INGREDIENT{honey}, INGREDIENT{olive oil}, INGREDIENT{rosemary}, INGREDIENT{lemon juice}, 1 tsp INGREDIENT{salt} and FRACTION{1}{2} tsp INGREDIENT{pepper}. Set aside FRACTION{1}{2} of the mixture in the refrigerator until ready to serve.
+    - In a large bowl, combine the INGREDIENT{chicken} and the other FRACTION{1}{2} of the INGREDIENT{dijon mixture}. Marinate for at least 2-8 hours. Drain the INGREDIENT{chicken} from the marinade.
+    - Preheat grill to medium heat. Brush the INGREDIENT{chicken} with INGREDIENT{canola oil} and season with INGREDIENT{salt} and INGREDIENT{pepper}. Add INGREDIENT{chicken} to grill, and cook, turning occasionally, until INGREDIENT{chicken} is completely cooked through.
+    - Brush with the reserved INGREDIENT{dijon mixture}, cooking for an additional 1-2 minutes.

@@ -57,10 +57,10 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Thinly slice the green onion, grate the ginger and mince the garlic.
+    - Thinly slice the INGREDIENT{green onion}, grate the INGREDIENT{ginger} and mince the INGREDIENT{garlic}.
 Instructions:
-    - In a small bowl, whisk together soy sauce, oyster sauce, rice wine vinegar, brown sugar, ginger, garlic, sesame oil, cornstarch and Sriracha.
-    - Heat olive oil in a skillet over medium high heat. Add shrimp, and cook, stirring occasionally, until pink.
-    - Add broccoli, and cook, stirring frequently, until tender.
-    - Stir in soy sauce mixture until well combined and slightly thickened.
-    - Serve with rice, garnished with green onion and sesame seeds.
+    - In a small bowl, whisk together INGREDIENT{soy sauce}, INGREDIENT{oyster sauce}, INGREDIENT{rice wine vinegar}, INGREDIENT{brown sugar}, INGREDIENT{ginger}, INGREDIENT{garlic}, INGREDIENT{sesame oil}, INGREDIENT{cornstarch} and INGREDIENT{sriracha}.
+    - Heat INGREDIENT{olive oil} in a skillet over medium high heat. Add INGREDIENT{shrimp} and cook, stirring occasionally, until pink.
+    - Add INGREDIENT{broccoli} and cook until tender.
+    - Stir in INGREDIENT{soy sauce} mixture until well combined and slightly thickened.
+    - Serve with INGREDIENT{rice}, garnished with INGREDIENT{green onion} and INGREDIENT{sesame seeds}.

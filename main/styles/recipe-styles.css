@@ -1,7 +1,5 @@
 @import url('styles.css');
 
-
-
 .div-heading-recipe {
     margin-bottom: 0.5em;
 }
@@ -57,6 +55,15 @@
     margin-bottom: 1em;
 }
 
+.highlight {
+    /* padding: 0px 2px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    /* background-color: rgba(255, 136, 0, 0.308); */
+    /* background-color: rgba(212, 212, 212, 0.308); */
+    display: inline-block; 
+    font-weight: bolder;
+}
 
 ul.text-ingredient-list {
     list-style: none;
@@ -73,7 +80,7 @@ li.text-ingredient-item:before {
     font-weight: bold;
     background-color: white;
     border-color: orange;
-    border-width: 2px;
+    border-width: 0.35em;
     border-radius: 0.5em;
     border-style: solid;
     vertical-align: middle;
@@ -109,7 +116,7 @@ li.preparation-step {
 
 .text-instructions-list li {
     counter-increment: step-counter;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 .text-instructions-list li::before {

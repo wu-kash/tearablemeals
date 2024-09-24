@@ -34,7 +34,7 @@ Ingredients:
         Value: 2
         Units: ''
     -   Name: Sugar
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Vegetable Bouillon
         Value: 1
@@ -49,12 +49,12 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Peel and chop the onions and garlic.
+    - Peel and chop the INGREDIENT{onions} and INGREDIENT{garlic}.
 Instructions:
-    - Heat the oil in a large pan and add onions and garlic. Cook on low for 2-3 minutes.
-    - Add the minced beef and stir. Cook for 3-5 minutes until the meat has slightly browned.
-    - Add the can of tomatoes to the pan, mash the tomatoes in the pan. Cook for 2-3 minutes and then add the tomato purée.
-    - Add oregano, bay leaves, sugar and the vegetable bouillion and then add sfrac{1}{2} cup of water. If the sauce gets too dry, add some more water.
-    - Add pepper, to taste and cook on low heat for about 10-15 minutes.
-    - Boil salted water, add spaghetti and follow the cooking instructions.
-    - Serve the pasta and cover it with the bolognese sauce.
+    - Heat the INGREDIENT{oil} in a large pan and add INGREDIENT{onions} and INGREDIENT{garlic}. Cook on low for 2-3 minutes.
+    - Add the INGREDIENT{minced beef} and stir. Cook for 3-5 minutes until the INGREDIENT{meat} has slightly browned.
+    - Add the can of INGREDIENT{tomatoes} to the pan, mash the INGREDIENT{tomatoes} in the pan. Cook for 2-3 minutes and then add the INGREDIENT{tomato purée}.
+    - Add INGREDIENT{oregano}, INGREDIENT{bay leaves}, INGREDIENT{sugar} and the INGREDIENT{vegetable bouillion} and then add FRACTION{1}{2} cup of INGREDIENT{water}. If the sauce gets too dry, add some more INGREDIENT{water}.
+    - Add INGREDIENT{pepper}, to taste and cook on low heat for about 10-15 minutes.
+    - Cook the INGREDIENT{pasta} according to the cooking instructions.
+    - Serve the INGREDIENT{pasta} and cover it with the INGREDIENT{bolognese sauce}.

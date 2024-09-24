@@ -28,29 +28,29 @@ Ingredients:
         Value: 4
         Units: tsp
     -   Name: Flour
-        Value: 2 sfrac{1}{2}
+        Value: 2 FRACTION{1}{2}
         Units: tbsp
     -   Name: Beef Stock
         Value: 2
         Units: cups
     -   Name: Dijon Mustard
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Sour Cream
-        Value: sfrac{3}{4}
+        Value: FRACTION{3}{4}
         Units: cup
     -   Name: Parmesan
-        Value: sfrac{2}{3}
+        Value: FRACTION{2}{3}
         Units: cup
     -   Name: Parsley
         Value: 2
         Units: tbsp
 Preparations:
-    - Thinly slice the mushrooms, dice the onions, chop the thyme, parsley and mince the garlic. Grate the parmesan.
+    - Thinly slice the INGREDIENT{mushrooms}, dice the INGREDIENT{onions}, chop the INGREDIENT{thyme}, INGREDIENT{parsley} and mince the INGREDIENT{garlic}. Grate the INGREDIENT{parmesan}.
 Instructions:
-    - In a large pot of boiling salted water, cook pasta according to package instructions and drain the water.
-    - Melt butter in a large skillet over medium high heat. Add mushrooms and onions, and cook, stirring occasionally, until mushrooms are tender and browned, about 5-7 minutes. Season with salt and pepper, to taste.
-    - Stir in garlic and thyme until fragrant.
-    - Whisk in flour until lightly browned.
-    - Gradually whisk in beef stock and Dijon. Bring to a boil, reduce heat and simmer, stirring occasionally, until reduced and slightly thickened, about 4-5 minutes.
-    - Stir in pasta and sour cream until heated through. Stir in Parmesan until melted. Stir in parsley, season with salt and pepper, to taste.
+    - In a large pot of boiling salted water, cook INGREDIENT{pasta} according to package instructions and drain the water.
+    - Melt INGREDIENT{butter} in a large skillet over medium high heat. Add INGREDIENT{mushrooms} and INGREDIENT{onions}, and INGREDIENT{cook}, stirring occasionally, until INGREDIENT{mushrooms} are tender and browned, about 5-7 minutes. Season with INGREDIENT{salt} and INGREDIENT{pepper}, to taste.
+    - Stir in INGREDIENT{garlic} and INGREDIENT{thyme} until fragrant.
+    - Whisk in INGREDIENT{flour} until lightly browned.
+    - Gradually whisk in INGREDIENT{beef stock} and INGREDIENT{dijon mustard}. Bring to a boil, reduce heat and simmer, stirring occasionally, until reduced and slightly thickened, about 4-5 minutes.
+    - Stir in INGREDIENT{pasta} and INGREDIENT{sour cream} until heated through. Stir in INGREDIENT{parmesan} until melted. Stir in parsley, season with INGREDIENT{salt} and INGREDIENT{pepper}, to taste.

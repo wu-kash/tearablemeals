@@ -16,7 +16,7 @@ Ingredients:
         Value: 2
         Units: large
     -   Name: Parmessan
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Bacon
         Value: 4
@@ -28,11 +28,11 @@ Ingredients:
         Value: 2
         Units: tbsp
 Preparations:
-    - Grate the Parmessan cheese, dice the bacon, chop the parsley and mince the garlic.
+    - Grate the v{parmessan cheese}, dice the INGREDIENT{bacon}, chop the INGREDIENT{parsley} and mince the INGREDIENT{garlic}.
 Instructions:
-    - In a large pot of boiling salted water, cook pasta according to package instructions, reserve sfrac{1}{2} cup water and drain well.
-    - In a small bowl, whisk together eggs and Parmesan and set aside.
-    - Heat a large cast iron skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes and reserve excess fat.
-    - Stir in garlic until fragrant, about 1 minute. Reduce heat to low.
-    - Working quickly, stir in pasta and egg mixture, and gently toss to combine, season with salt and pepper, to taste. Add reserved pasta water, one tablespoon at a time, until desired consistency is reached.
-    - Garnish with parsley.
+    - In a pot of boiling salted water, cook INGREDIENT{pasta} according to package instructions, reserve FRACTION{1}{2} cup INGREDIENT{water} and drain well.
+    - In a small bowl, whisk together INGREDIENT{eggs} and INGREDIENT{parmesan} and set aside.
+    - Heat a large cast iron skillet over medium high heat. Add INGREDIENT{bacon} and cook until brown and crispy, about 6-8 minutes and reserve excess fat.
+    - Stir in INGREDIENT{garlic} until fragrant, about 1 minute. Reduce heat to low.
+    - Working quickly, stir in INGREDIENT{pasta} and INGREDIENT{egg mixture}, and gently toss to combine, season with INGREDIENT{salt} and INGREDIENT{pepper}, to taste. Add reserved INGREDIENT{pasta} water, one tbsp at a time, until desired consistency is reached.
+    - Garnish with INGREDIENT{parsley}.

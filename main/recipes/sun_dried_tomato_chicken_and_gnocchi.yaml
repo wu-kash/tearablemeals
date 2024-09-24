@@ -22,7 +22,7 @@ Ingredients:
         Value: 1
         Units: ''
     -   Name: Sun Dried Tomatoes
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Tomato Paste
         Value: 1
@@ -37,29 +37,29 @@ Ingredients:
         Value: 3
         Units: tbsp
     -   Name: Chicken Broth
-        Value: 1 sfrac{1}{2}
-        Units: cups
+        Value: 1 FRACTION{1}{2}
+        Units: cup
     -   Name: Dry White Wine
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Half and Half
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Kale
         Value: 1
         Units: bunch
     -   Name: Parmesan
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
 Preparations:
-    - Dice the onion, chop the thyme leaves, mince the garlic and grate the Parmesan.
+    - Dice the INGREDIENT{onion}, chop the INGREDIENT{thyme leaves}, mince the INGREDIENT{garlic} and grate the INGREDIENT{parmesan}.
 Instructions:
-    - Preheat oven to tempFToC{400} and in a large pot of boiling salted water, cook gnocchi according to package instructions.
-    - Season chicken with sfrac{3}{4} tsp salt and sfrac{1}{2} tsp pepper.
-    - Melt 2 tbsp butter in a large skillet over medium heat. Add chicken to the skillet in a single layer and cook until golden brown and cooked through, set aside.
-    - Melt the remaining 1 tbsp butter, add the shallot, stirring frequently, until tender.
-    - Stir in sun dried tomatoes, tomato paste, garlic and thyme, for about 1 minute and whisk in flour until lightly browned.
-    - Gradually whisk in chicken broth and wine, whisking constantly, until slightly thickened. Stir in half and half until thickened, season with salt and pepper to taste.
-    - Stir in gnocchi and kale until the kale has wilted. Return chicken to the skillet and sprinkle with Parmesan.
+    - Preheat oven to tempFToC{400} and in a pot cook INGREDIENT{gnocchi} according to package instructions.
+    - Season INGREDIENT{chicken} with FRACTION{3}{4} tsp INGREDIENT{salt} and FRACTION{1}{2} tsp INGREDIENT{pepper}.
+    - Melt 2 tbsp INGREDIENT{butter} in a large skillet over medium heat. Add INGREDIENT{chicken} to the skillet in a single layer and cook until golden brown and cooked through, set aside.
+    - Melt the remaining 1 tbsp INGREDIENT{butter}, add the INGREDIENT{shallot}, stirring frequently, until tender.
+    - Stir in INGREDIENT{sun dried tomatoes,} INGREDIENT{tomato paste}, INGREDIENT{garlic} and INGREDIENT{thyme}, for about 1 minute and whisk in flour until lightly browned.
+    - Gradually whisk in INGREDIENT{chicken broth} and INGREDIENT{wine}, whisking constantly, until slightly thickened. Stir in half and half until thickened, season with INGREDIENT{salt} and INGREDIENT{pepper} to taste.
+    - Stir in INGREDIENT{gnocchi} and INGREDIENT{kale} until the INGREDIENT{kale} has wilted. Return INGREDIENT{chicken} to the skillet and sprinkle with INGREDIENT{parmesan}.
     - Place into oven and bake until bubbly. Serve immediately.
 

@@ -29,9 +29,19 @@ function processText(text) {
     });
 
     // \sfrac{Value1}{Value2}
-    const fracRegex = /sfrac\{(\d+)\}\{(\d+)\}/g;
+    const fracRegex = /FRACTION\{(\d+)\}\{(\d+)\}/g;
     text = text.replace(fracRegex, (match, numerator, denominator) => {
-        return `${stylingStart}${numerator}/${denominator}${stylingEnd}`;
+        // return `<sup>${numerator}</sup>&frasl;<sub>${denominator}</sub>`;
+        // return `&frac${numerator}${denominator}`;
+
+        return `<sup>${numerator}</sup>&#x2044;<sub>${denominator}</sub>`;
+        
+    });
+
+    // \ingredient{text}
+    const ingredientRegex = /INGREDIENT\{(.*?)\}/g;
+    text = text.replace(ingredientRegex, (match, ingredient) => {
+        return `<span class="highlight">${ingredient}</span>`;
     });
 
     return text;

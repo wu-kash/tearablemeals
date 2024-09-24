@@ -40,19 +40,19 @@ Ingredients:
         Value: 1
         Units: tsp
     -   Name: Thyme
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Basil
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Rosemary
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: tsp
 Preparations:
-    - Chop the butternut squash and parsley, halve the potatoes and brussels sprouts. Mince the garlic.
+    - Chop the INGREDIENT{butternut squash} and INGREDIENT{parsley}, halve the INGREDIENT{potatoes} and INGREDIENT{brussels sprouts}. Mince the INGREDIENT{garlic}.
 Instructions:
-    - Preheat oven to tempFToC{400}. Lightly coat a baking dish with oil or nonstick spray.
-    - Season chicken with oregano, thyme, basil, rosemary, salt and pepper. Set aside.
-    - Place butternut squash, potatoes, carrots and brussels sprouts in a single layer onto the baking sheet. Stir in olive oil, balsamic vinegar and garlic. Season with salt and pepper and top with chicken in a single layer.
-    - Place into oven and roast until the chicken is completely cooked through after about 25-30 minutes. Then broil for 2-3 minutes, or until caramelized and slightly charred.
-    - Garnish with parsley and serve.
+    - Preheat oven to tempFToC{400}. Lightly coat a baking dish with INGREDIENT{oil} or nonstick spray.
+    - Season INGREDIENT{chicken} with INGREDIENT{oregano}, INGREDIENT{thyme}, INGREDIENT{basil}, INGREDIENT{rosemary}, INGREDIENT{salt} and INGREDIENT{pepper}. Set aside.
+    - Place INGREDIENT{butternut squash}, INGREDIENT{potatoes}, INGREDIENT{carrots} and INGREDIENT{brussels sprouts} in a single layer onto the baking sheet. Stir in INGREDIENT{olive oil}, INGREDIENT{balsamic vinegar} and INGREDIENT{garlic}. Season with INGREDIENT{salt} and INGREDIENT{pepper} and top with INGREDIENT{chicken} in a single layer.
+    - Place into oven and roast until the INGREDIENT{chicken} is completely cooked through after about 25-30 minutes. Then broil for 2-3 minutes, or until caramelized and slightly charred.
+    - Garnish with INGREDIENT{parsley} and serve.

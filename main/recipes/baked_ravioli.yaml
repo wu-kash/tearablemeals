@@ -16,28 +16,28 @@ Ingredients:
         Value: 2
         Units: cups
     -   Name: Cream Cheese
-        Value: sfrac{1}{3}
+        Value: FRACTION{1}{3}
         Units: cups
     -   Name: Dried Thyme
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Dried Parsley
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Mozzarella
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Parmesan Cheese
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Basil Leaves
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
 Preparations:
-    - Grate the Parmesan cheese and shred the mozzarella.
+    - Grate the INGREDIENT{parmesan cheese} and shred the INGREDIENT{mozzarella}.
 Instructions:
     - Preheat oven to tempFToC{350}. Lightly oil a baking dish or coat with nonstick spray.
-    - In a large pot of boiling water, cook ravioli just until tender, about 2-3 minutes.
-    - Combine marinara sauce and cream cheese in a medium saucepan over medium heat. Cook, stirring constantly, until cream cheese has melted, about 2-3 minutes. Stir in thyme and parsley.
-    - Spread ravioli into the prepared baking dish. Top with marinara mixture and sprinkle with mozzarella. Place into oven and bake until cheese has melted, about 20 minutes.
-    - Serve immediately, garnished with Parmesan and basil.
+    - In a large pot of boiling water, cook the INGREDIENT{ravioli} just until tender, about 2-3 minutes.
+    - Combine INGREDIENT{marinara sauce} and INGREDIENT{cream cheese} in a medium saucepan over medium heat. Cook, stirring constantly, until the INGREDIENT{cream cheese} has melted. Stir in INGREDIENT{thyme} and INGREDIENT{parsley}.
+    - Spread INGREDIENT{ravioli} into the prepared baking dish. Top with marinara mixture and sprinkle with INGREDIENT{mozzarella}. Place into the oven and bake until the cheese has melted.
+    - Serve immediately, garnished with INGREDIENT{parmesan cheese} and INGREDIENT{basil}.

@@ -16,22 +16,22 @@ Ingredients:
         Value: 1.5
         Units: Lb
     -   Name: Dried Oregano
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Dried Basil
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Ground Black Pepper
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
-    -   Name: Pasta Penne
+    -   Name: Penne Pasta
         Value: 16
         Units: Oz
     -   Name: Parsley
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Parmesan Cheese
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Sauce
         Heading: True
@@ -48,25 +48,25 @@ Ingredients:
         Value: 2
         Units: cups
     -   Name: Salt
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Ground Pepper
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Dried Oregano
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Dried Basil
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Parmesan Cheese
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
 Preparations:
-    - Shred the parmesan cheese and chop the parsley. Mince the garlic.
+    - Shred the INGREDIENT{parmesan cheese} and chop the INGREDIENT{parsley}. Mince the INGREDIENT{garlic}.
 Instructions:
-    - Cook according to the instructions and set aside.
-    - Melt the butter in a large pan over medium-high heat, then add the chicken breasts. Season with the salt, pepper, oregano, and basil. Cook 8-10 minutes, or until the chicken is fully cooked. Remove the chicken from the pan and set aside.
-    - In the same pan over medium heat, melt the butter, then add the garlic. Cook until the garlic begins to soften. Stir in half of the flour at a time until incorporated. Gradually pour in the milk, stirring between additions, and cook until fully incorporated and the sauce begins to thicken.
-    - Season with the salt, pepper, oregano, and basil. Add the Parmesan cheese and stir until melted.
-    - In a large bowl, pour the sauce over cooked penne pasta, then add the chicken and toss well to combine. Add the parsley and parmesan and toss again.
+    - Cook the INGREDIENT{penne pasta} according to the instructions and set aside.
+    - Melt 1 tbsp INGREDIENT{butter} in a large pan over medium-high heat, then add the INGREDIENT{chicken breasts}. Season with the INGREDIENT{salt}, INGREDIENT{pepper}, INGREDIENT{oregano}, and INGREDIENT{basil}. Cook until the INGREDIENT{chicken} is fully cooked. Remove the INGREDIENT{chicken} from the pan and set aside.
+    - In the same pan over medium heat, melt 1 tbsp INGREDIENT{butter}, then add the INGREDIENT{garlic}. Cook until the INGREDIENT{garlic} begins to soften. Stir in half of the INGREDIENT{flour} at a time until incorporated. Gradually pour in the INGREDIENT{milk}, stirring between additions, and cook until fully incorporated and the sauce begins to thicken.
+    - Season with the INGREDIENT{salt}, INGREDIENT{pepper}, INGREDIENT{oregano}, and INGREDIENT{basil}. Add the INGREDIENT{parmesan cheese} and stir until melted.
+    - In a large bowl, pour the sauce over cooked INGREDIENT{penne pasta}, then add the INGREDIENT{chicken} and toss well to combine. Add the INGREDIENT{parsley} and INGREDIENT{parmesan} and toss again.

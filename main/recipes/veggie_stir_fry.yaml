@@ -34,9 +34,10 @@ Ingredients:
         Value: 270
         Units: g
 Preparations:
-    - Prepare the vegetables by cleaning and chopping the vegetables into smaller pieces.
+    - Prepare the INGREDIENT{vegetables} by cleaning and chopping the INGREDIENT{vegetables} into smaller pieces.
 Instructions:
-    - Put the oil into a pan on moderate heat and crush the garlic into the pan. Stir it around.
-    - Add the spring onion, sweet pepper and mange tout. Fry and stir for about 30 seconds.
-    - Add the bean sprouts and soy sauce. Stir fry for about 2 minutes.
-    - Serve with cooked noodles.
+    - Cook the INGREDIENT{noodles} according to the instructions.
+    - Put the INGREDIENT{oil} into a pan on moderate heat and crush the INGREDIENT{garlic} into the pan. Stir it around.
+    - Add the INGREDIENT{spring onion}, INGREDIENT{sweet pepper} and INGREDIENT{mange tout}. Fry and stir for about a minute.
+    - Add the INGREDIENT{bean sprouts} and INGREDIENT{soy sauce}. Stir fry for about 2 minutes.
+    - Serve with cooked INGREDIENT{noodles}.

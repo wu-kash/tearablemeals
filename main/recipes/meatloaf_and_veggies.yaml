@@ -22,10 +22,10 @@ Ingredients:
         Value: 6
         Units: tbsp
     -   Name: Smoked Paprika
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Garlic Powder
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: tsp
     -   Name: Sweet Potato
         Value: 2
@@ -37,19 +37,18 @@ Ingredients:
         Value: 4
         Units: tbsp
     -   Name: Salt
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tsp
     -   Name: Pepper
         Value: 1
         Units: tsp
 Preparations:
-    - Peel the sweet potato and cut it into 1 cm cubes.
+    - Peel the INGREDIENT{sweet potato} and cut it into 1 cm cubes.
 Instructions:
-    - Preheat the oven to tempFToC{400}.
-    - Place the sweet potatoes and broccoli florets on a large baking sheet.
-    - Drizzle the olive oil over the sweet potatoes and broccoli florets. Sprinkle the seasoning salt over the sweet potatoes and then season the broccoli florets with a pinch of salt and pepper. 
-    - Toss the vegetables until they are coated in oil and spices, keeping the sweet potatoes on one side of the baking sheet and the broccoli on the other.
-    - Transfer the baking sheet to the preheated oven and roast the vegetables for 15 minutes.
-    - While the vegetables are roasting, prepare the meatloaves. In a bowl combine the ground beef, egg, bread crumbs, 1 tbsp of the BBQ sauce, the smoked paprika, garlic powder, and salt. Work the ingredients together with your hands until they are well combined. Divide the meatloaf mixture in two and shape each half into a flattened oval.
-    - After the vegetables have roasted for 15 minutes, remove the baking sheet and stir each of the vegetables. Push the vegetables to the side. Place the meatloaves in the center and then spread 1 tbsp of BBQ sauce over each loaf.
-    - Return the baking sheet to the oven and roast for an additional 20 minutes. Remove the baking sheet from the oven and serve.
+    - Preheat the oven to tempFToC{400} and place the INGREDIENT{sweet potatoes} and INGREDIENT{broccoli florets} on a large baking sheet.
+    - Drizzle the INGREDIENT{olive oil} over the INGREDIENT{sweet potatoes} and INGREDIENT{broccoli florets}. Season to taste with INGREDIENT{salt} and INGREDIENT{pepper}. 
+    - Keeping the INGREDIENT{sweet potatoes} and the INGREDIENT{broccoli} separated on the baking sheet, toss the INGREDIENT{vegetables} and mix in the INGREDIENT{oil} and INGREDIENT{spices}.
+    - Roast the INGREDIENT{vegetables} in the oven for 15 minutes.
+    - To prepare the meatloaves, combine the INGREDIENT{ground beef}, INGREDIENT{egg}, INGREDIENT{bread crumbs}, 1 tbsp of the INGREDIENT{BBQ sauce}, INGREDIENT{smoked paprika}, INGREDIENT{garlic powder}, and INGREDIENT{salt} in a bowl. Divide the INGREDIENT{meatloaf mixture} in two and shape each half into a flattened oval.
+    - After the INGREDIENT{vegetables} have roasted for 15 minutes, remove the baking sheet and stir each of the INGREDIENT{vegetables}. Push the INGREDIENT{vegetables} to the side. Place the INGREDIENT{meatloaves} in the center and then spread 1 tbsp of INGREDIENT{BBQ sauce} over each loaf. Roast for an additional 20 minutes.
+    - Remove the baking sheet from the oven and serve.

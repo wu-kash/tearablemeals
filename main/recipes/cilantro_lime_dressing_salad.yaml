@@ -22,7 +22,7 @@ Ingredients:
         Value: 4
         Units: tbsp
     -   Name: Olive Oil
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Apple Cider Vinegar
         Value: 4
@@ -48,8 +48,8 @@ Ingredients:
         Value: 2
         Units: ''
 Preparations:
-    - Chop the romaine lettuce, halve the cherry tomatoes. Drain the corn kernels and black beans. Remove stems from cilantro. Dice the avocado.
+    - Chop the INGREDIENT{romaine lettuce}, halve the INGREDIENT{cherry tomatoes}. Drain the INGREDIENT{corn kernels} and INGREDIENT{black beans}. Remove stems from INGREDIENT{cilantro} and dice the INGREDIENT{avocado}.
 Instructions:
-    - To make the the dressing, combine the cilantro, Greek yogurt, garlic and lime juice in a food processor. While running, add olive oil and vinegar in a slow stream until emulsified.
-    - To assemble the salad, place romaine lettuce in a large bowl; top with tomatoes, corn, black beans and cilantro. Pour the dressing on top of the salad and gently toss to combine. Stir in avocado.
+    - To make the the dressing, combine the INGREDIENT{cilantro}, INGREDIENT{greek yogurt}, INGREDIENT{garlic} and INGREDIENT{lime juice} in a food processor. While running, add INGREDIENT{olive oil} and INGREDIENT{vinegar} in a slow stream until emulsified.
+    - To assemble the salad, place INGREDIENT{romaine lettuce} in a large bowl; top with INGREDIENT{tomatoes}, INGREDIENT{corn}, INGREDIENT{black beans} and INGREDIENT{cilantro}. Pour the dressing on top of the salad and gently toss to combine. Stir in INGREDIENT{avocado}.
 

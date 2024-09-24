@@ -13,7 +13,7 @@ Ingredients:
         Value: 24
         Units: Oz
     -   Name: Onion
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: White Wine Vinegar
         Value: 2
@@ -28,14 +28,14 @@ Ingredients:
         Value: 2
         Units: tbsp
     -   Name: Celery
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Fennel Leaves
         Value: 1
         Units: tbsp
 Preparations:
-    - Thinly slice the onion and the celery.
+    - Thinly slice the INGREDIENT{onion} and the INGREDIENT{celery}.
 Instructions:
-    - Stir together onion and vinegar in a small bowl and set aside. Place potatoes and 2 teaspoons of the salt in a large saucepan. Cover with 10 cups water, bring to a boil over medium-high. Reduce heat to medium. Cook until potatoes are fork-tender, 12 to 15 minutes. Drain and transfer to a large bowl.
-    - Remove onion from vinegar, and transfer to large bowl with potatoes. Reserve vinegar in small bowl. Add lemon juice, Dijon mustard, pepper, and remaining sfrac{1}{2} teaspoon salt to vinegar, whisk together until combined. Gradually whisk in oil until combined.
-    - Add lemon-vinegar mixture, celery, and fennel to potato mixture. Toss to coat, using back of a spoon to gently smash about one-third of potatoes. Serve immediately, or cover and refrigerate until ready to serve. Garnish with additional fennel leaves before serving.
+    - Stir together INGREDIENT{onion} and INGREDIENT{vinegar} in a small bowl and set aside. Place INGREDIENT{potatoes} and 2 tsps of INGREDIENT{salt} in a large saucepan. Cover with 10 cups water, bring to a boil over medium-high. Reduce heat to medium. Cook until INGREDIENT{potatoes} are fork-tender, 12 to 15 minutes. Drain and transfer to a large bowl.
+    - Remove INGREDIENT{onion} from INGREDIENT{vinegar}, and transfer to large bowl with INGREDIENT{potatoes}. Reserve INGREDIENT{vinegar} in small bowl. Add INGREDIENT{lemon juice}, INGREDIENT{dijon mustard}, INGREDIENT{pepper}, and remaining FRACTION{1}{2} tsp INGREDIENT{salt} to INGREDIENT{vinegar}, whisk together until combined. Gradually whisk in INGREDIENT{oil} until combined.
+    - Add INGREDIENT{lemon vinegar mixture}, INGREDIENT{celery}, and INGREDIENT{fennel} to INGREDIENT{potato mixture}. Toss to coat, using back of a spoon to gently smash about one-third of INGREDIENT{potatoes}. Serve immediately, or cover and refrigerate until ready to serve. Garnish with additional INGREDIENT{fennel leaves} before serving.

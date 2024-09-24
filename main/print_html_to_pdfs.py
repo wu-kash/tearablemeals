@@ -7,7 +7,7 @@ import json
 import base64
 import time
 
-OUTPUT_DIR = r'playground\autoload_server_v2'
+OUTPUT_DIR = r'main'
 RECIPE_HTML_DIR = os.path.join(OUTPUT_DIR, 'recipes')
 OUTPUT_PDF = os.path.abspath(os.path.join(OUTPUT_DIR, 'take_away_recipes.pdf'))
 
@@ -66,19 +66,6 @@ def html_to_pdf(html_file_names, output_pdf, driver):
             "paperWidth": 5.8,
         })
 
-        # Get the print height value from the JavaScript variable
-        height_info = driver.execute_script("return window.printHeight;")
-
-
-        # driver.set_window_size(600, 800)
-
-        if float(height_info['inches']) > 9.6:
-            print('Error!!! PDF Exceeds A5 Height')
-        
-        # driver.set_window_size(1920, 1080)
-        
-
-
         with open(intermediate_pdf, "wb") as f:
             f.write(base64.b64decode(pdf['data']))
 
@@ -106,6 +93,9 @@ def html_to_pdf(html_file_names, output_pdf, driver):
 
     for (file, error) in error_list:
         print(f'{file} {error}')
+
+    for pdf in intermediate_pdfs:
+        os.remove(pdf)
 
     print('')
 

@@ -12,7 +12,7 @@ Ingredients:
     -   Name: Salad Dressing
         Heading: True
     -   Name: Parsley
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Red Onion
         Value: 1
@@ -21,35 +21,42 @@ Ingredients:
         Value: 4
         Units: cups
     -   Name: Olive Oil
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Salt
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
+    -   Name: Garlic
+        Value: 1
+        Units: clove
+    -   Name: Lemon
+        Value: 2
+        Units: ''
     -   Name: Salad
         Heading: True
     -   Name: Broccoli Florets
         Value: 450
         Units: g
     -   Name: Olive Oil
-        Value: 1 sfrac{1}{2}
+        Value: 1 FRACTION{1}{2}
         Units: tbsp
     -   Name: Salt
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Pepper
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: tsp
     -   Name: White Beans
         Value: 400
         Units: g
     -   Name: Parmessan
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
 Preparations:
-    - Chop the parsley and mince the garlic. Drain the beans from the cans. Thinly slice the red onion and grate the parmesan cheese.
+    - Chop the INGREDIENT{parsley} and mince the INGREDIENT{garlic}. Drain the INGREDIENT{white beans} from the cans. Thinly slice the INGREDIENT{red onion} and grate the INGREDIENT{parmesan cheese}.
 Instructions:
-    - Preheat oven to tempFToC{400} with the oven rack 10 cm from the heat. Toss together broccoli, 1 sfrac{1}{2} tbsp olive oil, sfrac{1}{2} tsp salt, and sfrac{1}{4} teaspoon pepper in a large bowl. Spread broccoli in a single layer on a rimmed baking sheet. Roast in oven until just tender, 20 to 25 minutes.
-    - Whisk together lemon zest and juice, parsley, garlic, mustard, vinegar, honey, and remaining sfrac{1}{2} cup oil, sfrac{1}{2} tsp salt, and sfrac{1}{4} tsp pepper in a medium bowl. Set aside.
-    - Increase oven temperature to broil, cook broccoli until slightly charred, 1 to 2 minutes. Cool about 5 minutes.
-    - Combine broccoli, beans, rucola, and red onion in a large bowl. Toss with the dressing and sprinkle with parmesan.
+    - Preheat oven to tempFToC{400} with the oven rack 10 cm from the heat. Toss together INGREDIENT{broccoli}, 1 FRACTION{1}{2} tbsp INGREDIENT{olive oil}, FRACTION{1}{2} tsp INGREDIENT{salt}, and FRACTION{1}{4} tsp INGREDIENT{pepper} in a large bowl. 
+    - Spread the INGREDIENT{broccoli} in a single layer on a rimmed baking sheet. Roast in oven until just tender, 20 to 25 minutes.
+    - Whisk together INGREDIENT{lemon zest} and INGREDIENT{juice}, INGREDIENT{parsley}, INGREDIENT{garlic}, INGREDIENT{mustard}, INGREDIENT{vinegar}, INGREDIENT{honey}, and remaining FRACTION{1}{2} cup INGREDIENT{oil}, FRACTION{1}{2} tsp INGREDIENT{salt}, and FRACTION{1}{4} tsp INGREDIENT{pepper} in a medium bowl. Set aside.
+    - Increase oven temperature to broil, cook INGREDIENT{broccoli} until slightly charred, 1 to 2 minutes. Cool about 5 minutes.
+    - Combine INGREDIENT{broccoli}, INGREDIENT{beans}, INGREDIENT{rucola}, and INGREDIENT{red onion} in a large bowl. Toss with the salad dressing and sprinkle with INGREDIENT{parmesan}.

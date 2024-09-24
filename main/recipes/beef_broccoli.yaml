@@ -16,13 +16,13 @@ Ingredients:
         Value: 1
         Units: head
     -   Name: Chicken Stock
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: cup
     -   Name: Soy Sauce
-        Value: sfrac{2}{3}
+        Value: FRACTION{2}{3}
         Units: cup
     -   Name: Honey
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Rice Wine Vinegar
         Value: 2
@@ -49,11 +49,12 @@ Ingredients:
         Value: 1
         Units: tsp
     -   Name: Red Pepper Flakes
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: tsp
 Preparations:
-    - Thinly slice the flank steak and cut the broccoli head into florets. Mince the garlic.
+    - Thinly slice the flank INGREDIENT{steak} and cut the INGREDIENT{broccoli head} into florets. Mince the INGREDIENT{garlic}.
 Instructions:
-    - In a medium bowl, whisk together soy sauce, chicken stock, honey, vinegar, brown sugar, garlic, sesame oil, cornstarch, Sriracha, ginger, red pepper flakes and sfrac{1}{4} cup water; set aside.
-    - Heat olive oil in a large skillet over medium high heat. Add steak and cook, flipping once, until browned, about 3-4 minutes.
-    - Stir in broccoli and soy sauce mixture until tender and slightly thickened, about 3-4 minutes.
+    - In a medium bowl, whisk together INGREDIENT{soy sauce}, INGREDIENT{chicken stock}, INGREDIENT{honey}, INGREDIENT{vinegar}, INGREDIENT{brown sugar}, INGREDIENT{garlic}, INGREDIENT{sesame oil}, INGREDIENT{cornstarch}, INGREDIENT{sriracha}, INGREDIENT{red pepper flakes} and FRACTION{1}{4} cup INGREDIENT{water}, set aside.
+    - Heat INGREDIENT{olive oil} in a large skillet over medium high heat. Add INGREDIENT{steak} and cook, flipping once, until browned.
+    - Stir in INGREDIENT{broccoli} and INGREDIENT{soy sauce} mixture until tender and slightly thickened.
+    - Serve immediately.

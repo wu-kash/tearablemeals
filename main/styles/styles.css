@@ -10,6 +10,7 @@ html *{
 }
 
 @media print {
+
     .noprint {
        visibility: hidden;
     }

@@ -34,7 +34,7 @@ Ingredients:
         Value: 4
         Units: cups
     -   Name: Parmesan Cheese
-        Value: sfrac{1}{4}
+        Value: FRACTION{1}{4}
         Units: cup
     -   Name: Parsley
         Value: 2
@@ -49,11 +49,11 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Mince the garlic, grate the parmesan cheese, and chop the parsley.
+    - Mince the INGREDIENT{garlic}, grate the INGREDIENT{parmesan cheese}, and chop the INGREDIENT{parsley}.
 Instructions:
-    - In a large pot, boil water and add pasta. Cook until al dente. Drain and set the pasta aside.
-    - In a pan, heat olive oil and 2 tbsp of butter. Add garlic and crushed red pepper, cook until fragrant.
-    - Toss in shrimp, add salt and pepper, to taste, and stir until shrimp start to turn pink, but are not fully cooked.
-    - Add oregano and spinach, cook until wilted.
-    - Return cooked pasta to the pot, add remaining butter, parmesan, and parsley. Stir until well mixed and the butter is melted.
-    - When the shrimp are cooked, add lemon juice, mix once more, then serve while hot.
+    - In a large pot, boil water and add INGREDIENT{pasta}, and cooking according to the package instructions. Drain and set the INGREDIENT{pasta} aside.
+    - In a pan, heat INGREDIENT{olive oil} and 2 tbsp of INGREDIENT{butter}. Add INGREDIENT{garlic} and crushed INGREDIENT{red pepper}, cook until fragrant.
+    - Toss in INGREDIENT{shrimp}, add INGREDIENT{salt} and INGREDIENT{pepper}, to taste, and stir until INGREDIENT{shrimp} start to turn pink, but are not fully cooked.
+    - Add INGREDIENT{oregano} and INGREDIENT{spinach}, cook until wilted.
+    - Return cooked pINGREDIENTa{sta to the pot, add remaining INGREDIENT{butter}, INGREDIENT{parmesan}, and INGREDIENT{parsley}. Stir until well mixed and the INGREDIENT{butter} is melted.
+    - When the INGREDIENT{shrimp} are cooked, add INGREDIENT{lemon juice}, mix once more, then serve while hot.

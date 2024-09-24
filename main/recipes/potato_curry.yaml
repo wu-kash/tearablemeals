@@ -31,7 +31,7 @@ Ingredients:
         Value: 1
         Units: ''
     -   Name: Chilli Powder
-        Value: sfrac{1}{2}
+        Value: FRACTION{1}{2}
         Units: tsp
     -   Name: Brown Mustard Seeds
         Value: 2
@@ -40,10 +40,10 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Clean the potatoes, cut the onion into slices. Peel and crush the garlic and ginger root.
+    - Clean the INGREDIENT{potatoes}, cut the INGREDIENT{onion} into slices. Peel and crush the INGREDIENT{garlic} and INGREDIENT{ginger root}.
 Instructions:
-    - Boil the potatoes in salted water for about 15 minutes until they are just done. Drain and cut in half.
-    - Put the oil into a frying pan over moderate heat. Fry the cumin, cardamom, chilli powder and mustard seeds for about 1 minute.
-    - Add the garlic, ginger and onion and fry for about 3 minutes until the onion is golden. Keep stirring.
-    - Add the potatoes and garam masala, fry for about 5 minutes, stirring.
-    - Can be served with rice.
+    - Boil the INGREDIENT{potatoes} in salted water for about 15 minutes until they are just done. Drain and cut in half.
+    - Put the INGREDIENT{oil} into a frying pan over moderate heat. Fry the INGREDIENT{cumin}, INGREDIENT{cardamom}, INGREDIENT{chilli powder} and INGREDIENT{mustard seeds} for about 1 minute.
+    - Add the INGREDIENT{garlic}, INGREDIENT{ginger} and INGREDIENT{onion} and fry for about 3 minutes until the INGREDIENT{onion} is golden. Keep stirring.
+    - Add the INGREDIENT{potatoes} and INGREDIENT{garam masala}, fry for about 5 minutes, stirring.
+    - Serve with INGREDIENT{rice}.

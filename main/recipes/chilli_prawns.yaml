@@ -43,10 +43,10 @@ Ingredients:
         Value: 1
         Units: tsp
 Preparations:
-    - Peel and crush the garlic and the ginger root. Chop the chilli in half, remove the seeds and cut the chilli into pieces. Wash and cut the coriander.
+    - Peel and crush the INGREDIENT{garlic} and the INGREDIENT{ginger root}. Chop the INGREDIENT{chilli} into pieces. Wash and cut the INGREDIENT{coriander}.
 Instructions:
-    - Put the oil in a frying pan over moderate heat. Fry the crushed garlic and ginger root for about 3 minutes, keep stirring.
-    - Add the prawns and chillies and fry for another 3 minutes.
-    - Add the lemon juice, tomato purée, coconut milk, garam masala and salt. Bring to a boil, then turn down the heat until it is just simmering.
+    - Put the INGREDIENT{oil} in a frying pan over moderate heat. Fry the crushed INGREDIENT{garlic} and INGREDIENT{ginger root} for about 3 minutes, keep stirring.
+    - Add the INGREDIENT{prawns} and INGREDIENT{chillies} and fry for another 3 minutes.
+    - Add the INGREDIENT{lemon juice}, INGREDIENT{tomato purée}, INGREDIENT{coconut milk}, INGREDIENT{garam masala} and INGREDIENT{salt}. Bring to a boil, then turn down the heat until it is just simmering.
     - Cover and cook for another 5 minutes.
-    - Sprinkle the coriander over the chilli prawns before serving.
+    - Sprinkle the INGREDIENT{coriander} over the INGREDIENT{chilli prawns} before serving.
