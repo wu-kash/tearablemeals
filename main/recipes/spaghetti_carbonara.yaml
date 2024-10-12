@@ -28,7 +28,7 @@ Ingredients:
         Value: 2
         Units: tbsp
 Preparations:
-    - Grate the v{parmessan cheese}, dice the INGREDIENT{bacon}, chop the INGREDIENT{parsley} and mince the INGREDIENT{garlic}.
+    - Grate the INGREDIENT{parmessan cheese}, dice the INGREDIENT{bacon}, chop the INGREDIENT{parsley} and mince the INGREDIENT{garlic}.
 Instructions:
     - In a pot of boiling salted water, cook INGREDIENT{pasta} according to package instructions, reserve FRACTION{1}{2} cup INGREDIENT{water} and drain well.
     - In a small bowl, whisk together INGREDIENT{eggs} and INGREDIENT{parmesan} and set aside.
