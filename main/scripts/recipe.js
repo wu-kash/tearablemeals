@@ -44,6 +44,8 @@ function processText(text) {
         return `<span class="highlight">${ingredient}</span>`;
     });
 
+    
+
     return text;
 }
 
@@ -234,6 +236,7 @@ async function loadRecipe(recipeToLoad) {
     document.getElementById('recipe-preparation-time').textContent = `${recipe.PreparationTime.Value} ${recipe.PreparationTime.Units}`;
     document.getElementById('recipe-cooking-time').textContent = `${recipe.CookingTime.Value} ${recipe.CookingTime.Units}`;
     document.getElementById('recipe-portions').textContent =  `${recipe.Portions.Value} Servings`;
+    document.getElementById('qr-link').href =  `${recipe.Source}`;
 
     const ingredientsList = document.getElementById('ingredientList');
     ingredientsList.innerHTML = ''; // Clear previous content

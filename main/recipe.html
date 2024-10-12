@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Recipe: Warm Potato Salad</title>
-	<link rel="icon" href="images/tar_recipe.png" type="image/x-icon">
+    <link rel="icon" href="images/tar_recipe.png" type="image/x-icon">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
-	<link rel="stylesheet" href="styles/recipe-styles.css">
-	<script src="scripts/recipe.js"></script> 
+    <link rel="stylesheet" href="styles/recipe-styles.css">
+    <script src="scripts/recipe.js"></script>
 </head>
+
 <body>
     <div class="div-document">
-
-        <div class="nav-container noprint">
-            <a class="nav-button flexible" href="index.html">← Menu</a>
-            </nav>
-        </div>
-
         <div class="div-heading-recipe">
-            <h1 class="h1-titles" id="recipe-title" style="text-transform: capitalize"></h1>
+            <h1 class="h1-titles title-recipe" id="recipe-title"></h1>
         </div>
         <div class="div-recipe-info recipe-info-height">
-            <img src="../qr/BakedRavioli.png" alt="QR Code" class="img-recipe-info-qr recipe-info-height">
+            <a target="_blank" id="qr-link">
+                <img src="../qr/BakedRavioli.png" alt="QR Code" class="img-recipe-info-qr recipe-info-height">
+            </a>
             <div class="div-recipe-info-text recipe-info-height">
                 <div class="div-recipe-info-text-row">
                     <img src="images/symbol_portions.png" alt="logo" class="img-recipe-info-text-symbol">
                     <span id="recipe-portions"></span>
                 </div>
-                <div class="div-recipe-info-text-row"> 
+                <div class="div-recipe-info-text-row">
                     <img src="images/symbol_preparation.png" alt="logo" class="img-recipe-info-text-symbol">
                     <span id="recipe-preparation-time"></span>
                 </div>
@@ -58,16 +56,19 @@
             </div>
             <div class="section-recipe">
                 <h2 class="recipe-headings title-instructions" style>Cooking</h2>
-                <ol class="text-instructions-list" id="cookingList"> 
+                <ol class="text-instructions-list" id="cookingList">
                     <!-- Steps added with addCookingStepToList('Step Description'); -->
                 </ol>
             </div>
         </div>
 
         <div class="div-logo">
-            <img src="images/tar_footer_a5.png" alt="logo" class="img-logo">
+            <a href="index.html">
+                <img src="images/tar_footer_a5.png" alt="logo" class="img-logo">
+            </a>
         </div>
     </div>
 
 </body>
+
 </html>

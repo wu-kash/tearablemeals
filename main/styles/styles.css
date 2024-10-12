@@ -6,8 +6,11 @@
 }
 
 html *{
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
 }
+
+
 
 @media print {
 
@@ -38,7 +41,7 @@ html *{
 
     @page {
         margin: 1em;
-        margin-top: - var(--default-font-size);
+        /* margin-top: - var(--default-font-size); */
     }   
 }
 
@@ -47,6 +50,26 @@ html *{
     padding: 0; 
 }
 
+a:link
+{
+   color: black;
+   text-decoration: none;
+}
+a:visited
+{
+   color: black;
+   text-decoration: none;
+}
+a:hover
+{
+   color: black;
+   text-decoration: none;
+}
+a:active
+{
+   color: black;
+   text-decoration: none;
+}
 
 
 body {
@@ -79,11 +102,13 @@ body {
 }
 
 .div-logo {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 
 .img-logo {
     display: block;

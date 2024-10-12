@@ -1,6 +1,7 @@
 @import url('styles.css');
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -12,9 +13,7 @@ body {
     margin: 0;
 }
 
-.div-document {
-    
-}
+.div-document {}
 
 .div-title {
     display: flex;
@@ -52,10 +51,12 @@ body {
 }
 
 .hidden {
-    display: none; /* Used part of main.js to show only filtered items. */
+    display: none;
+    /* Used part of main.js to show only filtered items. */
 }
 
 .highlight {
-    background-color: orange; /* Used part of main.js to show highlight filter text. */
+    background-color: orange;
+    /* Used part of main.js to show highlight filter text. */
     color: black;
 }

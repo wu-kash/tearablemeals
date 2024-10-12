@@ -7,7 +7,7 @@ const app = express();
 const recipesDir = path.join(__dirname, 'recipes');
 
 // Serve static files (for HTML, CSS, etc.)
-app.use(express.static('public'));
+app.use(express.static(__dirname));
 
 app.use('/styles', express.static(path.join(__dirname, 'styles')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
