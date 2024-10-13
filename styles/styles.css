@@ -5,12 +5,15 @@
     --default-font-size: 0.8em;
 }
 
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
 html *{
     font-family: 'JetBrains Mono', monospace;
     font-style: normal;
 }
-
-
 
 @media print {
 
@@ -26,10 +29,8 @@ html *{
         width: 5.8in;
         height: 8.3in;
     }
-    
-    .div-document {
-        margin: 0em;
-    }
+
+
 
     .div-logo {
         display: block;
@@ -39,15 +40,18 @@ html *{
         height: auto;
     }
 
+    .div-document {
+        margin: 0em;
+    }
+
     @page {
         margin: 1em;
         /* margin-top: - var(--default-font-size); */
     }   
 }
 
-* { 
-    margin: 0; 
-    padding: 0; 
+.div-document {
+    margin: 1em;
 }
 
 a:link
