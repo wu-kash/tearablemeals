@@ -10,6 +10,7 @@ body {
     text-transform: uppercase;
     width: 100%;
     justify-content: center;
+    font-size: x-large;
 }
 
 .div-title {
@@ -20,7 +21,7 @@ body {
 
 .div-filter {
     display: flex;
-    margin-top: 1em;
+    margin-top: 0.5em;
     align-items: center;
     justify-content: center;
 }
