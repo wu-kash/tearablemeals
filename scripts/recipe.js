@@ -220,6 +220,13 @@ document.addEventListener('DOMContentLoaded', function() {
     loadRecipe(recipeFileName);
 });
 
+function toTitleCase(str) {
+    return str.replace(
+      /\w\S*/g,
+      text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+    );
+}
+
 
 async function loadRecipe(recipeToLoad) {
 
@@ -230,6 +237,7 @@ async function loadRecipe(recipeToLoad) {
 
     const recipeTitle = recipeToLoad.replace(/_/g, ' ');
 
+    document.title = `Tearable ${toTitleCase(recipeTitle)}`;
     document.getElementById('recipe-title').textContent = recipeTitle;
     document.getElementById('recipe-preparation-time').textContent = `${recipe.PreparationTime.Value} ${recipe.PreparationTime.Units}`;
     document.getElementById('recipe-cooking-time').textContent = `${recipe.CookingTime.Value} ${recipe.CookingTime.Units}`;
