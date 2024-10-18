@@ -52,12 +52,13 @@ function processText(text) {
 
 function formatIngredient(ingredientName, amount=null, units=null) {
 
+    /* NOTE The margin-right is added to seperate the ingredients from the steps on the right */
     if (amount==null || amount=='') {
         return `${ingredientName}`;
     } else if (units==null || units=='') {
-        return `${ingredientName} <span style="font-size: 90%">(${amount})</span>`;
+        return `${ingredientName} <span style="font-size: 90%; margin-right: 1em;">(${amount})</span>`;
     } else {
-        return `${ingredientName} <span style="font-size: 90%">(${amount} ${units})</span>`;
+        return `${ingredientName} <span style="font-size: 90%; margin-right: 1em;">(${amount} ${units})</span>`;
     }
 }
 
@@ -197,7 +198,7 @@ function resizeElement() {
     document.querySelector('.title-instructions').style.marginLeft  = ingredientsListWidth + 'px';
     document.querySelector('.title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
     
-    // Where does this 40 come from???
+    // NOTE Where does this 40 come from???
     document.querySelector('.text-preparation-list').style.marginLeft  = (ingredientsListWidth-40) + 'px';
 
     // Return to original width
@@ -206,10 +207,7 @@ function resizeElement() {
 
 window.onload = function() {
 
-
-    
-
-    /* This somehow fixes the random gap in the Cooking title border when loading the page*/
+    /* NOTE This somehow fixes the random gap in the Cooking title border when loading the page*/
     document.querySelector('.title-instructions').style.borderWidth = 'var(--h2-border-width)';
     document.querySelector('.title-ingredients').style.borderWidth = 'var(--h2-border-width)';
     document.querySelector('.title-preparation').style.borderWidth = 'var(--h2-border-width)';

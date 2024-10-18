@@ -54,7 +54,6 @@
 .div-ingredients {
     float: left;
     width: var(--width-ingredients);
-    padding-right: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
 }

@@ -30,8 +30,6 @@ html *{
         height: 8.3in;
     }
 
-
-
     .div-logo {
         display: block;
         position: fixed;
@@ -46,7 +44,7 @@ html *{
 
     @page {
         margin: 1em;
-        /* margin-top: - var(--default-font-size); */
+        margin-top: - var(--default-font-size); /* NOTE This somehow prevents 2 pages ... */ 
     }   
 }
 
