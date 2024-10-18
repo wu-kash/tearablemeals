@@ -21,21 +21,9 @@ html *{
        visibility: hidden;
     }
 
-    .nav-container {
-        display: none;
-    }
-
     body {
         width: 5.8in;
         height: 8.3in;
-    }
-
-    .div-logo {
-        display: block;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        height: auto;
     }
 
     .div-document {
@@ -44,46 +32,25 @@ html *{
 
     @page {
         margin: 1em;
-        margin-top: - var(--default-font-size); /* NOTE This somehow prevents 2 pages ... */ 
     }   
 }
 
-.div-document {
-    margin: 1em;
-}
 
-a:link
-{
+a:link, a:visited, a:hover, a:active {
    color: black;
    text-decoration: none;
 }
-a:visited
-{
-   color: black;
-   text-decoration: none;
-}
-a:hover
-{
-   color: black;
-   text-decoration: none;
-}
-a:active
-{
-   color: black;
-   text-decoration: none;
-}
-
 
 body {
     font-size: var(--default-font-size);
+    margin: 1em;
 }
 
 .h1-titles {
     border-style: solid;
-    border-left: 0cm;
-    border-right: 0cm;
-    border-width: 0.1em;
-    width: fit-content;
+    border-left: 0;
+    border-right: 0;
+    border-width: 0.2em;
     font-size: 1.5em;
     font-family: 'JetBrains Mono';
 }
@@ -94,25 +61,10 @@ body {
     font-size: 1.25em;
     letter-spacing: 1px;
     padding: 2px;
-
     border-style: solid;
     border-width: 0.0em; /* The width is set later in recipe.js. Doing it like this fixes the random gap in with in the Cooking heading borders ... */
     border-left: 0cm;
     border-right: 0cm;
     width: fit-content;
     font-family: 'JetBrains Mono';
-}
-
-.div-logo {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
-.img-logo {
-    display: block;
-    max-width: 500px;
 }
