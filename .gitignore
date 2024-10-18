@@ -1,7 +1,3 @@
 *.aux
 *.log
-/playground/autoload_server_v2/node_modules/*
-/playground/autoload_server_v2/node_modules/*
-/playground/autoload_server_v2/node_modules/js-yaml/*
-/playground/autoload_server_v2/node_modules/js-yaml/dist/js-yaml.js
-/playground/autoload_server_v2/node_modules/js-yaml/dist/js-yaml.js
+node_modules/*
