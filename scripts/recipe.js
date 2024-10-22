@@ -195,6 +195,7 @@ function resizeElement() {
     // Cooking: Offset Cooking heading by setting left margin to width of ingredients list
     const ingredientsListWidth = document.querySelector('.div-ingredients').offsetWidth;
     const ingredientsTitleWidth = document.querySelector('.title-ingredients').offsetWidth;
+    const stepTextOffset = document.getElementById('step-text').offsetWidth;
     document.querySelector('.title-instructions').style.marginLeft  = ingredientsListWidth + 'px';
     document.querySelector('.title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
     
