@@ -18,8 +18,8 @@
     border-bottom: 0;
     border-left: 0;
     padding-left: 0;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: var(--margin-under-recipe-heading);
+    margin-bottom: var(--margin-under-recipe-heading);
 }
 
 .div-recipe-info-text {
@@ -51,8 +51,7 @@
 .div-ingredients {
     float: left;
     width: var(--width-ingredients);
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: var(--margin-after-section);
 }
 
 .highlight {
@@ -98,16 +97,13 @@ li.text-ingredient-heading {
 
 ul.text-preparation-list {
     list-style-type: none;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: var(--margin-after-section);
 }
 
 li.preparation-step {}
 
 .text-instructions-list {
     list-style: none;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 .text-instructions-list li {

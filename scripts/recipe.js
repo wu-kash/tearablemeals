@@ -56,9 +56,9 @@ function formatIngredient(ingredientName, amount=null, units=null) {
     if (amount==null || amount=='') {
         return `${ingredientName}`;
     } else if (units==null || units=='') {
-        return `${ingredientName} <span style="font-size: 90%; margin-right: 1em;">(${amount})</span>`;
+        return `${ingredientName} <span style="font-size: 0.75em; margin-right: 1em;">(${amount})</span>`;
     } else {
-        return `${ingredientName} <span style="font-size: 90%; margin-right: 1em;">(${amount} ${units})</span>`;
+        return `${ingredientName} <span style="font-size: 0.75em; margin-right: 1em;">(${amount} ${units})</span>`;
     }
 }
 

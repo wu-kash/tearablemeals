@@ -3,6 +3,8 @@
     --width-ingredients: fit-content;
     --h2-border-width: 0.1em; 
     --default-font-size: 0.75em;
+    --margin-under-recipe-heading: 0.5em;
+    --margin-after-section: 0.5em;
 }
 
 * { 
@@ -58,6 +60,7 @@ body {
     border-right: 0cm;
     width: fit-content;
     font-family: 'JetBrains Mono';
+    margin-bottom: var(--margin-under-recipe-heading);
 }
 
 .img-logo {
