@@ -2,7 +2,7 @@
     --qr-height: 2cm;
     --width-ingredients: fit-content;
     --h2-border-width: 0.1em; 
-    --default-font-size: 0.8em;
+    --default-font-size: 0.75em;
 }
 
 * { 
@@ -20,16 +20,7 @@ html *{
     .noprint {
        visibility: hidden;
     }
-
-    body {
-        width: 5.8in;
-        height: 8.3in;
-    }
-
-    .div-document {
-        margin: 0em;
-    }
-
+    
     @page {
         margin: 1em;
     }   

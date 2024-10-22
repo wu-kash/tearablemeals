@@ -74,7 +74,7 @@ li.text-ingredient-item {}
 
 li.text-ingredient-item:before {
     content: "";
-    font-size: 60%;
+    font-size: 0.75em;
     font-weight: bold;
     background-color: white;
     border-color: orange;
@@ -117,7 +117,7 @@ li.preparation-step {}
 
 .text-instructions-list li::before {
     content: counter(step-counter);
-    font-size: 75%;
+    font-size: 0.75em;
     margin-right: 2mm;
     color: orange;
     border-style: solid;
