@@ -1,4 +1,4 @@
-Tested: False
+Tested: True
 Portions:
     Value: 4
 PreparationTime:
@@ -18,7 +18,7 @@ Ingredients:
     -   Name: Oil
         Value: 1 FRACTION{1}{2}
         Units: tbsp
-    -   Name: Sweet Onion
+    -   Name: Onion
         Value: FRACTION{1}{2}
         Units: ''
     -   Name: Tomato Paste
@@ -52,7 +52,7 @@ Ingredients:
         Value: 2
         Units: tbsp
 Preparations:
-    - Cut the INGREDIENT{chicken thighs} into 2 cm chunks. Mince the INGREDIENT{garlic}, grate the INGREDIENT{ginger} and chop up the INGREDIENT{cilantro leaves}.
+    - Cut the INGREDIENT{chicken thighs} into 2 cm chunks. Mince the INGREDIENT{garlic}, grate the INGREDIENT{ginger} and chop up the INGREDIENT{onion} and INGREDIENT{cilantro leaves}.
 Instructions:
     - In a large saucepan of 2 cups water, cook INGREDIENT{rice} according to the package instructions and set aside.
     - Season INGREDIENT{chicken} with 1 tsp salt and FRACTION{1}{2} tsp INGREDIENT{pepper}.

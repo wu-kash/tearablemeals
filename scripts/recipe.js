@@ -194,10 +194,10 @@ function resizeElement() {
     // Fix positioning for Preparation and Cooking headings by
     // Cooking: Offset Cooking heading by setting left margin to width of ingredients list
     const ingredientsListWidth = document.querySelector('.div-ingredients').offsetWidth;
-    const ingredientsTitleWidth = document.querySelector('.title-ingredients').offsetWidth;
+    const ingredientsTitleWidth = document.getElementById('title-ingredients').offsetWidth;
     const stepTextOffset = document.getElementById('step-text').offsetWidth;
-    document.querySelector('.title-instructions').style.marginLeft  = ingredientsListWidth + 'px';
-    document.querySelector('.title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
+    document.getElementById('title-instructions').style.marginLeft  = ingredientsListWidth + 'px';
+    document.getElementById('title-preparation').style.marginLeft  = (ingredientsListWidth-ingredientsTitleWidth) + 'px';
     
     // NOTE Where does this 40 come from???
     document.querySelector('.text-preparation-list').style.marginLeft  = (ingredientsListWidth-40) + 'px';
@@ -208,10 +208,6 @@ function resizeElement() {
 
 window.onload = function() {
 
-    /* NOTE This somehow fixes the random gap in the Cooking title border when loading the page*/
-    document.querySelector('.title-instructions').style.borderWidth = 'var(--h2-border-width)';
-    document.querySelector('.title-ingredients').style.borderWidth = 'var(--h2-border-width)';
-    document.querySelector('.title-preparation').style.borderWidth = 'var(--h2-border-width)';
 };
 
 document.addEventListener('DOMContentLoaded', function() {

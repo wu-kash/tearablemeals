@@ -41,41 +41,62 @@ def find_html_files(directory):
             print(html_path)
     return html_filenames
 
+def gen_intermediate_pdf(driver, intermediate_pdf, html_address):
+
+    driver.get(html_address)
+    time.sleep(0.25)
+
+    pdf = driver.execute_cdp_cmd("Page.printToPDF", {
+        "printBackground": True,
+        "paperHeight": 8.3,
+        "paperWidth": 5.8,
+    })
+
+    with open(intermediate_pdf, "wb") as f:
+        f.write(base64.b64decode(pdf['data']))
+
+    with open(intermediate_pdf, "rb") as f:
+        pdf_reader = PyPDF2.PdfReader(f)
+        num_pages = len(pdf_reader.pages)
+
+        if num_pages > 1:
+            error_msg = [html_address, '[ERROR: Spilling over another page]']
+        else:
+            error_msg = None
+
+
+    return intermediate_pdf, num_pages, error_msg
+
 def html_to_pdf(html_file_names, output_pdf, driver):
 
     error_list = []
-
     intermediate_pdfs = []
 
     # This first call fixes issue of first recipe not loading correctly
+    html_intro_path = 'file:///C:/work/tearablemeals/intro.html'
     html_base_path = 'http://localhost:3000/index.html'
     driver.get(html_base_path)
+
+    print('Processing: Intro')
+    intermediate_pdf = f"intro.pdf"
+    html_addr = html_intro_path
+    intermediate_pdf, num_pages, error_msg = gen_intermediate_pdf(driver, intermediate_pdf, html_addr)
+    if error_msg is not None:
+            error_list.append()
+    intermediate_pdfs.append(intermediate_pdf)
+    print('Generated PDF: ', intermediate_pdf)
     
     # Convert each HTML file to a PDF
     for html_filename in html_file_names:
+
         print('Processing: ', html_filename)
         intermediate_pdf = f"{html_filename.split('.')[0]}.pdf"
-
         html_addr = f"http://localhost:3000/recipe.html?recipe={html_filename}"
+        
+        intermediate_pdf, num_pages, error_msg = gen_intermediate_pdf(driver, intermediate_pdf, html_addr)
 
-        driver.get(html_addr)
-
-        pdf = driver.execute_cdp_cmd("Page.printToPDF", {
-            "printBackground": True,
-            "paperHeight": 8.3,
-            "paperWidth": 5.8,
-        })
-
-        with open(intermediate_pdf, "wb") as f:
-            f.write(base64.b64decode(pdf['data']))
-
-        with open(intermediate_pdf, "rb") as f:
-            pdf_reader = PyPDF2.PdfReader(f)
-            num_pages = len(pdf_reader.pages)
-
-            if num_pages > 1:
-                error_list.append([html_filename, '[ERROR: Spilling over another page]'])
-
+        if error_msg is not None:
+            error_list.append()
 
         intermediate_pdfs.append(intermediate_pdf)
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="stylesheet" href="styles/recipe-styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
     <link rel="icon" href="images/tear_recipe.png" type="image/x-icon">
     <title>Tearable ...</title>
@@ -13,7 +13,7 @@
 <body>
     <div class="div-document">
         <div class="div-heading-recipe">
-            <h1 class="h1-titles title-recipe" id="recipe-title"></h1>
+            <h1 class="h1-titles" id="recipe-title"></h1>
         </div>
         <div class="div-recipe-info recipe-info-height">
             <a target="_blank" id="qr-link">
@@ -37,9 +37,9 @@
         <div class="container">
             <div class="div-heading-container">
                 <div>
-                    <h2 class="recipe-headings title-ingredients">Ingredients</h2>
+                    <h2 id="title-ingredients" class="h2-titles">Ingredients</h2>
                 </div>
-                <h2 class="recipe-headings title-preparation">Preparation</h2>
+                <h2 id="title-preparation" class="h2-titles">Preparation</h2>
             </div>
             <div class="div-ingredients">
                 <ul class="text-ingredient-list" id="ingredientList">
@@ -54,7 +54,7 @@
                 </ul>
             </div>
             <div class="section-recipe">
-                <h2 class="recipe-headings title-instructions" style>Cooking</h2>
+                <h2 id="title-instructions" class="h2-titles" style>Cooking</h2>
                 <ol class="text-instructions-list" id="cookingList">
                     <!-- Steps added with addCookingStepToList('Step Description'); -->
                 </ol>
